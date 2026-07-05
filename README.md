@@ -3,7 +3,7 @@
 	<h2>Saiko Injector</h2>
 </div>
 
-[![License](https://img.shields.io/badge/license-educational-blue.svg?style=flat-square)]()
+[![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)]()
 [![Platform](https://img.shields.io/badge/platform-Windows%20x64-0078D6.svg?style=flat-square)]()
 [![Language](https://img.shields.io/badge/language-C%2B%2B17-purple.svg?style=flat-square)]()
 
@@ -91,10 +91,6 @@ python lulu.py demo
   token                Extract session data
 ```
 
-<div align="center">
-	<img src="<!-- Replace with Saiko Yonebayashi image URL -->" width="250" />
-</div>
-
 ### The pipe protocol
 
 If you want to talk to the payload from your own code, connect to `\\.\pipe\saiko-injector` and send one of these:
@@ -109,9 +105,6 @@ If you want to talk to the payload from your own code, connect to `\\.\pipe\saik
 | `DEMO` | Run the full proof-of-concept |
 | `TOKEN` | Extract session tokens from memory |
 
-<div align="center">
-	<img src="<!-- Replace with Saiko Yonebayashi image URL -->" width="300" />
-</div>
 
 ### How it works under the hood
 
@@ -181,11 +174,10 @@ saiko-injector/
 
 ### Key discoveries from reverse engineering
 
-The target application is a beast: ~40,000 functions across a Qt6 GUI, Flecs ECS, Jolt Physics, and the full Luau typed compiler. Here's the quick tour:
+The Luduvo Studio is a beast: ~40,000 functions across a Qt6 GUI, Flecs ECS, Jolt Physics, and the full Luau typed compiler. Here's the quick breakdown:
 
-- **60+ Luau AST node types** found via RTTI, confirming the full typed compiler pipeline
+- **60+ Luau AST node types** found via RTTI
 - **Flecs ECS world** with bootstrap entities, component registrations (Transform, Script, RigidBody, Camera...), systems, and queries
-- **Qt6 widget tree**: `EditorMainWindow` > `MainToolBar` > QActionGroup with Play, Select, Move, Scale, Rotate tools
 - **Graphics**: D3D12 primary, Vulkan optional, NVRHI render interface, Tracy profiler
 - **Networking**: httplib + WinHTTP, OpenSSL with post-quantum crypto, Ed25519 signature verification for updates
 - **Input**: SDL2 keyboard/mouse/gamepad, plus HIDAPI for PlayStation, Nintendo, Xbox controllers
