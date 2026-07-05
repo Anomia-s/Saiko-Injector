@@ -1,0 +1,430 @@
+/**
+ * Function: uthemesstudioqss
+ * Address:  140089190
+ * Signature: undefined uthemesstudioqss(void)
+ * Body size: 4914 bytes
+ */
+
+
+void uthemesstudioqss(longlong param_1,QString *param_2)
+
+{
+  undefined8 *puVar1;
+  QApplication *this;
+  bool bVar2;
+  longlong lVar3;
+  QString local_288 [24];
+  undefined8 local_270;
+  char *local_268;
+  undefined8 local_260;
+  char *local_258;
+  undefined8 local_250;
+  char *local_248;
+  undefined8 local_240;
+  char *local_238;
+  undefined8 local_230;
+  char *local_228;
+  undefined8 local_220;
+  char *local_218;
+  undefined8 local_210;
+  char *local_208;
+  undefined8 local_200;
+  char *local_1f8;
+  undefined8 local_1f0;
+  char *local_1e8;
+  undefined8 local_1e0;
+  char *local_1d8;
+  undefined8 local_1d0;
+  undefined *local_1c8;
+  undefined8 local_1c0;
+  char *local_1b8;
+  undefined8 local_1b0;
+  char *local_1a8;
+  undefined8 local_1a0;
+  char *local_198;
+  undefined8 local_190;
+  char *local_188;
+  undefined8 local_180;
+  char *local_178;
+  undefined8 local_170;
+  char *local_168;
+  undefined8 local_160;
+  char *local_158;
+  undefined8 local_150;
+  char *local_148;
+  undefined8 local_140;
+  char *local_138;
+  undefined8 local_130;
+  char *local_128;
+  undefined8 local_120;
+  char *local_118;
+  undefined8 local_110;
+  char *local_108;
+  char *local_100;
+  undefined8 local_f8;
+  undefined8 local_f0;
+  char *local_e8;
+  undefined8 local_e0;
+  char *local_d8;
+  undefined8 local_d0;
+  char *local_c8;
+  undefined8 local_c0;
+  char *local_b8;
+  int *local_b0;
+  wchar_t *local_a8;
+  undefined8 local_a0;
+  undefined8 local_98;
+  char *local_90;
+  undefined8 local_88;
+  char *local_80;
+  undefined8 local_70;
+  undefined8 uStack_68;
+  undefined8 local_60;
+  undefined8 local_58;
+  char *local_50;
+  undefined8 local_48;
+  undefined8 local_38;
+  
+  local_38 = 0xfffffffffffffffe;
+  FUN_14008b0d0(local_288);
+  FUN_140069980(*(undefined8 *)(param_1 + 0x18),local_288);
+  QFile::QFile((QFile *)&local_d0,local_288);
+  bVar2 = QFile::open((QFile *)&local_d0,0x11);
+  puVar1 = (undefined8 *)(param_1 + 0x20);
+  if (bVar2) {
+    QIODevice::readAll((QIODevice *)&local_d0);
+    local_f0 = 0xffffffff;
+    QJsonDocument::fromJson((QByteArray *)&local_c0,(QJsonParseError *)&local_58);
+    if (local_f0._4_4_ == 0) {
+      bVar2 = QJsonDocument::isObject((QJsonDocument *)&local_c0);
+      if (bVar2) {
+        QJsonDocument::object((QJsonDocument *)&local_c0);
+        local_b0 = (int *)0x0;
+        local_a8 = L"luduvoExtras";
+        local_a0 = 0xc;
+        QString::QString((QString *)&local_88,(QArrayDataPointer<char16_t> *)&local_b0);
+        QJsonObject::value((QJsonObject *)&local_e0,(QString *)&local_70);
+        QJsonValue::toObject((QJsonValue *)&local_70);
+        QJsonValue::~QJsonValue((QJsonValue *)&local_70);
+        QString::~QString((QString *)&local_88);
+        if (local_b0 != (int *)0x0) {
+          LOCK();
+          *local_b0 = *local_b0 + -1;
+          UNLOCK();
+          if (*local_b0 == 0) {
+            free(local_b0);
+          }
+        }
+        QJsonObject::~QJsonObject((QJsonObject *)&local_e0);
+        bVar2 = QJsonObject::isEmpty((QJsonObject *)&local_98);
+        if (!bVar2) {
+          QColor::QColor((QColor *)&local_88,"#2F2F2F");
+          FUN_14008b5a0(&local_70,&local_98,"editor.background",&local_88);
+          *puVar1 = local_70;
+          *(wchar_t **)(param_1 + 0x28) = uStack_68;
+          QColor::QColor((QColor *)&local_88,"#DCDCDC");
+          FUN_14008b5a0(&local_70,&local_98,"editor.foreground",&local_88);
+          *(int **)(param_1 + 0x30) = local_70;
+          *(wchar_t **)(param_1 + 0x38) = uStack_68;
+          QColor::QColor((QColor *)&local_88,"#3A3A3A");
+          FUN_14008b5a0(&local_70,&local_98,"editor.lineHighlightBackground",&local_88);
+          *(int **)(param_1 + 0x40) = local_70;
+          *(wchar_t **)(param_1 + 0x48) = uStack_68;
+          QColor::QColor((QColor *)&local_88,"#405070");
+          FUN_14008b5a0(&local_70,&local_98,"editor.selectionBackground",&local_88);
+          *(int **)(param_1 + 0x50) = local_70;
+          *(wchar_t **)(param_1 + 0x58) = uStack_68;
+          QColor::QColor((QColor *)&local_88,"#FFFFFF");
+          FUN_14008b5a0(&local_70,&local_98,"editor.selectionForeground",&local_88);
+          *(undefined4 *)(param_1 + 0x60) = (undefined4)local_70;
+          *(undefined4 *)(param_1 + 100) = local_70._4_4_;
+          *(undefined4 *)(param_1 + 0x68) = (undefined4)uStack_68;
+          *(undefined4 *)(param_1 + 0x6c) = uStack_68._4_4_;
+          FUN_14008b5a0(&local_70,&local_98,"editorGutter.background",puVar1);
+          *(int **)(param_1 + 0x70) = local_70;
+          *(wchar_t **)(param_1 + 0x78) = uStack_68;
+          QColor::QColor((QColor *)&local_88,"#787878");
+          FUN_14008b5a0(&local_70,&local_98,"editorLineNumber.foreground",&local_88);
+          lVar3 = param_1 + 0x30;
+          *(undefined4 *)(param_1 + 0x80) = (undefined4)local_70;
+          *(undefined4 *)(param_1 + 0x84) = local_70._4_4_;
+          *(undefined4 *)(param_1 + 0x88) = (undefined4)uStack_68;
+          *(undefined4 *)(param_1 + 0x8c) = uStack_68._4_4_;
+          FUN_14008b5a0(&local_70,&local_98,"editorLineNumber.activeForeground",lVar3);
+          *(undefined4 *)(param_1 + 0x90) = (undefined4)local_70;
+          *(undefined4 *)(param_1 + 0x94) = local_70._4_4_;
+          *(undefined4 *)(param_1 + 0x98) = (undefined4)uStack_68;
+          *(undefined4 *)(param_1 + 0x9c) = uStack_68._4_4_;
+          FUN_14008b5a0(&local_70,&local_98,"editorCursor.foreground",lVar3);
+          *(undefined4 *)(param_1 + 0xa0) = (undefined4)local_70;
+          *(undefined4 *)(param_1 + 0xa4) = local_70._4_4_;
+          *(undefined4 *)(param_1 + 0xa8) = (undefined4)uStack_68;
+          *(undefined4 *)(param_1 + 0xac) = uStack_68._4_4_;
+          FUN_14008b5a0(&local_70,&local_98,"output.info",lVar3);
+          *(int **)(param_1 + 0xb0) = local_70;
+          *(wchar_t **)(param_1 + 0xb8) = uStack_68;
+          QColor::QColor((QColor *)&local_88,"#CCA700");
+          FUN_14008b5a0(&local_70,&local_98,"output.warn",&local_88);
+          *(int **)(param_1 + 0xc0) = local_70;
+          *(wchar_t **)(param_1 + 200) = uStack_68;
+          QColor::QColor((QColor *)&local_88,"#F48771");
+          FUN_14008b5a0(&local_70,&local_98,"output.error",&local_88);
+          *(int **)(param_1 + 0xd0) = local_70;
+          *(wchar_t **)(param_1 + 0xd8) = uStack_68;
+          QColor::QColor((QColor *)&local_88,"#6E6E6E");
+          FUN_14008b5a0(&local_70,&local_98,"lexer.comment",&local_88);
+          *(int **)(param_1 + 0xe0) = local_70;
+          *(wchar_t **)(param_1 + 0xe8) = uStack_68;
+          QColor::QColor((QColor *)&local_88,"#A3D99B");
+          FUN_14008b5a0(&local_70,&local_98,"lexer.string",&local_88);
+          *(int **)(param_1 + 0xf0) = local_70;
+          *(wchar_t **)(param_1 + 0xf8) = uStack_68;
+          QColor::QColor((QColor *)&local_88,"#D4A574");
+          FUN_14008b5a0(&local_70,&local_98,"lexer.number",&local_88);
+          *(int **)(param_1 + 0x100) = local_70;
+          *(wchar_t **)(param_1 + 0x108) = uStack_68;
+          QColor::QColor((QColor *)&local_88,"#FF7585");
+          FUN_14008b5a0(&local_70,&local_98,"lexer.keyword",&local_88);
+          *(int **)(param_1 + 0x110) = local_70;
+          *(wchar_t **)(param_1 + 0x118) = uStack_68;
+          QColor::QColor((QColor *)&local_88,"#FDFBAC");
+          FUN_14008b5a0(&local_70,&local_98,"lexer.function",&local_88);
+          *(int **)(param_1 + 0x120) = local_70;
+          *(wchar_t **)(param_1 + 0x128) = uStack_68;
+          QColor::QColor((QColor *)&local_88,"#9CDCFE");
+          FUN_14008b5a0(&local_70,&local_98,"lexer.type",&local_88);
+          *(int **)(param_1 + 0x130) = local_70;
+          *(wchar_t **)(param_1 + 0x138) = uStack_68;
+          QColor::QColor((QColor *)&local_88,"#9D8FC7");
+          FUN_14008b5a0(&local_70,&local_98,"lexer.preprocessor",&local_88);
+          *(int **)(param_1 + 0x140) = local_70;
+          *(wchar_t **)(param_1 + 0x148) = uStack_68;
+          local_b0 = (int *)0x0;
+          local_a8 = L":/icons/close-dark.svg";
+          local_a0 = 0x16;
+          QString::QString((QString *)&local_88,(QArrayDataPointer<char16_t> *)&local_b0);
+          FUN_14008b6d0(&local_70,&local_98,"tab.closeIcon",&local_88);
+          QString::swap((QString *)(param_1 + 0x150),(QString *)&local_70);
+          QString::~QString((QString *)&local_70);
+          QString::~QString((QString *)&local_88);
+          if (local_b0 != (int *)0x0) {
+            LOCK();
+            *local_b0 = *local_b0 + -1;
+            UNLOCK();
+            if (*local_b0 == 0) {
+              free(local_b0);
+            }
+          }
+          local_b0 = (int *)0x0;
+          local_a8 = L":/icons/close-disabled.svg";
+          local_a0 = 0x1a;
+          QString::QString((QString *)&local_88,(QArrayDataPointer<char16_t> *)&local_b0);
+          FUN_14008b6d0(&local_70,&local_98,"tab.closeIconDisabled",&local_88);
+          QString::swap((QString *)(param_1 + 0x168),(QString *)&local_70);
+          QString::~QString((QString *)&local_70);
+          QString::~QString((QString *)&local_88);
+          if (local_b0 != (int *)0x0) {
+            LOCK();
+            *local_b0 = *local_b0 + -1;
+            UNLOCK();
+            if (*local_b0 == 0) {
+              free(local_b0);
+            }
+          }
+        }
+        QJsonObject::~QJsonObject((QJsonObject *)&local_98);
+      }
+    }
+    QJsonDocument::~QJsonDocument((QJsonDocument *)&local_c0);
+    QByteArray::~QByteArray((QByteArray *)&local_58);
+  }
+  QFile::~QFile((QFile *)&local_d0);
+  this = *(QApplication **)(param_1 + 0x10);
+  lVar3 = FUN_140069820(*(undefined8 *)(param_1 + 0x18));
+  local_70 = (int *)0x0;
+  uStack_68 = L":/themes/studio.qss";
+  local_60 = 0x13;
+  QString::QString((QString *)&local_58,(QArrayDataPointer<char16_t> *)&local_70);
+  QFile::QFile((QFile *)&local_b0,(QString *)&local_58);
+  QString::~QString((QString *)&local_58);
+  if (local_70 != (int *)0x0) {
+    LOCK();
+    *local_70 = *local_70 + -1;
+    UNLOCK();
+    if (*local_70 == 0) {
+      free(local_70);
+    }
+  }
+  bVar2 = QFile::open((QFile *)&local_b0,0x11);
+  if (bVar2) {
+    QIODevice::readAll((QIODevice *)&local_b0);
+    local_80 = QByteArray::begin((QByteArray *)&local_58);
+    local_88 = local_48;
+    QString::fromUtf8(&local_70,&local_88);
+    QByteArray::~QByteArray((QByteArray *)&local_58);
+    rgbad_d_d_d(&local_58,lVar3 + 0x50);
+    local_88 = 5;
+    local_80 = "@bg1@";
+    QString::replace((QString *)&local_70,&local_88,&local_58,1);
+    QString::~QString((QString *)&local_58);
+    rgbad_d_d_d(&local_58,lVar3 + 0x60);
+    local_d0 = 5;
+    local_c8 = "@bg2@";
+    QString::replace((QString *)&local_70,&local_d0,&local_58,1);
+    QString::~QString((QString *)&local_58);
+    rgbad_d_d_d(&local_58,lVar3 + 0x70);
+    local_f0 = 5;
+    local_e8 = "@bg3@";
+    QString::replace((QString *)&local_70,&local_f0,&local_58,1);
+    QString::~QString((QString *)&local_58);
+    rgbad_d_d_d(&local_58,lVar3 + 0x80);
+    local_c0 = 5;
+    local_b8 = "@bg4@";
+    QString::replace((QString *)&local_70,&local_c0,&local_58,1);
+    QString::~QString((QString *)&local_58);
+    rgbad_d_d_d(&local_58,lVar3 + 0x480);
+    local_98 = 8;
+    local_90 = "@border@";
+    QString::replace((QString *)&local_70,&local_98,&local_58,1);
+    QString::~QString((QString *)&local_58);
+    rgbad_d_d_d(&local_58,lVar3 + 0x490);
+    local_e0 = 0xd;
+    local_d8 = "@borderHover@";
+    QString::replace((QString *)&local_70,&local_e0,&local_58,1);
+    QString::~QString((QString *)&local_58);
+    rgbad_d_d_d(&local_58,lVar3 + 0x210);
+    local_270 = 6;
+    local_268 = "@text@";
+    QString::replace((QString *)&local_70,&local_270,&local_58,1);
+    QString::~QString((QString *)&local_58);
+    rgbad_d_d_d(&local_58,lVar3 + 0x2b0);
+    local_260 = 0xb;
+    local_258 = "@textMuted@";
+    QString::replace((QString *)&local_70,&local_260,&local_58,1);
+    QString::~QString((QString *)&local_58);
+    rgbad_d_d_d(&local_58,lVar3 + 0x240);
+    local_250 = 0xe;
+    local_248 = "@textDisabled@";
+    QString::replace((QString *)&local_70,&local_250,&local_58,1);
+    QString::~QString((QString *)&local_58);
+    rgbad_d_d_d(&local_58,lVar3 + 0x120);
+    local_240 = 8;
+    local_238 = "@accent@";
+    QString::replace((QString *)&local_70,&local_240,&local_58,1);
+    QString::~QString((QString *)&local_58);
+    rgbad_d_d_d(&local_58,lVar3 + 0x130);
+    local_230 = 0xd;
+    local_228 = "@accentHover@";
+    QString::replace((QString *)&local_70,&local_230,&local_58,1);
+    QString::~QString((QString *)&local_58);
+    rgbad_d_d_d(&local_58,lVar3 + 0x170);
+    local_220 = 0xc;
+    local_218 = "@accentText@";
+    QString::replace((QString *)&local_70,&local_220,&local_58,1);
+    QString::~QString((QString *)&local_58);
+    rgbad_d_d_d(&local_58,lVar3 + 0xd0);
+    local_210 = 7;
+    local_208 = "@hover@";
+    QString::replace((QString *)&local_70,&local_210,&local_58,1);
+    QString::~QString((QString *)&local_58);
+    rgbad_d_d_d(&local_58,lVar3 + 0xe0);
+    local_200 = 7;
+    local_1f8 = "@press@";
+    QString::replace((QString *)&local_70,&local_200,&local_58,1);
+    QString::~QString((QString *)&local_58);
+    rgbad_d_d_d(&local_58,lVar3 + 0x3c0);
+    local_1f0 = 7;
+    local_1e8 = "@error@";
+    QString::replace((QString *)&local_70,&local_1f0,&local_58,1);
+    QString::~QString((QString *)&local_58);
+    rgbad_d_d_d(&local_58,lVar3 + 0x380);
+    local_1e0 = 6;
+    local_1d8 = "@warn@";
+    QString::replace((QString *)&local_70,&local_1e0,&local_58,1);
+    QString::~QString((QString *)&local_58);
+    rgbad_d_d_d(&local_58,lVar3 + 0x300);
+    local_1d0 = 4;
+    local_1c8 = &DAT_14136b700;
+    QString::replace((QString *)&local_70,&local_1d0,&local_58,1);
+    QString::~QString((QString *)&local_58);
+    rgbad_d_d_d(&local_58,lVar3 + 0x340);
+    local_1c0 = 6;
+    local_1b8 = "@info@";
+    QString::replace((QString *)&local_70,&local_1c0,&local_58,1);
+    QString::~QString((QString *)&local_58);
+    rgbad_d_d_d(&local_58,puVar1);
+    local_1b0 = 10;
+    local_1a8 = "@editorBg@";
+    QString::replace((QString *)&local_70,&local_1b0,&local_58,1);
+    QString::~QString((QString *)&local_58);
+    rgbad_d_d_d(&local_58,param_1 + 0x30);
+    local_1a0 = 10;
+    local_198 = "@editorFg@";
+    QString::replace((QString *)&local_70,&local_1a0,&local_58,1);
+    QString::~QString((QString *)&local_58);
+    rgbad_d_d_d(&local_58,param_1 + 0x70);
+    local_190 = 10;
+    local_188 = "@gutterBg@";
+    QString::replace((QString *)&local_70,&local_190,&local_58,1);
+    QString::~QString((QString *)&local_58);
+    rgbad_d_d_d(&local_58,param_1 + 0x80);
+    local_180 = 0xe;
+    local_178 = "@lineNumberFg@";
+    QString::replace((QString *)&local_70,&local_180,&local_58,1);
+    QString::~QString((QString *)&local_58);
+    rgbad_d_d_d(&local_58,param_1 + 0x40);
+    local_170 = 0xf;
+    local_168 = "@lineHighlight@";
+    QString::replace((QString *)&local_70,&local_170,&local_58,1);
+    QString::~QString((QString *)&local_58);
+    rgbad_d_d_d(&local_58,param_1 + 0x50);
+    local_160 = 0xd;
+    local_158 = "@selectionBg@";
+    QString::replace((QString *)&local_70,&local_160,&local_58,1);
+    QString::~QString((QString *)&local_58);
+    rgbad_d_d_d(&local_58,param_1 + 0x60);
+    local_150 = 0xd;
+    local_148 = "@selectionFg@";
+    QString::replace((QString *)&local_70,&local_150,&local_58,1);
+    QString::~QString((QString *)&local_58);
+    rgbad_d_d_d(&local_58,param_1 + 0xb0);
+    local_140 = 0xc;
+    local_138 = "@outputInfo@";
+    QString::replace((QString *)&local_70,&local_140,&local_58,1);
+    QString::~QString((QString *)&local_58);
+    rgbad_d_d_d(&local_58,param_1 + 0xc0);
+    local_130 = 0xc;
+    local_128 = "@outputWarn@";
+    QString::replace((QString *)&local_70,&local_130,&local_58,1);
+    QString::~QString((QString *)&local_58);
+    rgbad_d_d_d(&local_58,param_1 + 0xd0);
+    local_120 = 0xd;
+    local_118 = "@outputError@";
+    QString::replace((QString *)&local_70,&local_120,&local_58,1);
+    QString::~QString((QString *)&local_58);
+    local_58 = 0xb;
+    local_50 = "@closeIcon@";
+    QString::replace((QString *)&local_70,&local_58,param_1 + 0x150,1);
+    local_110 = 0x13;
+    local_108 = "@closeIconDisabled@";
+    QString::replace((QString *)&local_70,&local_110,param_1 + 0x168,1);
+  }
+  else {
+    QString::QString((QString *)&local_70);
+  }
+  QFile::~QFile((QFile *)&local_b0);
+  QApplication::setStyleSheet(this,(QString *)&local_70);
+  QString::~QString((QString *)&local_70);
+  QString::operator=((QString *)(param_1 + 0x180),param_2);
+  QSettings::QSettings((QSettings *)&local_70,(QObject *)0x0);
+  QVariant::QVariant((QVariant *)&local_58,param_2);
+  local_100 = "studio/theme";
+  local_f8 = 0x400000000000000c;
+  QSettings::setValue((QSettings *)&local_70,&local_100,(QVariant *)&local_58);
+  QVariant::~QVariant((QVariant *)&local_58);
+  QSettings::~QSettings((QSettings *)&local_70);
+  FUN_14009e980(param_1);
+  QString::~QString(local_288);
+  return;
+}
+

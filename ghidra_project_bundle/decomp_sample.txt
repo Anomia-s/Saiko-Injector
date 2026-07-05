@@ -1,0 +1,13 @@
+  ... 100 checked, OK=100 WARN=0 FAIL=0
+  ... 200 checked, OK=200 WARN=0 FAIL=0
+  ... 300 checked, OK=300 WARN=0 FAIL=0
+  ... 400 checked, OK=400 WARN=0 FAIL=0
+  ... 500 checked, OK=500 WARN=0 FAIL=0
+
+=== DECOMPILATION QUALITY (sample of 500 functions) ===
+OK:     500 (100.0%)
+WARN:   0 (0.0%)
+FAIL:   0 (0.0%)
+ESTIMATED for 39,873 functions:
+  ~39873 functions decompile successfully
+  ~0 functions may have issues

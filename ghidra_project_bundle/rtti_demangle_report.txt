@@ -1,0 +1,2010 @@
+==============================================
+RTTI DEMANGLE & RENAME REPORT
+Program: LuduvoApp.exe
+Date: Sat Jul 04 17:52:21 CEST 2026
+Pointer size: 8 bytes
+==============================================
+
+
+--- PHASE 1: Collecting RTTI strings ---
+
+  Total unique RTTI class strings found: 987
+  .?AVbad_array_new_length@std@@ @ 1414ef010
+  .?AVbad_alloc@std@@ @ 1414ef040
+  .?AVexception@std@@ @ 1414ef070
+  .?AVsystem_error@std@@ @ 1414ef0a0
+  .?AV_System_error@std@@ @ 1414ef0d0
+  .?AVruntime_error@std@@ @ 1414ef100
+  .?AV_Generic_error_category@std@@ @ 1414ef130
+  .?AVerror_category@std@@ @ 1414ef170
+  .?AV_System_error_category@std@@ @ 1414ef1a0
+  .?AVfilesystem_error@filesystem@std@@ @ 1414ef1e0
+  .?AV?$_Ref_count_obj2@VThreadContext@detail@v11@quill@@@s... @ 1414ef220
+  .?AV_Ref_count_base@std@@ @ 1414ef270
+  .?AVQuillError@v11@quill@@ @ 1414ef2a0
+  .?AVEditorMainWindow@editor@ldv@@ @ 1414ef2d0
+  .?AVQMainWindow@@ @ 1414ef310
+  .?AVQWidget@@ @ 1414ef340
+  .?AVQObject@@ @ 1414ef360
+  .?AVQPaintDevice@@ @ 1414ef380
+  .?AV?$wstring_convert@V?$codecvt_utf8_utf16@_W$0BAPPPP@$0... @ 1414ef420
+  .?AV?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@ @ 1414ef4a0
+  .?AV?$codecvt@_WDU_Mbstatet@@@std@@ @ 1414ef4e0
+  .?AVcodecvt_base@std@@ @ 1414ef520
+  .?AVfacet@locale@std@@ @ 1414ef550
+  .?AV_Facet_base@std@@ @ 1414ef580
+  .?AVrange_error@std@@ @ 1414ef5e0
+  .?AVformat_error@v12@fmtquill@@ @ 1414ef610
+  .?AVbad_cast@std@@ @ 1414ef640
+  .?AV?$format_facet@Vlocale@std@@@v12@fmtquill@@ @ 1414ef670
+  .?AV?$numpunct@D@std@@ @ 1414ef6b0
+  .?AV?$_Ref_count_obj2@VTransitEventBuffer@detail@v11@quil... @ 1414ef6e0
+  .?AV?$_Ref_count_obj2@VPatternFormatter@v11@quill@@@std@@ @ 1414ef740
+  .?AV?$_Func_impl_no_alloc@V<lambda_1>@?0??_process_transi... @ 1414ef790
+  .?AV?$_Func_base@XAEBUTransitEvent@detail@v11@quill@@V?$b... @ 1414ef8d0
+  .?AV<lambda_1>@?0??_process_transit_event@BackendWorker@d... @ 1414ef960
+  .?AV?$_Ref_count_obj2@VBacktraceStorage@detail@v11@quill@... @ 1414efa10
+  .?AV?$_Func_impl_no_alloc@V<lambda_2>@?0??_process_transi... @ 1414efa70
+  .?AV<lambda_2>@?0??_process_transit_event@BackendWorker@d... @ 1414efbb0
+  .?AV?$_Func_impl_no_alloc@V<lambda_1>@error_notifier@Back... @ 1414efc60
+  .?AV?$_Func_base@XAEBV?$basic_string@DU?$char_traits@D@st... @ 1414efd10
+  .?AV<lambda_1>@error_notifier@BackendOptions@v11@quill@@ @ 1414efd80
+  .?AV?$_Func_impl_no_alloc@V<lambda_1>@check_printable_cha... @ 1414efdd0
+  .?AV?$_Func_base@_ND@std@@ @ 1414efe40
+  .?AV<lambda_1>@check_printable_char@BackendOptions@v11@qu... @ 1414efe70
+  .?AV?$_Ref_count_obj2@VConsoleSink@v11@quill@@@std@@ @ 1414efec0
+  .?AVConsoleSink@v11@quill@@ @ 1414eff10
+  .?AVStreamSink@v11@quill@@ @ 1414eff40
+  .?AVSink@v11@quill@@ @ 1414eff70
+  .?AV?$_Ref_count_obj2@VFileSink@v11@quill@@@std@@ @ 1414effa0
+  .?AVFileSink@v11@quill@@ @ 1414efff0
+  .?AVLoggerBase@detail@v11@quill@@ @ 1414f0020
+  .?AV?$LoggerImpl@UFrontendOptions@v11@quill@@@v11@quill@@ @ 1414f0060
+  .?AVSkipCharactersBPFilter@?1??find_spawn_ground@gameplay... @ 1414f00b0
+  .?AVBPLayerInterface@@ @ 1414f0120
+  .?AVBroadPhaseLayerInterface@JPH@@ @ 1414f0150
+  .?AVNonCopyable@JPH@@ @ 1414f0190
+  .?AVObjVsBPFilter@@ @ 1414f01c0
+  .?AVObjectVsBroadPhaseLayerFilter@JPH@@ @ 1414f01f0
+  .?AVObjLayerPairFilter@@ @ 1414f0230
+  .?AVObjectLayerPairFilter@JPH@@ @ 1414f0260
+  .?AVBodyLockInterfaceNoLock@JPH@@ @ 1414f0290
+  .?AVBodyLockInterface@JPH@@ @ 1414f02d0
+  .?AVBodyLockInterfaceLocking@JPH@@ @ 1414f0300
+  .?AV?$_Func_impl_no_alloc@P6AXAEBVBody@JPH@@0AEBVMat44@2@... @ 1414f0340
+  .?AV?$_Func_base@XAEBVBody@JPH@@AEBV12@AEBVMat44@2@AEBV32... @ 1414f0450
+  .?AVTempAllocatorImpl@JPH@@ @ 1414f05f0
+  .?AVTempAllocator@JPH@@ @ 1414f0620
+  .?AVCharacterContactListener@gameplay@ldv@@ @ 1414f0650
+  .?AVContactListener@JPH@@ @ 1414f0690
+  .?AVSphereShape@JPH@@ @ 1414f06c0
+  .?AVConvexShape@JPH@@ @ 1414f06f0
+  .?AVShape@JPH@@ @ 1414f0720
+  .?AV?$RefTarget@VShape@JPH@@@JPH@@ @ 1414f0740
+  .?AVGroupFilterTable@JPH@@ @ 1414f0780
+  .?AVGroupFilter@JPH@@ @ 1414f07b0
+  .?AVSerializableObject@JPH@@ @ 1414f07e0
+  .?AV?$RefTarget@VGroupFilter@JPH@@@JPH@@ @ 1414f0810
+  .?AVBroadPhaseLayerFilter@JPH@@ @ 1414f0850
+  .?AVBodyFilter@JPH@@ @ 1414f0880
+  .?AVObjectLayerFilter@JPH@@ @ 1414f08b0
+  .?AV?$AllHitCollisionCollector@V?$CollisionCollector@VBod... @ 1414f08e0
+  .?AV?$CollisionCollector@VBodyID@JPH@@VCollisionCollector... @ 1414f0970
+  .?AV?$_Func_impl_no_alloc@V<lambda_0>@?0??InstallAssetBri... @ 1414f3060
+  .?AV<lambda_0>@?0??InstallAssetBridges@GameSession@client... @ 1414f3130
+  .?AV?$_Func_base@X_KV?$basic_string@DU?$char_traits@D@std... @ 1414f31e0
+  .?AVQlementineStyle@qlementine@oclero@@ @ 1414f3260
+  .?AVQCommonStyle@@ @ 1414f32a0
+  .?AVQStyle@@ @ 1414f32d0
+  .?AVTheme@qlementine@oclero@@ @ 1414f32f0
+  .?AVbad_optional_access@std@@ @ 1414f3320
+  .?AV?$WidgetAnimation@N@qlementine@oclero@@ @ 1414f3350
+  .?AV?$WidgetAnimation@VQColor@@@qlementine@oclero@@ @ 1414f3400
+  .?AVQStyleOptionRoundedButton@qlementine@oclero@@ @ 1414f34c0
+  .?AVQStyleOptionButton@@ @ 1414f3510
+  .?AVQStyleOption@@ @ 1414f3540
+  .?AVQStyleOptionFocusRoundedRect@qlementine@oclero@@ @ 1414f3570
+  .?AVQStyleOptionFocusRect@@ @ 1414f35c0
+  .?AVQStyleOptionSliderF@qlementine@oclero@@ @ 1414f35f0
+  .?AVQStyleOptionSlider@@ @ 1414f3630
+  .?AVQStyleOptionComplex@@ @ 1414f3660
+  .?AV?$_Func_impl_no_alloc@P6A?AVQPixmap@@AEBVQSize@@AEBVQ... @ 1414f3690
+  .?AV?$_Func_base@VQPixmap@@AEBVQSize@@AEBVQColor@@@std@@ @ 1414f3700
+  .?AVLineEditButtonEventFilter@qlementine@oclero@@ @ 1414f3790
+  .?AVWidgetWithFocusFrameEventFilter@qlementine@oclero@@ @ 1414f37e0
+  .?AVMenuEventFilter@qlementine@oclero@@ @ 1414f3830
+  .?AV?$_Func_impl_no_alloc@V<lambda_2>@?0??eventFilter@Men... @ 1414f3870
+  .?AV?$_Func_base@X$$V@std@@ @ 1414f3910
+  .?AV<lambda_2>@?0??eventFilter@MenuEventFilter@qlementine... @ 1414f3940
+  .?AVComboboxItemViewFilter@qlementine@oclero@@ @ 1414f39c0
+  .?AVMouseWheelBlockerEventFilter@qlementine@oclero@@ @ 1414f3a00
+  .?AVComboboxFilter@qlementine@oclero@@ @ 1414f3a50
+  .?AVTabBarEventFilter@qlementine@oclero@@ @ 1414f3a90
+  .?AVTabBarButtonEventFilter@qlementine@oclero@@ @ 1414f3ad0
+  .?AVTextEditEventFilter@qlementine@oclero@@ @ 1414f3b10
+  .?AVLineEditMenuEventFilter@qlementine@oclero@@ @ 1414f3b50
+  .?AVLineEditMenuIconsBehavior@qlementine@oclero@@ @ 1414f3b90
+  .?AVThemeService@editor@ldv@@ @ 1414f3c50
+  .?AV?$_Func_impl_no_alloc@V<lambda_0>@?0??wireSignals@Edi... @ 1414f3c80
+  .?AV<lambda_0>@?0??wireSignals@EditorMainWindow@editor@ld... @ 1414f3d20
+  .?AV?$_Func_impl_no_alloc@V<lambda_1>@?0??wireSignals@Edi... @ 1414f3d80
+  .?AV<lambda_1>@?0??wireSignals@EditorMainWindow@editor@ld... @ 1414f3e00
+  .?AV?$_Func_impl_no_alloc@V<lambda_2>@?0??wireSignals@Edi... @ 1414f3e60
+  .?AV<lambda_2>@?0??wireSignals@EditorMainWindow@editor@ld... @ 1414f3ee0
+  .?AV?$_Func_impl_no_alloc@V<lambda_14>@?0??hookProjectCal... @ 1414f3f40
+  .?AV<lambda_14>@?0??hookProjectCallbacks@EditorMainWindow... @ 1414f3fc0
+  .?AV?$_Func_impl_no_alloc@V<lambda_15>@?0??onPlayStopTogg... @ 1414f4020
+  .?AV<lambda_15>@?0??onPlayStopToggle@EditorMainWindow@edi... @ 1414f40a0
+  .?AV?$_Func_impl_no_alloc@V<lambda_16>@?0??onPlayStopTogg... @ 1414f4100
+  .?AV<lambda_16>@?0??onPlayStopToggle@EditorMainWindow@edi... @ 1414f4180
+  .?AVLoginDialog@editor@ldv@@ @ 1414f41e0
+  .?AVQDialog@@ @ 1414f4210
+  .?AVPublishDialog@editor@ldv@@ @ 1414f4230
+  .?AVNewProjectDialog@editor@ldv@@ @ 1414f4260
+  .?AV?$_Func_base@XW4ChangeHint@EditorContext@editor@ldv@@... @ 1414f42a0
+  .?AV?$_Func_base@X_K@std@@ @ 1414f42f0
+  .?AV?$_Func_impl_no_alloc@V<lambda_1>@?0???$registerConve... @ 1414f4390
+  .?AV?$_Func_base@_NPEBXPEAX@std@@ @ 1414f4500
+  .?AV<lambda_1>@?0???$registerConverter@V?$vector@_KV?$all... @ 1414f4540
+  .?AV?$_Func_impl_no_alloc@V<lambda_1>@?0???$registerMutab... @ 1414f4690
+  .?AV?$_Func_base@_NPEAXPEAX@std@@ @ 1414f4810
+  .?AV<lambda_1>@?0???$registerMutableView@V?$vector@_KV?$a... @ 1414f4850
+  .?AV?$_Func_base@XPEBD@std@@ @ 1414f4a10
+  .?AV?$_Func_base@X_N@std@@ @ 1414f4ab0
+  .?AVAssetItemDelegate@editor@ldv@@ @ 1414f4f40
+  .?AVQStyledItemDelegate@@ @ 1414f4f80
+  .?AVQAbstractItemDelegate@@ @ 1414f4fb0
+  .?AV<lambda_1>@mThreadInitFunction@JobSystemThreadPool@JPH@@ @ 1414f56e0
+  .?AV<lambda_1>@mThreadExitFunction@JobSystemThreadPool@JPH@@ @ 1414f5730
+  .?AV<lambda_0>@?0??Update@PhysicsSystem@JPH@@QEAA?AW4EPhy... @ 1414f5780
+  .?AV<lambda_1>@?0??Update@PhysicsSystem@JPH@@QEAA?AW4EPhy... @ 1414f5810
+  .?AV<lambda_2>@?0??Update@PhysicsSystem@JPH@@QEAA?AW4EPhy... @ 1414f58a0
+  .?AV<lambda_3>@?0??Update@PhysicsSystem@JPH@@QEAA?AW4EPhy... @ 1414f5930
+  .?AV<lambda_4>@?0??Update@PhysicsSystem@JPH@@QEAA?AW4EPhy... @ 1414f59c0
+  .?AV<lambda_5>@?0??Update@PhysicsSystem@JPH@@QEAA?AW4EPhy... @ 1414f5a50
+  .?AV<lambda_6>@?0??Update@PhysicsSystem@JPH@@QEAA?AW4EPhy... @ 1414f5ae0
+  .?AV<lambda_7>@?0??Update@PhysicsSystem@JPH@@QEAA?AW4EPhy... @ 1414f5b70
+  .?AV<lambda_8>@?0??Update@PhysicsSystem@JPH@@QEAA?AW4EPhy... @ 1414f5c00
+  .?AV<lambda_9>@?0??Update@PhysicsSystem@JPH@@QEAA?AW4EPhy... @ 1414f5c90
+  .?AV<lambda_10>@?0??Update@PhysicsSystem@JPH@@QEAA?AW4EPh... @ 1414f5d20
+  .?AV<lambda_11>@?0??Update@PhysicsSystem@JPH@@QEAA?AW4EPh... @ 1414f5db0
+  .?AV<lambda_12>@?0??Update@PhysicsSystem@JPH@@QEAA?AW4EPh... @ 1414f5e40
+  .?AV<lambda_13>@?0??Update@PhysicsSystem@JPH@@QEAA?AW4EPh... @ 1414f5ed0
+  .?AV<lambda_14>@?0??Update@PhysicsSystem@JPH@@QEAA?AW4EPh... @ 1414f5f60
+  .?AV<lambda_15>@?0??Update@PhysicsSystem@JPH@@QEAA?AW4EPh... @ 1414f5ff0
+  .?AV<lambda_16>@?0??Update@PhysicsSystem@JPH@@QEAA?AW4EPh... @ 1414f6080
+  .?AV<lambda_17>@?0??Update@PhysicsSystem@JPH@@QEAA?AW4EPh... @ 1414f6110
+  .?AV<lambda_18>@?0??Update@PhysicsSystem@JPH@@QEAA?AW4EPh... @ 1414f61a0
+  .?AV<lambda_19>@?0??TrySpawnJobFindCollisions@PhysicsSyst... @ 1414f6230
+  .?AV<lambda_20>@?0??JobPostIntegrateVelocity@PhysicsSyste... @ 1414f62b0
+  .?AV<lambda_21>@?0??JobSoftBodyPrepare@PhysicsSystem@JPH@... @ 1414f6330
+  .?AV<lambda_22>@?0??JobSoftBodyPrepare@PhysicsSystem@JPH@... @ 1414f63b0
+  .?AV<lambda_23>@?0??JobSoftBodyPrepare@PhysicsSystem@JPH@... @ 1414f6430
+  .?AVBoxShape@JPH@@ @ 1414f65f0
+  .?AVIgnoreCharactersFilter@gameplay@ldv@@ @ 1414f6620
+  .?AVIgnoreSingleBodyFilter@JPH@@ @ 1414f6660
+  .?AV?$ClosestHitCollisionCollector@V?$CollisionCollector@... @ 1414f66a0
+  .?AV?$CollisionCollector@VShapeCastResult@JPH@@VCollision... @ 1414f6740
+  .?AVShapeFilter@JPH@@ @ 1414f67b0
+  .?AV<lambda_0>@?0??DrawGetSupportFunction@ConvexShape@JPH... @ 1414f67e0
+  .?AVSocketStream@detail@httplib@@ @ 1414fa030
+  .?AVStream@httplib@@ @ 1414fa070
+  .?AV?$_Func_impl_no_alloc@V<lambda_1>@?0??connect_with_pr... @ 1414fa0a0
+  .?AV?$_Func_base@_NAEAVStream@httplib@@@std@@ @ 1414fa160
+  .?AVBufferStream@detail@httplib@@ @ 1414fa1a0
+  .?AV?$collate@D@std@@ @ 1414fa1e0
+  .?AV_Root_node@std@@ @ 1414fa210
+  .?AV_Node_base@std@@ @ 1414fa240
+  .?AV_Node_capture@std@@ @ 1414fa270
+  .?AV_Node_back@std@@ @ 1414fa2a0
+  .?AV?$_Node_class@DV?$regex_traits@D@std@@@std@@ @ 1414fa2d0
+  .?AV_Node_assert@std@@ @ 1414fa320
+  .?AV?$_Node_str@D@std@@ @ 1414fa350
+  .?AV_Node_endif@std@@ @ 1414fa380
+  .?AV_Node_if@std@@ @ 1414fa3b0
+  .?AV_Node_end_group@std@@ @ 1414fa3e0
+  .?AV_Node_end_rep@std@@ @ 1414fa410
+  .?AV_Node_rep@std@@ @ 1414fa440
+  .?AV?$basic_ostringstream@DU?$char_traits@D@std@@V?$alloc... @ 1414fa470
+  .?AV?$basic_ostream@DU?$char_traits@D@std@@@std@@ @ 1414fa4d0
+  .?AV?$basic_ios@DU?$char_traits@D@std@@@std@@ @ 1414fa520
+  .?AVios_base@std@@ @ 1414fa560
+  .?AV?$_Iosb@H@std@@ @ 1414fa590
+  .?AV?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator... @ 1414fa5c0
+  .?AV?$basic_streambuf@DU?$char_traits@D@std@@@std@@ @ 1414fa620
+  .?AVnocompressor@detail@httplib@@ @ 1414fa670
+  .?AVcompressor@detail@httplib@@ @ 1414fa6b0
+  .?AVdata_sink_streambuf@DataSink@httplib@@ @ 1414fa6e0
+  .?AV?$_Func_impl_no_alloc@V<lambda_1>@?0???$write_content... @ 1414fa720
+  .?AV?$_Func_base@_NPEBD_K@std@@ @ 1414fa8d0
+  .?AV?$_Func_impl_no_alloc@V<lambda_1>@?0???R1?0???$write_... @ 1414fa900
+  .?AV<lambda_1>@?0???R0?0???$write_content_chunked@V<lambd... @ 1414faad0
+  .?AV<lambda_1>@?0???$write_content_chunked@V<lambda_1>@?0... @ 1414fac70
+  .?AV?$_Func_impl_no_alloc@V<lambda_2>@?0???$write_content... @ 1414fae00
+  .?AV?$_Func_base@_N$$V@std@@ @ 1414fafc0
+  .?AV<lambda_2>@?0???$write_content_chunked@V<lambda_1>@?0... @ 1414faff0
+  .?AV?$_Func_impl_no_alloc@V<lambda_4>@?0???$write_content... @ 1414fb190
+  .?AV?$_Func_impl_no_alloc@V<lambda_1>@?0???R<lambda_3>@?0... @ 1414fb350
+  .?AV<lambda_1>@?0???R<lambda_3>@?0???$write_content_chunk... @ 1414fb620
+  .?AV<lambda_4>@?0???$write_content_chunked@V<lambda_1>@?0... @ 1414fb8c0
+  .?AV?$_Func_impl_no_alloc@V<lambda_5>@?0???$write_content... @ 1414fba60
+  .?AV?$_Func_base@XAEBV?$unordered_multimap@V?$basic_strin... @ 1414fbd10
+  .?AV<lambda_5>@?0???$write_content_chunked@V<lambda_1>@?0... @ 1414fbe30
+  .?AV?$_Func_impl_no_alloc@V<lambda_1>@?0???$write_content... @ 1414fbfd0
+  .?AV<lambda_1>@?0???$write_content@V<lambda_1>@?0??write_... @ 1414fc150
+  .?AV?$_Func_impl_no_alloc@V<lambda_2>@?0???$write_content... @ 1414fc2b0
+  .?AV<lambda_2>@?0???$write_content@V<lambda_1>@?0??write_... @ 1414fc440
+  .?AV?$_Func_impl_no_alloc@V<lambda_1>@?0??process_request... @ 1414fc5b0
+  .?AV?$_Func_base@_NPEBD_K_K_K@std@@ @ 1414fc670
+  .?AV<lambda_1>@?0??process_request@ClientImpl@httplib@@IE... @ 1414fc6b0
+  .?AV?$_Func_impl_no_alloc@V<lambda_2>@?0??process_request... @ 1414fc740
+  .?AV<lambda_2>@?0??process_request@ClientImpl@httplib@@IE... @ 1414fc800
+  .?AV?$_Func_impl_no_alloc@V<lambda_1>@?0???$prepare_conte... @ 1414fc890
+  .?AV?$_Func_impl_no_alloc@V<lambda_1>@?0???R1?0???$prepar... @ 1414fca60
+  .?AV<lambda_1>@?0???R0?0???$prepare_content_receiver@URes... @ 1414fcc50
+  .?AV<lambda_1>@?0???$prepare_content_receiver@UResponse@h... @ 1414fce10
+  .?AV?$_Func_impl_no_alloc@V<lambda_2>@?0???$prepare_conte... @ 1414fcfb0
+  .?AV<lambda_2>@?0???$prepare_content_receiver@UResponse@h... @ 1414fd190
+  .?AV?$_Func_impl_no_alloc@V<lambda_3>@?0??process_request... @ 1414fd340
+  .?AV?$_Func_base@_N_K_K@std@@ @ 1414fd3f0
+  .?AV<lambda_3>@?0??process_request@ClientImpl@httplib@@IE... @ 1414fd420
+  .?AV<lambda_1>@?0??connect_with_proxy@SSLClient@httplib@@... @ 1414fd4b0
+  .?AV?$_Func_impl_no_alloc@V<lambda_2>@?0??connect_with_pr... @ 1414fd540
+  .?AV?$basic_stringstream@DU?$char_traits@D@std@@V?$alloca... @ 1414fd600
+  .?AV?$basic_iostream@DU?$char_traits@D@std@@@std@@ @ 1414fd660
+  .?AV?$basic_istream@DU?$char_traits@D@std@@@std@@ @ 1414fd6b0
+  .?AV<lambda_2>@?0??connect_with_proxy@SSLClient@httplib@@... @ 1414fd700
+  .?AV?$_Func_impl_no_alloc@V<lambda_1>@?0???R1?0??initiali... @ 1414fd790
+  .?AV<lambda_1>@?0???R0?0??initialize_ssl@SSLClient@httpli... @ 1414fd850
+  .?AV?$_Func_impl_no_alloc@V<lambda_1>@?0??check_host_name... @ 1414fd8f0
+  .?AV?$_Func_base@XPEBDPEBD@std@@ @ 1414fd970
+  .?AV<lambda_1>@?0??check_host_name@SSLClient@httplib@@AEB... @ 1414fd9b0
+  .?AV?$_Func_impl_no_alloc@V<lambda_1>@?0??send_@ClientImp... @ 1414fda10
+  .?AV<lambda_1>@?0??send_@ClientImpl@httplib@@AEAA_NAEAURe... @ 1414fdab0
+  .?AV?$_Func_impl_no_alloc@V<lambda_2>@?0??send_@ClientImp... @ 1414fdb30
+  .?AVSSLClient@httplib@@ @ 1414fdbd0
+  .?AVClientImpl@httplib@@ @ 1414fdc00
+  .?AV?$_Func_impl_no_alloc@P6A_JAEAVStream@httplib@@AEBV?$... @ 1414fdc30
+  .?AV?$_Func_base@_JAEAVStream@httplib@@AEAV?$unordered_mu... @ 1414fdd90
+  .?AV?$_Func_impl_no_alloc@V<lambda_1>@?0???$create_socket... @ 1414fe000
+  .?AV<lambda_1>@?0???$create_socket@V<lambda_1>@?0??create... @ 1414fe1c0
+  .?AV?$_Func_impl_no_alloc@V<lambda_1>@?0???0SSLClient@htt... @ 1414fe360
+  .?AV<lambda_1>@?0???0SSLClient@httplib@@QEAA@AEBV?$basic_... @ 1414fe410
+  .?AVSSLSocketStream@detail@httplib@@ @ 1414fe4a0
+  .?AV<lambda_2>@?0??send_@ClientImpl@httplib@@AEAA_NAEAURe... @ 1414fe4e0
+  .?AV?$basic_ofstream@DU?$char_traits@D@std@@@std@@ @ 1414fe560
+  .?AV?$basic_filebuf@DU?$char_traits@D@std@@@std@@ @ 1414fe5b0
+  .?AVinvalid_argument@std@@ @ 1414fe600
+  .?AVlogic_error@std@@ @ 1414fe630
+  .?AV?$_Func_impl_no_alloc@V<lambda_0>@?0??ensure_default_... @ 1414fe6b0
+  .?AV<lambda_0>@?0??ensure_default_camera_buffer@?A0xB5EE5... @ 1414fe750
+  .?AV?$_Func_base@XPEAVICommandList@nvrhi@@@std@@ @ 1414fe7c0
+  .?AVNvrhiCallback@@ @ 1414fe810
+  .?AVIMessageCallback@nvrhi@@ @ 1414fe840
+  .?AVVulkanBackend@@ @ 1414fe870
+  .?AVgfx_backend@@ @ 1414fe8a0
+  .?AVD3D12Backend@@ @ 1414fe8d0
+  .?AVMenu@qlementine@oclero@@ @ 1414ff380
+  .?AVQMenu@@ @ 1414ff3b0
+  .?AVRoundedFocusFrame@qlementine@oclero@@ @ 1414ff8a0
+  .?AVQFocusFrame@@ @ 1414ff8e0
+  .?AV?$_Func_impl_no_alloc@V<lambda_1>@?0??stopAll@WidgetA... @ 1414ffb40
+  .?AV<lambda_1>@?0??stopAll@WidgetAnimationManager@qlement... @ 1414ffbe0
+  .?AVWidgetAnimator@qlementine@oclero@@ @ 1414ffc40
+  .?AV?$_Func_base@XPEBVQWidget@@PEAVWidgetAnimator@qlement... @ 1414ffc80
+  .?AVSwitch@qlementine@oclero@@ @ 1414ffce0
+  .?AVQAbstractButton@@ @ 1414ffd10
+  .?AVComboBoxDelegate@qlementine@oclero@@ @ 1414ffd40
+  .?AVQItemDelegate@@ @ 1414ffd80
+  .?AVLineEdit@qlementine@oclero@@ @ 1414ffdb0
+  .?AVQLineEdit@@ @ 1414ffdf0
+  .?AVPlainTextEdit@qlementine@oclero@@ @ 1414ffe10
+  .?AVQPlainTextEdit@@ @ 1414ffe50
+  .?AVQAbstractScrollArea@@ @ 1414ffe80
+  .?AVQFrame@@ @ 1414ffeb0
+  .?AVFlashActionHelper@qlementine@oclero@@ @ 1414ffed0
+  .?AV?$_Func_impl_no_alloc@V<lambda_0>@?0??buildTransform@... @ 1414fff10
+  .?AV<lambda_0>@?0??buildTransform@?A0x41263C45@editor@ldv... @ 1414fffb0
+  .?AV?$_Func_impl_no_alloc@V<lambda_1>@?0??buildTransform@... @ 141500030
+  .?AV<lambda_1>@?0??buildTransform@?A0x41263C45@editor@ldv... @ 1415000d0
+  .?AV?$_Func_impl_no_alloc@V<lambda_2>@?0??buildTransform@... @ 141500150
+  .?AV<lambda_2>@?0??buildTransform@?A0x41263C45@editor@ldv... @ 1415001f0
+  .?AV?$_Func_impl_no_alloc@V<lambda_3>@?0??buildTransformM... @ 141500270
+  .?AV<lambda_3>@?0??buildTransformMulti@?A0x41263C45@edito... @ 141500340
+  .?AV?$_Func_impl_no_alloc@V<lambda_4>@?0??buildTransformM... @ 1415003f0
+  .?AV<lambda_4>@?0??buildTransformMulti@?A0x41263C45@edito... @ 1415004c0
+  .?AV?$_Func_base@XMMM@std@@ @ 1415005c0
+  .?AV?$_Ref_count_obj2@V?$vector@_KV?$allocator@_K@std@@@s... @ 1415006b0
+  .?AV?$_Ref_count_obj2@H@std@@ @ 141500740
+  .?AVCleanSpinBox@editor@ldv@@ @ 141500800
+  .?AVQDoubleSpinBox@@ @ 141500830
+  .?AVQAbstractSpinBox@@ @ 141500860
+  .?AVCollapsibleSection@editor@ldv@@ @ 141500890
+  .?AVPlainComboDelegate@editor@ldv@@ @ 1415008d0
+  .?AVCDockManager@ads@@ @ 141500990
+  .?AVCDockContainerWidget@ads@@ @ 1415009c0
+  .?AV?$basic_ifstream@DU?$char_traits@D@std@@@std@@ @ 1415009f0
+  .?AVFileSink@scene@ldv@@ @ 141500a40
+  .?AVSeverityBlockData@?A0xC3070FC8@editor@ldv@@ @ 141500aa0
+  .?AVOutputPanel@editor@ldv@@ @ 141500ae0
+  .?AVSeverityHighlighter@editor@ldv@@ @ 141500b10
+  .?AVQSyntaxHighlighter@@ @ 141500b50
+  .?AVQTextBlockUserData@@ @ 141500b80
+  .?AVLinkLabel@?A0xE1468FF4@editor@ldv@@ @ 141500bc0
+  .?AV?$_Func_impl_no_alloc@V<lambda_0>@?0???0WelcomeWidget... @ 141500c00
+  .?AV<lambda_0>@?0???0WelcomeWidget@editor@ldv@@QEAA@PEAVQ... @ 141500c80
+  .?AV?$_Func_impl_no_alloc@V<lambda_1>@?0???0WelcomeWidget... @ 141500ce0
+  .?AV<lambda_1>@?0???0WelcomeWidget@editor@ldv@@QEAA@PEAVQ... @ 141500d60
+  .?AV?$_Func_impl_no_alloc@V<lambda_2>@?0??makeRecentRow@W... @ 141500dc0
+  .?AV<lambda_2>@?0??makeRecentRow@WelcomeWidget@editor@ldv... @ 141500e50
+  .?AVWelcomeWidget@editor@ldv@@ @ 141500ec0
+  .?AVQLabel@@ @ 141500ef0
+  .?AVCDockWidget@ads@@ @ 141500f10
+  .?AVScriptEditor@editor@ldv@@ @ 141500f40
+  .?AVCPushButton@ads@@ @ 141501c20
+  .?AVQPushButton@@ @ 141501c50
+  .?AVOutliner@editor@ldv@@ @ 141501cf0
+  .?AVQTreeWidget@@ @ 141501d20
+  .?AVQTreeView@@ @ 141501d50
+  .?AVQAbstractItemView@@ @ 141501d70
+  .?AVViewportWidget@editor@ldv@@ @ 141501da0
+  .?AVRotateGizmo@editor@ldv@@ @ 141501dd0
+  .?AVGizmoHandler@editor@ldv@@ @ 141501e00
+  .?AVMoveGizmo@editor@ldv@@ @ 141501e30
+  .?AVScaleGizmo@editor@ldv@@ @ 141501e60
+  .?AV?$_Func_impl_no_alloc@V<lambda_0>@?0??Initialize@View... @ 141501e90
+  .?AV<lambda_0>@?0??Initialize@ViewportRenderer@editor@ldv... @ 141501f20
+  .?AVAssetBrowser@editor@ldv@@ @ 141501f90
+  .?AVInspector@editor@ldv@@ @ 141501fc0
+  .?AVQScrollArea@@ @ 141501ff0
+  .?AV?$_Func_impl_no_alloc@V?$_Fake_no_copy_callable_adapt... @ 141502020
+  .?AV?$_Fake_no_copy_callable_adapter@V<lambda_1>@?0???$cr... @ 141502150
+  .?AVAccountWidget@editor@ldv@@ @ 141502260
+  .?AV?$_Deferred_async_state@X@std@@ @ 141502290
+  .?AV?$_Packaged_state@$$A6AXXZ@std@@ @ 1415022d0
+  .?AV?$_Associated_state@H@std@@ @ 141502310
+  .?AVfuture_error@std@@ @ 141502340
+  .?AV_Future_error_category2@std@@ @ 141502370
+  .?AV?$_Func_impl_no_alloc@V?$_Fake_no_copy_callable_adapt... @ 1415023f0
+  .?AV?$_Fake_no_copy_callable_adapter@V<lambda_1>@?0???$cr... @ 141502580
+  .?AV?$_Func_impl_no_alloc@V?$_Fake_no_copy_callable_adapt... @ 1415026f0
+  .?AV?$_Fake_no_copy_callable_adapter@V<lambda_1>@?0???$cr... @ 141502870
+  .?AV?$_Func_impl_no_alloc@V?$_Fake_no_copy_callable_adapt... @ 1415029e0
+  .?AV?$_Fake_no_copy_callable_adapter@V<lambda_1>@?0???$cr... @ 141502af0
+  .?AV?$_Func_impl_no_alloc@V?$_Fake_no_copy_callable_adapt... @ 141502bd0
+  .?AV?$_Fake_no_copy_callable_adapter@V<lambda_1>@?0???$cr... @ 141502cf0
+  .?AVStudioSettingsDialog@editor@ldv@@ @ 141502e80
+  .?AVBufferSink@scene@ldv@@ @ 141502ec0
+  .?AVAssetFilterProxy@editor@ldv@@ @ 141502ef0
+  .?AVQSortFilterProxyModel@@ @ 141502f30
+  .?AVQAbstractProxyModel@@ @ 141502f60
+  .?AVQAbstractItemModel@@ @ 141502f90
+  .?AVAssetFileModel@editor@ldv@@ @ 141502fc0
+  .?AVQAbstractListModel@@ @ 141502ff0
+  .?AVSegmentLabel@?A0xB09729EB@editor@ldv@@ @ 141503020
+  .?AV?$_Func_impl_no_alloc@V<lambda_1>@?0???R1?0??rebuild@... @ 141503060
+  .?AV<lambda_1>@?0???R0?0??rebuild@PathBar@editor@ldv@@AEA... @ 141503100
+  .?AVPathBar@editor@ldv@@ @ 141503170
+  .?AV?$_Func_base@XAEBVQString@@@std@@ @ 1415031a0
+  .?AVPlayerEmulator@editor@ldv@@ @ 1415031e0
+  .?AV<lambda_0>@?0??Draw@TaperedCapsuleShape@JPH@@UEBAXPEA... @ 141503220
+  .?AV<lambda_1>@mTireMaxImpulseCallback@WheeledVehicleCont... @ 1415032a0
+  .?AV<lambda_0>@?0??Initialize@DebugRenderer@JPH@@IEAAXXZ@ @ 141503300
+  .?AV?$_Ref_count_obj2@U_Dir_enum_impl@filesystem@std@@@std@@ @ 141503ec0
+  .?AV?$_Func_impl_no_alloc@V<lambda_0>@?0??create_fallback... @ 1415041c0
+  .?AV<lambda_0>@?0??create_fallback_texture@@YA_NPEAUgfx_r... @ 141504250
+  .?AV?$_Func_impl_no_alloc@V<lambda_1>@?0??gfx_res_load_te... @ 1415042b0
+  .?AV<lambda_1>@?0??gfx_res_load_texture_source@@YA?AUgfx_... @ 141504370
+  .?AV?$_Func_impl_no_alloc@V<lambda_2>@?0??gfx_res_load_te... @ 141504400
+  .?AV<lambda_2>@?0??gfx_res_load_texture_source@@YA?AUgfx_... @ 1415044c0
+  .?AV?$_Func_impl_no_alloc@V<lambda_3>@?0??gfx_res_load_me... @ 141504550
+  .?AV<lambda_3>@?0??gfx_res_load_mesh@@YA?AUgfx_handle@@PE... @ 1415045f0
+  .?AV?$_Func_impl_no_alloc@V<lambda_0>@?0??create_mesh@?A0... @ 141504660
+  .?AV<lambda_0>@?0??create_mesh@?A0x627F7237@@YA_NPEAUgfx_... @ 1415046f0
+  .?AV?$_Func_impl_no_alloc@V<lambda_1>@?0??load_cubemap_fr... @ 141504750
+  .?AV<lambda_1>@?0??load_cubemap_from_path@?A0x627F7237@@Y... @ 1415047f0
+  .?AV?$_Func_impl_no_alloc@V<lambda_1>@?0??create_geometry... @ 141504860
+  .?AV<lambda_1>@?0??create_geometry@@YAXPEAUgfx_object_poo... @ 141504900
+  .?AV?$_Func_impl_no_alloc@V<lambda_0>@?0??create_instance... @ 141504970
+  .?AV<lambda_0>@?0??create_instance_index_buffer@@YA_NPEAU... @ 141504a10
+  .?AVIAccelStruct@rt@nvrhi@@ @ 141504ab0
+  .?AVAccelStructWrapper@validation@nvrhi@@ @ 141504ae0
+  .?AVICommandList@nvrhi@@ @ 141504b20
+  .?AVCommandListWrapper@validation@nvrhi@@ @ 141504b50
+  .?AVIResource@nvrhi@@ @ 141504b90
+  .?AVDeviceWrapper@validation@nvrhi@@ @ 141504bc0
+  .?AV?$RefCounter@VIDevice@nvrhi@@@nvrhi@@ @ 141504c00
+  .?AVIDevice@nvrhi@@ @ 141504c40
+  .?AV?$RefCounter@VIAccelStruct@rt@nvrhi@@@nvrhi@@ @ 141504c70
+  .?AVLoggingCallback@?A0x362DC738@gfx@ldv@@ @ 141504cd0
+  .?AVDeviceLostError@vk@@ @ 141504d10
+  .?AVDevice@vulkan@nvrhi@@ @ 141504d40
+  .?AV?$RefCounter@VIDevice@vulkan@nvrhi@@@nvrhi@@ @ 141504d70
+  .?AVIDevice@vulkan@nvrhi@@ @ 141504dc0
+  .?AVHeap@vulkan@nvrhi@@ @ 141504df0
+  .?AVMemoryResource@vulkan@nvrhi@@ @ 141504e20
+  .?AV?$RefCounter@VIHeap@nvrhi@@@nvrhi@@ @ 141504e60
+  .?AVIHeap@nvrhi@@ @ 141504ea0
+  .?AVOutOfHostMemoryError@vk@@ @ 141504ed0
+  .?AVSystemError@vk@@ @ 141504f00
+  .?AVError@vk@@ @ 141504f30
+  .?AVOutOfDeviceMemoryError@vk@@ @ 141504f50
+  .?AVInitializationFailedError@vk@@ @ 141504f80
+  .?AVMemoryMapFailedError@vk@@ @ 141504fc0
+  .?AVLayerNotPresentError@vk@@ @ 141504ff0
+  .?AVExtensionNotPresentError@vk@@ @ 141505020
+  .?AVFeatureNotPresentError@vk@@ @ 141505060
+  .?AVIncompatibleDriverError@vk@@ @ 141505090
+  .?AVTooManyObjectsError@vk@@ @ 1415050d0
+  .?AVFormatNotSupportedError@vk@@ @ 141505100
+  .?AVFragmentedPoolError@vk@@ @ 141505140
+  .?AVUnknownError@vk@@ @ 141505170
+  .?AVValidationFailedError@vk@@ @ 1415051a0
+  .?AVOutOfPoolMemoryError@vk@@ @ 1415051d0
+  .?AVInvalidExternalHandleError@vk@@ @ 141505200
+  .?AVFragmentationError@vk@@ @ 141505240
+  .?AVInvalidOpaqueCaptureAddressError@vk@@ @ 141505270
+  .?AVNotPermittedError@vk@@ @ 1415052b0
+  .?AVSurfaceLostKHRError@vk@@ @ 1415052e0
+  .?AVNativeWindowInUseKHRError@vk@@ @ 141505310
+  .?AVOutOfDateKHRError@vk@@ @ 141505350
+  .?AVIncompatibleDisplayKHRError@vk@@ @ 141505380
+  .?AVInvalidShaderNVError@vk@@ @ 1415053c0
+  .?AVImageUsageNotSupportedKHRError@vk@@ @ 1415053f0
+  .?AVVideoPictureLayoutNotSupportedKHRError@vk@@ @ 141505430
+  .?AVVideoProfileOperationNotSupportedKHRError@vk@@ @ 141505470
+  .?AVVideoProfileFormatNotSupportedKHRError@vk@@ @ 1415054c0
+  .?AVVideoProfileCodecNotSupportedKHRError@vk@@ @ 141505500
+  .?AVVideoStdVersionNotSupportedKHRError@vk@@ @ 141505540
+  .?AVInvalidDrmFormatModifierPlaneLayoutEXTError@vk@@ @ 141505580
+  .?AVFullScreenExclusiveModeLostEXTError@vk@@ @ 1415055d0
+  .?AVInvalidVideoStdParametersKHRError@vk@@ @ 141505610
+  .?AVCompressionExhaustedEXTError@vk@@ @ 141505650
+  .?AVNotEnoughSpaceKHRError@vk@@ @ 141505690
+  .?AVErrorCategoryImpl@vk@@ @ 1415056d0
+  .?AVDevice@d3d12@nvrhi@@ @ 141505700
+  .?AV?$RefCounter@VIDevice@d3d12@nvrhi@@@nvrhi@@ @ 141505730
+  .?AVIDevice@d3d12@nvrhi@@ @ 141505770
+  .?AVSampler@d3d12@nvrhi@@ @ 1415057a0
+  .?AV?$RefCounter@VISampler@nvrhi@@@nvrhi@@ @ 1415057d0
+  .?AVISampler@nvrhi@@ @ 141505810
+  .?AVStaticDescriptorHeap@d3d12@nvrhi@@ @ 141505840
+  .?AVIDescriptorHeap@d3d12@nvrhi@@ @ 141505880
+  .?AVHeap@d3d12@nvrhi@@ @ 1415058c0
+  .?AVThemeManager@qlementine@oclero@@ @ 1415058f0
+  .?AVAction@qlementine@oclero@@ @ 141505930
+  .?AVQAction@@ @ 141505960
+  .?AVColorButton@qlementine@oclero@@ @ 141505980
+  .?AVColorEditor@qlementine@oclero@@ @ 1415059c0
+  .?AVExpander@qlementine@oclero@@ @ 141505a00
+  .?AVIconWidget@qlementine@oclero@@ @ 141505a40
+  .?AVLabel@qlementine@oclero@@ @ 141505a80
+  .?AVLoadingSpinner@qlementine@oclero@@ @ 141505ab0
+  .?AVNotificationBadge@qlementine@oclero@@ @ 141505af0
+  .?AV?$_Func_impl_no_alloc@V<lambda_0>@?0???0Popover@qleme... @ 141505b30
+  .?AV<lambda_0>@?0???0Popover@qlementine@oclero@@QEAA@PEAV... @ 141505bb0
+  .?AVPopover@qlementine@oclero@@ @ 141505c10
+  .?AVPopoverFrame@Popover@qlementine@oclero@@ @ 141505c40
+  .?AVPopoverButton@qlementine@oclero@@ @ 141505c80
+  .?AVStatusBadgeWidget@qlementine@oclero@@ @ 141505cc0
+  .?AVThemeEditor@qlementine@oclero@@ @ 141505d00
+  .?AV?$_Func_impl_no_alloc@V<lambda_1>@?0??setupColorEdito... @ 141505d40
+  .?AV?$_Func_base@XAEBVQColor@@@std@@ @ 141505de0
+  .?AV<lambda_1>@?0??setupColorEditors@Impl@ThemeEditor@qle... @ 141505e20
+  .?AV?$_Func_impl_no_alloc@V<lambda_2>@?0??setupColorEdito... @ 141505ea0
+  .?AV<lambda_2>@?0??setupColorEditors@Impl@ThemeEditor@qle... @ 141505f40
+  .?AV?$_Func_impl_no_alloc@V<lambda_3>@?0??setupColorEdito... @ 141505fc0
+  .?AV<lambda_3>@?0??setupColorEditors@Impl@ThemeEditor@qle... @ 141506060
+  .?AV?$_Func_impl_no_alloc@V<lambda_4>@?0??setupColorEdito... @ 1415060e0
+  .?AV<lambda_4>@?0??setupColorEditors@Impl@ThemeEditor@qle... @ 141506180
+  .?AV?$_Func_impl_no_alloc@V<lambda_5>@?0??setupColorEdito... @ 141506200
+  .?AV<lambda_5>@?0??setupColorEditors@Impl@ThemeEditor@qle... @ 1415062a0
+  .?AV?$_Func_impl_no_alloc@V<lambda_6>@?0??setupColorEdito... @ 141506320
+  .?AV<lambda_6>@?0??setupColorEditors@Impl@ThemeEditor@qle... @ 1415063c0
+  .?AV?$_Func_impl_no_alloc@V<lambda_7>@?0??setupColorEdito... @ 141506440
+  .?AV<lambda_7>@?0??setupColorEditors@Impl@ThemeEditor@qle... @ 1415064e0
+  .?AV?$_Func_impl_no_alloc@V<lambda_8>@?0??setupColorEdito... @ 141506560
+  .?AV<lambda_8>@?0??setupColorEditors@Impl@ThemeEditor@qle... @ 141506600
+  .?AV?$_Func_impl_no_alloc@V<lambda_9>@?0??setupColorEdito... @ 141506680
+  .?AV<lambda_9>@?0??setupColorEditors@Impl@ThemeEditor@qle... @ 141506720
+  .?AV?$_Func_impl_no_alloc@V<lambda_10>@?0??setupColorEdit... @ 1415067a0
+  .?AV<lambda_10>@?0??setupColorEditors@Impl@ThemeEditor@ql... @ 141506840
+  .?AV?$_Func_impl_no_alloc@V<lambda_11>@?0??setupColorEdit... @ 1415068c0
+  .?AV<lambda_11>@?0??setupColorEditors@Impl@ThemeEditor@ql... @ 141506960
+  .?AV?$_Func_impl_no_alloc@V<lambda_12>@?0??setupColorEdit... @ 1415069e0
+  .?AV<lambda_12>@?0??setupColorEditors@Impl@ThemeEditor@ql... @ 141506a80
+  .?AV?$_Func_impl_no_alloc@V<lambda_13>@?0??setupColorEdit... @ 141506b00
+  .?AV<lambda_13>@?0??setupColorEditors@Impl@ThemeEditor@ql... @ 141506ba0
+  .?AV?$_Func_impl_no_alloc@V<lambda_14>@?0??setupColorEdit... @ 141506c20
+  .?AV<lambda_14>@?0??setupColorEditors@Impl@ThemeEditor@ql... @ 141506cc0
+  .?AV?$_Func_impl_no_alloc@V<lambda_15>@?0??setupColorEdit... @ 141506d40
+  .?AV<lambda_15>@?0??setupColorEditors@Impl@ThemeEditor@ql... @ 141506de0
+  .?AV?$_Func_impl_no_alloc@V<lambda_16>@?0??setupColorEdit... @ 141506e60
+  .?AV<lambda_16>@?0??setupColorEditors@Impl@ThemeEditor@ql... @ 141506f00
+  .?AV?$_Func_impl_no_alloc@V<lambda_17>@?0??setupColorEdit... @ 141506f80
+  .?AV<lambda_17>@?0??setupColorEditors@Impl@ThemeEditor@ql... @ 141507020
+  .?AV?$_Func_impl_no_alloc@V<lambda_18>@?0??setupColorEdit... @ 1415070a0
+  .?AV<lambda_18>@?0??setupColorEditors@Impl@ThemeEditor@ql... @ 141507140
+  .?AV?$_Func_impl_no_alloc@V<lambda_19>@?0??setupColorEdit... @ 1415071c0
+  .?AV<lambda_19>@?0??setupColorEditors@Impl@ThemeEditor@ql... @ 141507260
+  .?AV?$_Func_impl_no_alloc@V<lambda_20>@?0??setupColorEdit... @ 1415072e0
+  .?AV<lambda_20>@?0??setupColorEditors@Impl@ThemeEditor@ql... @ 141507380
+  .?AV?$_Func_impl_no_alloc@V<lambda_21>@?0??setupColorEdit... @ 141507400
+  .?AV<lambda_21>@?0??setupColorEditors@Impl@ThemeEditor@ql... @ 1415074a0
+  .?AV?$_Func_impl_no_alloc@V<lambda_22>@?0??setupColorEdit... @ 141507520
+  .?AV<lambda_22>@?0??setupColorEditors@Impl@ThemeEditor@ql... @ 1415075c0
+  .?AV?$_Func_impl_no_alloc@V<lambda_23>@?0??setupColorEdit... @ 141507640
+  .?AV<lambda_23>@?0??setupColorEditors@Impl@ThemeEditor@ql... @ 1415076e0
+  .?AV?$_Func_impl_no_alloc@V<lambda_24>@?0??setupColorEdit... @ 141507760
+  .?AV<lambda_24>@?0??setupColorEditors@Impl@ThemeEditor@ql... @ 141507800
+  .?AV?$_Func_impl_no_alloc@V<lambda_25>@?0??setupColorEdit... @ 141507880
+  .?AV<lambda_25>@?0??setupColorEditors@Impl@ThemeEditor@ql... @ 141507920
+  .?AV?$_Func_impl_no_alloc@V<lambda_26>@?0??setupColorEdit... @ 1415079a0
+  .?AV<lambda_26>@?0??setupColorEditors@Impl@ThemeEditor@ql... @ 141507a40
+  .?AV?$_Func_impl_no_alloc@V<lambda_27>@?0??setupColorEdit... @ 141507ac0
+  .?AV<lambda_27>@?0??setupColorEditors@Impl@ThemeEditor@ql... @ 141507b60
+  .?AV?$_Func_impl_no_alloc@V<lambda_28>@?0??setupColorEdit... @ 141507be0
+  .?AV<lambda_28>@?0??setupColorEditors@Impl@ThemeEditor@ql... @ 141507c80
+  .?AV?$_Func_impl_no_alloc@V<lambda_29>@?0??setupColorEdit... @ 141507d00
+  .?AV<lambda_29>@?0??setupColorEditors@Impl@ThemeEditor@ql... @ 141507da0
+  .?AV?$_Func_impl_no_alloc@V<lambda_30>@?0??setupColorEdit... @ 141507e20
+  .?AV<lambda_30>@?0??setupColorEditors@Impl@ThemeEditor@ql... @ 141507ec0
+  .?AV?$_Func_impl_no_alloc@V<lambda_31>@?0??setupColorEdit... @ 141507f40
+  .?AV<lambda_31>@?0??setupColorEditors@Impl@ThemeEditor@ql... @ 141507fe0
+  .?AV?$_Func_impl_no_alloc@V<lambda_32>@?0??setupColorEdit... @ 141508060
+  .?AV<lambda_32>@?0??setupColorEditors@Impl@ThemeEditor@ql... @ 141508100
+  .?AV?$_Func_impl_no_alloc@V<lambda_33>@?0??setupColorEdit... @ 141508180
+  .?AV<lambda_33>@?0??setupColorEditors@Impl@ThemeEditor@ql... @ 141508220
+  .?AV?$_Func_impl_no_alloc@V<lambda_34>@?0??setupColorEdit... @ 1415082a0
+  .?AV<lambda_34>@?0??setupColorEditors@Impl@ThemeEditor@ql... @ 141508340
+  .?AV?$_Func_impl_no_alloc@V<lambda_35>@?0??setupColorEdit... @ 1415083c0
+  .?AV<lambda_35>@?0??setupColorEditors@Impl@ThemeEditor@ql... @ 141508460
+  .?AV?$_Func_impl_no_alloc@V<lambda_36>@?0??setupColorEdit... @ 1415084e0
+  .?AV<lambda_36>@?0??setupColorEditors@Impl@ThemeEditor@ql... @ 141508580
+  .?AV?$_Func_impl_no_alloc@V<lambda_37>@?0??setupColorEdit... @ 141508600
+  .?AV<lambda_37>@?0??setupColorEditors@Impl@ThemeEditor@ql... @ 1415086a0
+  .?AV?$_Func_impl_no_alloc@V<lambda_38>@?0??setupColorEdit... @ 141508720
+  .?AV<lambda_38>@?0??setupColorEditors@Impl@ThemeEditor@ql... @ 1415087c0
+  .?AV?$_Func_impl_no_alloc@V<lambda_39>@?0??setupColorEdit... @ 141508840
+  .?AV<lambda_39>@?0??setupColorEditors@Impl@ThemeEditor@ql... @ 1415088e0
+  .?AV?$_Func_impl_no_alloc@V<lambda_40>@?0??setupColorEdit... @ 141508960
+  .?AV<lambda_40>@?0??setupColorEditors@Impl@ThemeEditor@ql... @ 141508a00
+  .?AV?$_Func_impl_no_alloc@V<lambda_41>@?0??setupColorEdit... @ 141508a80
+  .?AV<lambda_41>@?0??setupColorEditors@Impl@ThemeEditor@ql... @ 141508b20
+  .?AV?$_Func_impl_no_alloc@V<lambda_42>@?0??setupColorEdit... @ 141508ba0
+  .?AV<lambda_42>@?0??setupColorEditors@Impl@ThemeEditor@ql... @ 141508c40
+  .?AV?$_Func_impl_no_alloc@V<lambda_43>@?0??setupColorEdit... @ 141508cc0
+  .?AV<lambda_43>@?0??setupColorEditors@Impl@ThemeEditor@ql... @ 141508d60
+  .?AV?$_Func_impl_no_alloc@V<lambda_44>@?0??setupColorEdit... @ 141508de0
+  .?AV<lambda_44>@?0??setupColorEditors@Impl@ThemeEditor@ql... @ 141508e80
+  .?AV?$_Func_impl_no_alloc@V<lambda_45>@?0??setupColorEdit... @ 141508f00
+  .?AV<lambda_45>@?0??setupColorEditors@Impl@ThemeEditor@ql... @ 141508fa0
+  .?AV?$_Func_impl_no_alloc@V<lambda_46>@?0??setupColorEdit... @ 141509020
+  .?AV<lambda_46>@?0??setupColorEditors@Impl@ThemeEditor@ql... @ 1415090c0
+  .?AV?$_Func_impl_no_alloc@V<lambda_47>@?0??setupColorEdit... @ 141509140
+  .?AV<lambda_47>@?0??setupColorEditors@Impl@ThemeEditor@ql... @ 1415091e0
+  .?AV?$_Func_impl_no_alloc@V<lambda_48>@?0??setupColorEdit... @ 141509260
+  .?AV<lambda_48>@?0??setupColorEditors@Impl@ThemeEditor@ql... @ 141509300
+  .?AV?$_Func_impl_no_alloc@V<lambda_49>@?0??setupColorEdit... @ 141509380
+  .?AV<lambda_49>@?0??setupColorEditors@Impl@ThemeEditor@ql... @ 141509420
+  .?AV?$_Func_impl_no_alloc@V<lambda_50>@?0??setupColorEdit... @ 1415094a0
+  .?AV<lambda_50>@?0??setupColorEditors@Impl@ThemeEditor@ql... @ 141509540
+  .?AV?$_Func_impl_no_alloc@V<lambda_51>@?0??setupColorEdit... @ 1415095c0
+  .?AV<lambda_51>@?0??setupColorEditors@Impl@ThemeEditor@ql... @ 141509660
+  .?AV?$_Func_impl_no_alloc@V<lambda_52>@?0??setupColorEdit... @ 1415096e0
+  .?AV<lambda_52>@?0??setupColorEditors@Impl@ThemeEditor@ql... @ 141509780
+  .?AV?$_Func_impl_no_alloc@V<lambda_53>@?0??setupColorEdit... @ 141509800
+  .?AV<lambda_53>@?0??setupColorEditors@Impl@ThemeEditor@ql... @ 1415098a0
+  .?AV?$_Func_impl_no_alloc@V<lambda_54>@?0??setupColorEdit... @ 141509920
+  .?AV<lambda_54>@?0??setupColorEditors@Impl@ThemeEditor@ql... @ 1415099c0
+  .?AV?$_Func_impl_no_alloc@V<lambda_55>@?0??setupColorEdit... @ 141509a40
+  .?AV<lambda_55>@?0??setupColorEditors@Impl@ThemeEditor@ql... @ 141509ae0
+  .?AV?$_Func_impl_no_alloc@V<lambda_56>@?0??setupColorEdit... @ 141509b60
+  .?AV<lambda_56>@?0??setupColorEditors@Impl@ThemeEditor@ql... @ 141509c00
+  .?AV?$_Func_impl_no_alloc@V<lambda_57>@?0??setupColorEdit... @ 141509c80
+  .?AV<lambda_57>@?0??setupColorEditors@Impl@ThemeEditor@ql... @ 141509d20
+  .?AV?$_Func_impl_no_alloc@V<lambda_58>@?0??setupColorEdit... @ 141509da0
+  .?AV<lambda_58>@?0??setupColorEditors@Impl@ThemeEditor@ql... @ 141509e40
+  .?AV?$_Func_impl_no_alloc@V<lambda_59>@?0??setupColorEdit... @ 141509ec0
+  .?AV<lambda_59>@?0??setupColorEditors@Impl@ThemeEditor@ql... @ 141509f60
+  .?AV?$_Func_impl_no_alloc@V<lambda_60>@?0??setupColorEdit... @ 141509fe0
+  .?AV<lambda_60>@?0??setupColorEditors@Impl@ThemeEditor@ql... @ 14150a080
+  .?AV?$_Func_impl_no_alloc@V<lambda_61>@?0??setupColorEdit... @ 14150a100
+  .?AV<lambda_61>@?0??setupColorEditors@Impl@ThemeEditor@ql... @ 14150a1a0
+  .?AV?$_Func_impl_no_alloc@V<lambda_62>@?0??setupColorEdit... @ 14150a220
+  .?AV<lambda_62>@?0??setupColorEditors@Impl@ThemeEditor@ql... @ 14150a2c0
+  .?AV?$_Func_impl_no_alloc@V<lambda_63>@?0??setupColorEdit... @ 14150a340
+  .?AV<lambda_63>@?0??setupColorEditors@Impl@ThemeEditor@ql... @ 14150a3e0
+  .?AV?$_Func_impl_no_alloc@V<lambda_64>@?0??setupColorEdit... @ 14150a460
+  .?AV<lambda_64>@?0??setupColorEditors@Impl@ThemeEditor@ql... @ 14150a500
+  .?AV?$_Func_impl_no_alloc@V<lambda_65>@?0??setupColorEdit... @ 14150a580
+  .?AV<lambda_65>@?0??setupColorEditors@Impl@ThemeEditor@ql... @ 14150a620
+  .?AV?$_Func_impl_no_alloc@V<lambda_66>@?0??setupColorEdit... @ 14150a6a0
+  .?AV<lambda_66>@?0??setupColorEditors@Impl@ThemeEditor@ql... @ 14150a740
+  .?AV?$_Func_impl_no_alloc@V<lambda_67>@?0??setupColorEdit... @ 14150a7c0
+  .?AV<lambda_67>@?0??setupColorEditors@Impl@ThemeEditor@ql... @ 14150a860
+  .?AVAboutDialog@qlementine@oclero@@ @ 14150a8e0
+  .?AVActionButton@qlementine@oclero@@ @ 14150a920
+  .?AV?$_Func_impl_no_alloc@V<lambda_0>@?0??buildVec3@?A0x6... @ 14150a960
+  .?AV<lambda_0>@?0??buildVec3@?A0x64E603A3@editor@ldv@@YAX... @ 14150aa40
+  .?AV?$_Func_impl_no_alloc@V<lambda_1>@?0??buildMultiVec3@... @ 14150ab00
+  .?AV<lambda_1>@?0??buildMultiVec3@?A0x64E603A3@editor@ldv... @ 14150ac00
+  .?AVCDockComponentsFactory@ads@@ @ 14150ad20
+  .?AVCFloatingDockContainer@ads@@ @ 14150ad60
+  .?AVIFloatingWidget@ads@@ @ 14150ada0
+  .?AVCAutoHideDockContainer@ads@@ @ 14150add0
+  .?AVCDockAreaWidget@ads@@ @ 14150ae10
+  .?AVCDockOverlay@ads@@ @ 14150ae40
+  .?AVCDockOverlayCross@ads@@ @ 14150ae70
+  .?AVCDockFocusController@ads@@ @ 14150aea0
+  .?AV?$_Func_impl_no_alloc@V<lambda_1>@?0???$registerConve... @ 14150afb0
+  .?AV<lambda_1>@?0???$registerConverter@V?$QPointer@VCDock... @ 14150b0f0
+  .?AVCIconProvider@ads@@ @ 14150b200
+  .?AVCDockWidgetTab@ads@@ @ 14150b240
+  .?AVQsciScintilla@@ @ 14150b270
+  .?AVQsciScintillaBase@@ @ 14150b2a0
+  .?AVQsciLexerLua@@ @ 14150b2d0
+  .?AVQsciLexer@@ @ 14150b300
+  .?AVCAutoHideSideBar@ads@@ @ 14150b320
+  .?AVCTabsWidget@ads@@ @ 14150b350
+  .?AVCAutoHideTab@ads@@ @ 14150b380
+  .?AV?$_Func_impl_no_alloc@V<lambda_1>@?0???$registerConve... @ 14150b420
+  .?AV<lambda_1>@?0???$registerConverter@V?$QPointer@VCAuto... @ 14150b580
+  .?AVCDockAreaTabBar@ads@@ @ 14150b6b0
+  .?AVCDockAreaTitleBar@ads@@ @ 14150b6e0
+  .?AVCTitleBarButton@ads@@ @ 14150b710
+  .?AVQToolButton@@ @ 14150b740
+  .?AVCSpacerWidget@ads@@ @ 14150b770
+  .?AVCFloatingDragPreview@ads@@ @ 14150b7a0
+  .?AVCResizeHandle@ads@@ @ 14150b7d0
+  .?AVCDockSplitter@ads@@ @ 14150b800
+  .?AVQSplitter@@ @ 14150b830
+  .?AVCElidingLabel@ads@@ @ 14150b850
+  .?AV?$_Func_impl_no_alloc@VContentProviderAdapter@detail@... @ 14150b8a0
+  .?AV?$_Func_base@_N_K_KAEAVDataSink@httplib@@@std@@ @ 14150b910
+  .?AVContentProviderAdapter@detail@httplib@@ @ 14150b960
+  .?AVlua_exception@@ @ 14150e520
+  .?AVAstAttr@Luau@@ @ 14150e550
+  .?AVAstNode@Luau@@ @ 14150e580
+  .?AVAstGenericType@Luau@@ @ 14150e5b0
+  .?AVAstGenericTypePack@Luau@@ @ 14150e5e0
+  .?AVAstExprGroup@Luau@@ @ 14150e610
+  .?AVAstExpr@Luau@@ @ 14150e640
+  .?AVAstExprConstantNil@Luau@@ @ 14150e670
+  .?AVAstExprConstantBool@Luau@@ @ 14150e6a0
+  .?AVAstExprConstantNumber@Luau@@ @ 14150e6d0
+  .?AVAstExprConstantString@Luau@@ @ 14150e710
+  .?AVAstExprLocal@Luau@@ @ 14150e750
+  .?AVAstExprGlobal@Luau@@ @ 14150e780
+  .?AVAstExprVarargs@Luau@@ @ 14150e7b0
+  .?AVAstExprCall@Luau@@ @ 14150e7e0
+  .?AVAstExprIndexName@Luau@@ @ 14150e810
+  .?AVAstExprIndexExpr@Luau@@ @ 14150e840
+  .?AVAstExprFunction@Luau@@ @ 14150e870
+  .?AVAstExprTable@Luau@@ @ 14150e8a0
+  .?AVAstExprUnary@Luau@@ @ 14150e8d0
+  .?AVAstExprBinary@Luau@@ @ 14150e900
+  .?AVAstExprTypeAssertion@Luau@@ @ 14150e930
+  .?AVAstExprIfElse@Luau@@ @ 14150e960
+  .?AVAstExprError@Luau@@ @ 14150e990
+  .?AVAstExprInterpString@Luau@@ @ 14150e9c0
+  .?AVAstExprInstantiate@Luau@@ @ 14150e9f0
+  .?AVAstStatBlock@Luau@@ @ 14150ea20
+  .?AVAstStat@Luau@@ @ 14150ea50
+  .?AVAstStatIf@Luau@@ @ 14150ea80
+  .?AVAstStatWhile@Luau@@ @ 14150eab0
+  .?AVAstStatRepeat@Luau@@ @ 14150eae0
+  .?AVAstStatBreak@Luau@@ @ 14150eb10
+  .?AVAstStatContinue@Luau@@ @ 14150eb40
+  .?AVAstStatReturn@Luau@@ @ 14150eb70
+  .?AVAstStatExpr@Luau@@ @ 14150eba0
+  .?AVAstStatLocal@Luau@@ @ 14150ebd0
+  .?AVAstStatFor@Luau@@ @ 14150ec00
+  .?AVAstStatForIn@Luau@@ @ 14150ec30
+  .?AVAstStatAssign@Luau@@ @ 14150ec60
+  .?AVAstStatCompoundAssign@Luau@@ @ 14150ec90
+  .?AVAstStatFunction@Luau@@ @ 14150ecd0
+  .?AVAstStatLocalFunction@Luau@@ @ 14150ed00
+  .?AVAstStatTypeAlias@Luau@@ @ 14150ed30
+  .?AVAstStatTypeFunction@Luau@@ @ 14150ed60
+  .?AVAstStatDeclareGlobal@Luau@@ @ 14150ed90
+  .?AVAstStatDeclareFunction@Luau@@ @ 14150edc0
+  .?AVAstStatDeclareExternType@Luau@@ @ 14150ee00
+  .?AVAstStatError@Luau@@ @ 14150ee40
+  .?AVAstTypeReference@Luau@@ @ 14150ee70
+  .?AVAstType@Luau@@ @ 14150eea0
+  .?AVAstTypeTable@Luau@@ @ 14150eed0
+  .?AVAstTypeFunction@Luau@@ @ 14150ef00
+  .?AVAstTypeTypeof@Luau@@ @ 14150ef30
+  .?AVAstTypeOptional@Luau@@ @ 14150ef60
+  .?AVAstTypeUnion@Luau@@ @ 14150ef90
+  .?AVAstTypeIntersection@Luau@@ @ 14150efc0
+  .?AVAstTypeSingletonBool@Luau@@ @ 14150eff0
+  .?AVAstTypeSingletonString@Luau@@ @ 14150f020
+  .?AVAstTypeGroup@Luau@@ @ 14150f060
+  .?AVAstTypeError@Luau@@ @ 14150f090
+  .?AVAstTypePackExplicit@Luau@@ @ 14150f0c0
+  .?AVAstTypePack@Luau@@ @ 14150f0f0
+  .?AVAstTypePackVariadic@Luau@@ @ 14150f120
+  .?AVAstTypePackGeneric@Luau@@ @ 14150f150
+  .?AVCompileError@Luau@@ @ 14150f180
+  .?AVAstVisitor@Luau@@ @ 14150f1f0
+  .?AVParseError@Luau@@ @ 14150f3f0
+  .?AV?$RefCounter@VICommandList@nvrhi@@@nvrhi@@ @ 141513680
+  .?AV?$_Ref_count_obj2@VTrackedCommandBuffer@vulkan@nvrhi@... @ 1415136c0
+  .?AVCommandList@vulkan@nvrhi@@ @ 141513720
+  .?AVTexture@vulkan@nvrhi@@ @ 141513750
+  .?AV?$RefCounter@VITexture@nvrhi@@@nvrhi@@ @ 141513780
+  .?AVITexture@nvrhi@@ @ 1415137c0
+  .?AVSampler@vulkan@nvrhi@@ @ 141513830
+  .?AVStagingTexture@vulkan@nvrhi@@ @ 141513860
+  .?AV?$RefCounter@VIStagingTexture@nvrhi@@@nvrhi@@ @ 1415138a0
+  .?AVIStagingTexture@nvrhi@@ @ 1415138f0
+  .?AVBuffer@vulkan@nvrhi@@ @ 141513920
+  .?AV?$RefCounter@VIBuffer@nvrhi@@@nvrhi@@ @ 141513950
+  .?AVIBuffer@nvrhi@@ @ 141513990
+  .?AVShader@vulkan@nvrhi@@ @ 141513a00
+  .?AV?$RefCounter@VIShader@nvrhi@@@nvrhi@@ @ 141513a30
+  .?AVIShader@nvrhi@@ @ 141513a70
+  .?AVShaderLibrary@vulkan@nvrhi@@ @ 141513aa0
+  .?AV?$RefCounter@VIShaderLibrary@nvrhi@@@nvrhi@@ @ 141513ae0
+  .?AVIShaderLibrary@nvrhi@@ @ 141513b30
+  .?AVInputLayout@vulkan@nvrhi@@ @ 141513b60
+  .?AV?$RefCounter@VIInputLayout@nvrhi@@@nvrhi@@ @ 141513b90
+  .?AVIInputLayout@nvrhi@@ @ 141513bd0
+  .?AVTimerQuery@vulkan@nvrhi@@ @ 141513c00
+  .?AV?$RefCounter@VITimerQuery@nvrhi@@@nvrhi@@ @ 141513c30
+  .?AVITimerQuery@nvrhi@@ @ 141513c70
+  .?AVEventQuery@vulkan@nvrhi@@ @ 141513ca0
+  .?AV?$RefCounter@VIEventQuery@nvrhi@@@nvrhi@@ @ 141513cd0
+  .?AVIEventQuery@nvrhi@@ @ 141513d10
+  .?AVGraphicsPipeline@vulkan@nvrhi@@ @ 141513d40
+  .?AV?$RefCounter@VIGraphicsPipeline@nvrhi@@@nvrhi@@ @ 141513d80
+  .?AVIGraphicsPipeline@nvrhi@@ @ 141513dd0
+  .?AVFramebuffer@vulkan@nvrhi@@ @ 141513e00
+  .?AV?$RefCounter@VIFramebuffer@nvrhi@@@nvrhi@@ @ 141513e30
+  .?AVIFramebuffer@nvrhi@@ @ 141513e70
+  .?AVComputePipeline@vulkan@nvrhi@@ @ 141513ea0
+  .?AV?$RefCounter@VIComputePipeline@nvrhi@@@nvrhi@@ @ 141513ee0
+  .?AVIComputePipeline@nvrhi@@ @ 141513f30
+  .?AVMeshletPipeline@vulkan@nvrhi@@ @ 141513f60
+  .?AV?$RefCounter@VIMeshletPipeline@nvrhi@@@nvrhi@@ @ 141513fa0
+  .?AVIMeshletPipeline@nvrhi@@ @ 141513ff0
+  .?AVAccelStruct@vulkan@nvrhi@@ @ 141514020
+  .?AVOpacityMicromap@vulkan@nvrhi@@ @ 141514050
+  .?AV?$RefCounter@VIOpacityMicromap@rt@nvrhi@@@nvrhi@@ @ 141514090
+  .?AVIOpacityMicromap@rt@nvrhi@@ @ 1415140e0
+  .?AVRayTracingPipeline@vulkan@nvrhi@@ @ 141514110
+  .?AV?$RefCounter@VIPipeline@rt@nvrhi@@@nvrhi@@ @ 141514150
+  .?AVIPipeline@rt@nvrhi@@ @ 141514190
+  .?AVShaderTable@vulkan@nvrhi@@ @ 1415141c0
+  .?AV?$RefCounter@VIShaderTable@rt@nvrhi@@@nvrhi@@ @ 1415141f0
+  .?AVIShaderTable@rt@nvrhi@@ @ 141514240
+  .?AVLogicError@vk@@ @ 141514270
+  .?AVBindingLayout@vulkan@nvrhi@@ @ 1415142a0
+  .?AV?$RefCounter@VIBindingLayout@nvrhi@@@nvrhi@@ @ 1415142e0
+  .?AVIBindingLayout@nvrhi@@ @ 141514330
+  .?AVBindingSet@vulkan@nvrhi@@ @ 141514360
+  .?AV?$RefCounter@VIBindingSet@nvrhi@@@nvrhi@@ @ 141514390
+  .?AVIBindingSet@nvrhi@@ @ 1415143d0
+  .?AVDescriptorTable@vulkan@nvrhi@@ @ 141514400
+  .?AV?$RefCounter@VIDescriptorTable@nvrhi@@@nvrhi@@ @ 141514440
+  .?AVIDescriptorTable@nvrhi@@ @ 141514490
+  .?AVCommandList@d3d12@nvrhi@@ @ 1415144c0
+  .?AV?$RefCounter@VICommandList@d3d12@nvrhi@@@nvrhi@@ @ 1415144f0
+  .?AVICommandList@d3d12@nvrhi@@ @ 141514540
+  .?AV?$_Ref_count_obj2@VInternalCommandList@d3d12@nvrhi@@@... @ 141514570
+  .?AV?$_Ref_count_obj2@VCommandListInstance@d3d12@nvrhi@@@... @ 1415145c0
+  .?AVTexture@d3d12@nvrhi@@ @ 141514610
+  .?AVStagingTexture@d3d12@nvrhi@@ @ 141514640
+  .?AVSamplerFeedbackTexture@d3d12@nvrhi@@ @ 141514680
+  .?AV?$RefCounter@VISamplerFeedbackTexture@nvrhi@@@nvrhi@@ @ 1415146c0
+  .?AVISamplerFeedbackTexture@nvrhi@@ @ 141514710
+  .?AV?$basic_stringstream@_WU?$char_traits@_W@std@@V?$allo... @ 141514750
+  .?AV?$basic_iostream@_WU?$char_traits@_W@std@@@std@@ @ 1415147b0
+  .?AV?$basic_istream@_WU?$char_traits@_W@std@@@std@@ @ 141514800
+  .?AV?$basic_ios@_WU?$char_traits@_W@std@@@std@@ @ 141514850
+  .?AV?$basic_ostream@_WU?$char_traits@_W@std@@@std@@ @ 141514890
+  .?AV?$basic_stringbuf@_WU?$char_traits@_W@std@@V?$allocat... @ 1415148e0
+  .?AV?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@ @ 141514940
+  .?AVBuffer@d3d12@nvrhi@@ @ 141514990
+  .?AVShader@d3d12@nvrhi@@ @ 1415149c0
+  .?AVShaderLibrary@d3d12@nvrhi@@ @ 1415149f0
+  .?AVInputLayout@d3d12@nvrhi@@ @ 141514a20
+  .?AVShaderLibraryEntry@d3d12@nvrhi@@ @ 141514a50
+  .?AVTimerQuery@d3d12@nvrhi@@ @ 141514a90
+  .?AVEventQuery@d3d12@nvrhi@@ @ 141514ac0
+  .?AVFramebuffer@d3d12@nvrhi@@ @ 141514af0
+  .?AVGraphicsPipeline@d3d12@nvrhi@@ @ 141514b20
+  .?AVComputePipeline@d3d12@nvrhi@@ @ 141514b60
+  .?AVMeshletPipeline@d3d12@nvrhi@@ @ 141514ba0
+  .?AVAccelStruct@d3d12@nvrhi@@ @ 141514be0
+  .?AVShaderTable@d3d12@nvrhi@@ @ 141514c10
+  .?AVRayTracingPipeline@d3d12@nvrhi@@ @ 141514c40
+  .?AVBindingSet@d3d12@nvrhi@@ @ 141514c80
+  .?AVDescriptorTable@d3d12@nvrhi@@ @ 141514cb0
+  .?AVBindingLayout@d3d12@nvrhi@@ @ 141514cf0
+  .?AVBindlessLayout@d3d12@nvrhi@@ @ 141514d20
+  .?AVRootSignature@d3d12@nvrhi@@ @ 141514d60
+  .?AV?$RefCounter@VIRootSignature@d3d12@nvrhi@@@nvrhi@@ @ 141514d90
+  .?AVIRootSignature@d3d12@nvrhi@@ @ 141514de0
+  .?AVQsciDocument@@ @ 141514e20
+  .?AV?$_Func_impl_no_alloc@P6A?AV?$vector@U?$pair@ULocatio... @ 1415170d0
+  .?AV?$_Func_base@V?$vector@U?$pair@ULocation@Luau@@V?$bas... @ 141517230
+  .?AV?$_Ref_count_obj2@UBufferChunk@vulkan@nvrhi@@@std@@ @ 141517ef0
+  .?AV?$_Ref_count_obj2@VBufferChunk@d3d12@nvrhi@@@std@@ @ 141517f40
+  .?AVQsciAccessibleScintillaBase@@ @ 141517f90
+  .?AVQAccessibleWidget@@ @ 141517fd0
+  .?AVQAccessibleObject@@ @ 141518000
+  .?AVQAccessibleInterface@@ @ 141518030
+  .?AVQAccessibleActionInterface@@ @ 141518060
+  .?AVQAccessibleTextInterface@@ @ 1415180a0
+  .?AVQAccessibleEditableTextInterface@@ @ 1415180d0
+  .?AVQAccessibleTextInsertEvent@@ @ 141518110
+  .?AVQAccessibleTextCursorEvent@@ @ 141518150
+  .?AVQAccessibleEvent@@ @ 141518190
+  .?AVQAccessibleTextRemoveEvent@@ @ 1415181c0
+  .?AVQsciScintillaQt@@ @ 141518200
+  .?AVScintillaBase@Scintilla@@ @ 141518230
+  .?AVEditor@Scintilla@@ @ 141518260
+  .?AVEditModel@Scintilla@@ @ 141518290
+  .?AVDocWatcher@Scintilla@@ @ 1415182c0
+  .?AVIListBoxDelegate@Scintilla@@ @ 1415182f0
+  .?AVWindow@Scintilla@@ @ 141518360
+  .?AVCaseFolderASCII@@ @ 141518390
+  .?AVCaseFolderTable@Scintilla@@ @ 1415183c0
+  .?AVCaseFolder@Scintilla@@ @ 1415183f0
+  .?AVLexState@Scintilla@@ @ 141518420
+  .?AVLexInterface@Scintilla@@ @ 141518450
+  .?AV?$LineVector@_J@@ @ 141518480
+  .?AVILineVector@Scintilla@@ @ 1415184b0
+  .?AV?$LineStartIndex@_J@@ @ 1415184e0
+  .?AV?$LineVector@H@@ @ 141518510
+  .?AV?$LineStartIndex@H@@ @ 141518540
+  .?AVFont@Scintilla@@ @ 141518580
+  .?AVSurfaceImpl@Scintilla@@ @ 1415185b0
+  .?AVSurface@Scintilla@@ @ 1415185e0
+  .?AVDocumentIndexer@?A0x5C8164A2@@ @ 141518610
+  .?AVDocument@Scintilla@@ @ 141518650
+  .?AVPerLine@Scintilla@@ @ 141518680
+  .?AVIDocumentWithLineEnd@Scintilla@@ @ 1415186b0
+  .?AVIDocument@Scintilla@@ @ 1415186f0
+  .?AVILoader@@ @ 141518720
+  .?AVLineMarkers@Scintilla@@ @ 141518740
+  .?AVLineLevels@Scintilla@@ @ 141518770
+  .?AVLineState@Scintilla@@ @ 1415187a0
+  .?AVLineAnnotation@Scintilla@@ @ 1415187d0
+  .?AVregex_error@std@@ @ 141518800
+  .?AV?$collate@_W@std@@ @ 141518830
+  .?AV?$_Node_class@_WV?$regex_traits@_W@std@@@std@@ @ 141518860
+  .?AV?$_Node_str@_W@std@@ @ 1415188b0
+  .?AVCharacterIndexer@Scintilla@@ @ 1415188e0
+  .?AVBuiltinRegex@@ @ 141518920
+  .?AVRegexSearchBase@Scintilla@@ @ 141518950
+  .?AVQsciSciCallTip@@ @ 141518980
+  .?AVQsciSciPopup@@ @ 1415189b0
+  .?AVQsciSciListBox@@ @ 1415189e0
+  .?AVQListWidget@@ @ 141518a10
+  .?AVQListView@@ @ 141518a40
+  .?AVQsciLexerAVS@@ @ 141518a60
+  .?AVQsciLexerBash@@ @ 141518a90
+  .?AVQsciLexerBatch@@ @ 141518ac0
+  .?AVQsciLexerCMake@@ @ 141518af0
+  .?AVQsciLexerCoffeeScript@@ @ 141518b20
+  .?AVQsciLexerCPP@@ @ 141518b50
+  .?AVQsciLexerCSharp@@ @ 141518b80
+  .?AVQsciLexerCSS@@ @ 141518bb0
+  .?AVQsciLexerD@@ @ 141518be0
+  .?AVQsciLexerDiff@@ @ 141518c10
+  .?AVQsciLexerEDIFACT@@ @ 141518c40
+  .?AVQsciLexerFortran@@ @ 141518c70
+  .?AVQsciLexerFortran77@@ @ 141518ca0
+  .?AVQsciLexerHTML@@ @ 141518cd0
+  .?AVQsciLexerIDL@@ @ 141518d00
+  .?AVQsciLexerIntelHex@@ @ 141518d30
+  .?AVQsciLexerHex@@ @ 141518d60
+  .?AVQsciLexerJava@@ @ 141518d90
+  .?AVQsciLexerJavaScript@@ @ 141518dc0
+  .?AVQsciLexerJSON@@ @ 141518df0
+  .?AVQsciLexerMakefile@@ @ 141518e20
+  .?AVQsciLexerMarkdown@@ @ 141518e50
+  .?AVQsciLexerMASM@@ @ 141518e80
+  .?AVQsciLexerAsm@@ @ 141518eb0
+  .?AVQsciLexerMatlab@@ @ 141518ee0
+  .?AVQsciLexerNASM@@ @ 141518f10
+  .?AVQsciLexerOctave@@ @ 141518f40
+  .?AVQsciLexerPascal@@ @ 141518f70
+  .?AVQsciLexerPerl@@ @ 141518fa0
+  .?AVQsciLexerPO@@ @ 141518fd0
+  .?AVQsciLexerPostScript@@ @ 141519000
+  .?AVQsciLexerPOV@@ @ 141519030
+  .?AVQsciLexerProperties@@ @ 141519060
+  .?AVQsciLexerPython@@ @ 1415190a0
+  .?AVQsciLexerRuby@@ @ 1415190d0
+  .?AVQsciLexerSpice@@ @ 141519100
+  .?AVQsciLexerSQL@@ @ 141519130
+  .?AVQsciLexerSRec@@ @ 141519160
+  .?AVQsciLexerTCL@@ @ 141519190
+  .?AVQsciLexerTekHex@@ @ 1415191c0
+  .?AVQsciLexerTeX@@ @ 1415191f0
+  .?AVQsciLexerVerilog@@ @ 141519220
+  .?AVQsciLexerVHDL@@ @ 141519250
+  .?AVQsciLexerXML@@ @ 141519280
+  .?AVQsciLexerYAML@@ @ 1415192b0
+  .?AVLexerModule@Scintilla@@ @ 141519e50
+  .?AVLexerAsm@@ @ 141519e80
+  .?AVDefaultLexer@Scintilla@@ @ 141519ea0
+  .?AVILexerWithMetaData@Scintilla@@ @ 141519ed0
+  .?AVILexerWithSubStyles@Scintilla@@ @ 141519f10
+  .?AVILexer@Scintilla@@ @ 141519f50
+  .?AV?$OptionSet@UOptionsAsm@@@Scintilla@@ @ 141519fb0
+  .?AV?$OptionSet@UOptionsBaan@?A0x465335B@@@Scintilla@@ @ 14151a020
+  .?AVLexerBaan@@ @ 14151a070
+  .?AVLexerBasic@@ @ 14151a090
+  .?AV?$OptionSet@UOptionsBasic@@@Scintilla@@ @ 14151a0f0
+  .?AV?$OptionSet@UOptionsCPP@?A0xB7B1C2DC@@@Scintilla@@ @ 14151a160
+  .?AVLexerCPP@@ @ 14151a1b0
+  .?AVLexerD@@ @ 14151a1d0
+  .?AV?$OptionSet@UOptionsD@@@Scintilla@@ @ 14151a220
+  .?AVLexerDMIS@@ @ 14151a260
+  .?AVLexerEDIFACT@@ @ 14151a280
+  .?AVLexerHaskell@@ @ 14151a2b0
+  .?AV?$OptionSet@UOptionsHaskell@@@Scintilla@@ @ 14151a310
+  .?AV?$OptionSet@UOptionsHTML@?A0xDA91B2E@@@Scintilla@@ @ 14151b820
+  .?AVLexerHTML@@ @ 14151b870
+  .?AVLexerJSON@@ @ 14151b890
+  .?AV?$OptionSet@UOptionsJSON@@@Scintilla@@ @ 14151b8e0
+  .?AVLexerLaTeX@@ @ 14151b920
+  .?AVLexerBase@Scintilla@@ @ 14151b950
+  .?AVLexerPerl@@ @ 14151bc20
+  .?AV?$OptionSet@UOptionsPerl@@@Scintilla@@ @ 14151bc70
+  .?AV?$OptionSet@UOptionsABL@?A0x264A1A18@@@Scintilla@@ @ 14151bce0
+  .?AVLexerABL@@ @ 14151bd30
+  .?AV?$OptionSet@UOptionsPython@?A0x30A31417@@@Scintilla@@ @ 14151c010
+  .?AVLexerPython@@ @ 14151c060
+  .?AVLexerRegistry@@ @ 14151c090
+  .?AV?$OptionSet@UOptionsRegistry@@@Scintilla@@ @ 14151c0f0
+  .?AVLexerRust@@ @ 14151c130
+  .?AV?$OptionSet@UOptionsRust@@@Scintilla@@ @ 14151c180
+  .?AVLexerSQL@@ @ 14151c1c0
+  .?AV?$OptionSet@UOptionsSQL@@@Scintilla@@ @ 14151c210
+  .?AV?$OptionSet@UOptionsVerilog@?A0x61FF082A@@@Scintilla@@ @ 14151c290
+  .?AVLexerVerilog@@ @ 14151c2e0
+  .?AVLexerVisualProlog@@ @ 14151c310
+  .?AV?$OptionSet@UOptionsVisualProlog@@@Scintilla@@ @ 14151c370
+  .?AVFontRealised@Scintilla@@ @ 14151c3c0
+  .?AVEditView@Scintilla@@ @ 14151c430
+  .?AVLineTabstops@Scintilla@@ @ 14151c460
+  .?AVLineLayout@Scintilla@@ @ 14151c490
+  .?AVLineLayoutCache@Scintilla@@ @ 14151c4c0
+  .?AV?$ContractionState@_J@?A0x1ED90F6B@@ @ 14151c4f0
+  .?AV?$ContractionState@H@?A0x1ED90F6B@@ @ 14151c530
+  .?AVIContractionState@Scintilla@@ @ 14151c570
+  .?AVLineMarker@Scintilla@@ @ 14151c5b0
+  .?AVPropSetSimple@Scintilla@@ @ 14151c5e0
+  .?AV?$Decoration@_J@?A0xC953E3F2@@ @ 14151c610
+  .?AV?$Decoration@H@?A0xC953E3F2@@ @ 14151c650
+  .?AV?$DecorationList@_J@?A0xC953E3F2@@ @ 14151c690
+  .?AV?$DecorationList@H@?A0xC953E3F2@@ @ 14151c6d0
+  .?AVIDecoration@Scintilla@@ @ 14151c710
+  .?AVIDecorationList@Scintilla@@ @ 14151c740
+  .?AVQsciListBoxQt@@ @ 14151c770
+  .?AVListBox@Scintilla@@ @ 14151c7a0
+  .?AVLexerSimple@Scintilla@@ @ 14151e200
+  .?AVFontAlias@Scintilla@@ @ 14151e230
+  .?AVCaseConverter@?A0x53D8C97@@ @ 14151e260
+  .?AVICaseConverter@Scintilla@@ @ 14151e290
+  .?AVRGBAImage@Scintilla@@ @ 14151e2c0
+  .?AVtype_info@@ @ 14151e328
+
+
+--- PHASE 2: Demangling and tracing RTTI to vtables ---
+
+  [1/987] .?AVbad_array_new_length@std@@ -> std::bad_array_new_length
+  [2/987] .?AVbad_alloc@std@@ -> std::bad_alloc
+  [3/987] .?AVexception@std@@ -> std::exception
+  [4/987] .?AVsystem_error@std@@ -> std::system_error
+  [5/987] .?AV_System_error@std@@ -> std::_System_error
+  [6/987] .?AVruntime_error@std@@ -> std::runtime_error
+  [7/987] .?AV_Generic_error_category@std@@ -> std::_Generic_error_category
+  [8/987] .?AVerror_category@std@@ -> std::error_category
+  [9/987] .?AV_System_error_category@std@@ -> std::_System_error_category
+  [10/987] .?AVfilesystem_error@filesystem@std@@ -> std::filesystem::filesystem_error
+  [11/987] .?AV?$_Ref_count_obj2@VThreadContext@detail@v11@quill@@@s... -> quill::v11::detail::VThreadContext::_Ref_count_obj2
+  [12/987] .?AV_Ref_count_base@std@@ -> std::_Ref_count_base
+  [13/987] .?AVQuillError@v11@quill@@ -> quill::v11::QuillError
+  [14/987] .?AVEditorMainWindow@editor@ldv@@ -> ldv::editor::EditorMainWindow
+  [15/987] .?AVQMainWindow@@ -> QMainWindow
+  [16/987] .?AVQWidget@@ -> QWidget
+  [17/987] .?AVQObject@@ -> QObject
+  [18/987] .?AVQPaintDevice@@ -> QPaintDevice
+  [19/987] .?AV?$wstring_convert@V?$codecvt_utf8_utf16@_W$0BAPPPP@$0... -> $0A::_W$0BAPPPP::V?$codecvt_utf8_utf16::wstring_convert
+  [20/987] .?AV?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@ -> $0A::_W$0BAPPPP::codecvt_utf8_utf16
+  [21/987] .?AV?$codecvt@_WDU_Mbstatet@@@std@@ -> _WDU_Mbstatet::codecvt
+  [22/987] .?AVcodecvt_base@std@@ -> std::codecvt_base
+  [23/987] .?AVfacet@locale@std@@ -> std::locale::facet
+  [24/987] .?AV_Facet_base@std@@ -> std::_Facet_base
+  [25/987] .?AVrange_error@std@@ -> std::range_error
+  [26/987] .?AVformat_error@v12@fmtquill@@ -> fmtquill::v12::format_error
+  [27/987] .?AVbad_cast@std@@ -> std::bad_cast
+  [28/987] .?AV?$format_facet@Vlocale@std@@@v12@fmtquill@@ -> std::Vlocale::format_facet
+  [29/987] .?AV?$numpunct@D@std@@ -> std::D::numpunct
+  [30/987] .?AV?$_Ref_count_obj2@VTransitEventBuffer@detail@v11@quil... -> quill::v11::detail::VTransitEventBuffer::_Ref_count_obj2
+  [31/987] .?AV?$_Ref_count_obj2@VPatternFormatter@v11@quill@@@std@@ -> quill::v11::VPatternFormatter::_Ref_count_obj2
+  [32/987] .?AV?$_Func_impl_no_alloc@V<lambda_1>@?0??_process_transi... -> quill::v11::detail::BackendWorker::?0??_process_transit_e...
+  [33/987] .?AV?$_Func_base@XAEBUTransitEvent@detail@v11@quill@@V?$b... -> quill::v11::detail::XAEBUTransitEvent::_Func_base
+  [34/987] .?AV<lambda_1>@?0??_process_transit_event@BackendWorker@d... -> quill::v11::detail::BackendWorker::?0??_process_transit_e...
+  [35/987] .?AV?$_Ref_count_obj2@VBacktraceStorage@detail@v11@quill@... -> quill::v11::detail::VBacktraceStorage::_Ref_count_obj2
+  [36/987] .?AV?$_Func_impl_no_alloc@V<lambda_2>@?0??_process_transi... -> quill::v11::detail::BackendWorker::?0??_process_transit_e...
+  [37/987] .?AV<lambda_2>@?0??_process_transit_event@BackendWorker@d... -> quill::v11::detail::BackendWorker::?0??_process_transit_e...
+  [38/987] .?AV?$_Func_impl_no_alloc@V<lambda_1>@error_notifier@Back... -> quill::v11::BackendOptions::error_notifier::V<lambda_1>::...
+  [39/987] .?AV?$_Func_base@XAEBV?$basic_string@DU?$char_traits@D@st... -> std::D::DU?$char_traits::XAEBV?$basic_string::_Func_base
+  [40/987] .?AV<lambda_1>@error_notifier@BackendOptions@v11@quill@@ -> quill::v11::BackendOptions::error_notifier::<lambda_1>
+  [41/987] .?AV?$_Func_impl_no_alloc@V<lambda_1>@check_printable_cha... -> quill::v11::BackendOptions::check_printable_char::V<lambd...
+  [42/987] .?AV?$_Func_base@_ND@std@@ -> std::_ND::_Func_base
+  [43/987] .?AV<lambda_1>@check_printable_char@BackendOptions@v11@qu... -> quill::v11::BackendOptions::check_printable_char::<lambda_1>
+  [44/987] .?AV?$_Ref_count_obj2@VConsoleSink@v11@quill@@@std@@ -> quill::v11::VConsoleSink::_Ref_count_obj2
+  [45/987] .?AVConsoleSink@v11@quill@@ -> quill::v11::ConsoleSink
+  [46/987] .?AVStreamSink@v11@quill@@ -> quill::v11::StreamSink
+  [47/987] .?AVSink@v11@quill@@ -> quill::v11::Sink
+  [48/987] .?AV?$_Ref_count_obj2@VFileSink@v11@quill@@@std@@ -> quill::v11::VFileSink::_Ref_count_obj2
+  [49/987] .?AVFileSink@v11@quill@@ -> quill::v11::FileSink
+  [50/987] .?AVLoggerBase@detail@v11@quill@@ -> quill::v11::detail::LoggerBase
+  [51/987] .?AV?$LoggerImpl@UFrontendOptions@v11@quill@@@v11@quill@@ -> quill::v11::UFrontendOptions::LoggerImpl
+  [52/987] .?AVSkipCharactersBPFilter@?1??find_spawn_ground@gameplay... -> ldv::gameplay::?1??find_spawn_ground::SkipCharactersBPFilter
+  [53/987] .?AVBPLayerInterface@@ -> BPLayerInterface
+  [54/987] .?AVBroadPhaseLayerInterface@JPH@@ -> JPH::BroadPhaseLayerInterface
+  [55/987] .?AVNonCopyable@JPH@@ -> JPH::NonCopyable
+  [56/987] .?AVObjVsBPFilter@@ -> ObjVsBPFilter
+  [57/987] .?AVObjectVsBroadPhaseLayerFilter@JPH@@ -> JPH::ObjectVsBroadPhaseLayerFilter
+  [58/987] .?AVObjLayerPairFilter@@ -> ObjLayerPairFilter
+  [59/987] .?AVObjectLayerPairFilter@JPH@@ -> JPH::ObjectLayerPairFilter
+  [60/987] .?AVBodyLockInterfaceNoLock@JPH@@ -> JPH::BodyLockInterfaceNoLock
+  [61/987] .?AVBodyLockInterface@JPH@@ -> JPH::BodyLockInterface
+  [62/987] .?AVBodyLockInterfaceLocking@JPH@@ -> JPH::BodyLockInterfaceLocking
+  [63/987] .?AV?$_Func_impl_no_alloc@P6AXAEBVBody@JPH@@0AEBVMat44@2@... -> JPH::P6AXAEBVBody::_Func_impl_no_alloc
+  [64/987] .?AV?$_Func_base@XAEBVBody@JPH@@AEBV12@AEBVMat44@2@AEBV32... -> JPH::XAEBVBody::_Func_base
+  [65/987] .?AVTempAllocatorImpl@JPH@@ -> JPH::TempAllocatorImpl
+  [66/987] .?AVTempAllocator@JPH@@ -> JPH::TempAllocator
+  [67/987] .?AVCharacterContactListener@gameplay@ldv@@ -> ldv::gameplay::CharacterContactListener
+  [68/987] .?AVContactListener@JPH@@ -> JPH::ContactListener
+  [69/987] .?AVSphereShape@JPH@@ -> JPH::SphereShape
+  [70/987] .?AVConvexShape@JPH@@ -> JPH::ConvexShape
+  [71/987] .?AVShape@JPH@@ -> JPH::Shape
+  [72/987] .?AV?$RefTarget@VShape@JPH@@@JPH@@ -> JPH::VShape::RefTarget
+  [73/987] .?AVGroupFilterTable@JPH@@ -> JPH::GroupFilterTable
+  [74/987] .?AVGroupFilter@JPH@@ -> JPH::GroupFilter
+  [75/987] .?AVSerializableObject@JPH@@ -> JPH::SerializableObject
+  [76/987] .?AV?$RefTarget@VGroupFilter@JPH@@@JPH@@ -> JPH::VGroupFilter::RefTarget
+  [77/987] .?AVBroadPhaseLayerFilter@JPH@@ -> JPH::BroadPhaseLayerFilter
+  [78/987] .?AVBodyFilter@JPH@@ -> JPH::BodyFilter
+  [79/987] .?AVObjectLayerFilter@JPH@@ -> JPH::ObjectLayerFilter
+  [80/987] .?AV?$AllHitCollisionCollector@V?$CollisionCollector@VBod... -> JPH::VBodyID::V?$CollisionCollector::AllHitCollisionColle...
+  [81/987] .?AV?$CollisionCollector@VBodyID@JPH@@VCollisionCollector... -> JPH::VBodyID::CollisionCollector
+  [82/987] .?AV?$_Func_impl_no_alloc@V<lambda_0>@?0??InstallAssetBri... -> ldv::client::GameSession::?0??InstallAssetBridges::V<lamb...
+  [83/987] .?AV<lambda_0>@?0??InstallAssetBridges@GameSession@client... -> ldv::client::GameSession::?0??InstallAssetBridges::<lambd...
+  [84/987] .?AV?$_Func_base@X_KV?$basic_string@DU?$char_traits@D@std... -> std::D::DU?$char_traits::X_KV?$basic_string::_Func_base
+  [85/987] .?AVQlementineStyle@qlementine@oclero@@ -> oclero::qlementine::QlementineStyle
+  [86/987] .?AVQCommonStyle@@ -> QCommonStyle
+  [87/987] .?AVQStyle@@ -> QStyle
+  [88/987] .?AVTheme@qlementine@oclero@@ -> oclero::qlementine::Theme
+  [89/987] .?AVbad_optional_access@std@@ -> std::bad_optional_access
+  [90/987] .?AV?$WidgetAnimation@N@qlementine@oclero@@ -> oclero::qlementine::N::WidgetAnimation
+  [91/987] .?AV?$WidgetAnimation@VQColor@@@qlementine@oclero@@ -> VQColor::WidgetAnimation
+  [92/987] .?AVQStyleOptionRoundedButton@qlementine@oclero@@ -> oclero::qlementine::QStyleOptionRoundedButton
+  [93/987] .?AVQStyleOptionButton@@ -> QStyleOptionButton
+  [94/987] .?AVQStyleOption@@ -> QStyleOption
+  [95/987] .?AVQStyleOptionFocusRoundedRect@qlementine@oclero@@ -> oclero::qlementine::QStyleOptionFocusRoundedRect
+  [96/987] .?AVQStyleOptionFocusRect@@ -> QStyleOptionFocusRect
+  [97/987] .?AVQStyleOptionSliderF@qlementine@oclero@@ -> oclero::qlementine::QStyleOptionSliderF
+  [98/987] .?AVQStyleOptionSlider@@ -> QStyleOptionSlider
+  [99/987] .?AVQStyleOptionComplex@@ -> QStyleOptionComplex
+  [100/987] .?AV?$_Func_impl_no_alloc@P6A?AVQPixmap@@AEBVQSize@@AEBVQ... -> P6A?AVQPixmap::_Func_impl_no_alloc
+  [101/987] .?AV?$_Func_base@VQPixmap@@AEBVQSize@@AEBVQColor@@@std@@ -> VQPixmap::_Func_base
+  [102/987] .?AVLineEditButtonEventFilter@qlementine@oclero@@ -> oclero::qlementine::LineEditButtonEventFilter
+  [103/987] .?AVWidgetWithFocusFrameEventFilter@qlementine@oclero@@ -> oclero::qlementine::WidgetWithFocusFrameEventFilter
+  [104/987] .?AVMenuEventFilter@qlementine@oclero@@ -> oclero::qlementine::MenuEventFilter
+  [105/987] .?AV?$_Func_impl_no_alloc@V<lambda_2>@?0??eventFilter@Men... -> oclero::qlementine::MenuEventFilter::?0??eventFilter::V<l...
+  [106/987] .?AV?$_Func_base@X$$V@std@@ -> std::X$$V::_Func_base
+  [107/987] .?AV<lambda_2>@?0??eventFilter@MenuEventFilter@qlementine... -> oclero::qlementine::MenuEventFilter::?0??eventFilter::<la...
+  [108/987] .?AVComboboxItemViewFilter@qlementine@oclero@@ -> oclero::qlementine::ComboboxItemViewFilter
+  [109/987] .?AVMouseWheelBlockerEventFilter@qlementine@oclero@@ -> oclero::qlementine::MouseWheelBlockerEventFilter
+  [110/987] .?AVComboboxFilter@qlementine@oclero@@ -> oclero::qlementine::ComboboxFilter
+  [111/987] .?AVTabBarEventFilter@qlementine@oclero@@ -> oclero::qlementine::TabBarEventFilter
+  [112/987] .?AVTabBarButtonEventFilter@qlementine@oclero@@ -> oclero::qlementine::TabBarButtonEventFilter
+  [113/987] .?AVTextEditEventFilter@qlementine@oclero@@ -> oclero::qlementine::TextEditEventFilter
+  [114/987] .?AVLineEditMenuEventFilter@qlementine@oclero@@ -> oclero::qlementine::LineEditMenuEventFilter
+  [115/987] .?AVLineEditMenuIconsBehavior@qlementine@oclero@@ -> oclero::qlementine::LineEditMenuIconsBehavior
+  [116/987] .?AVThemeService@editor@ldv@@ -> ldv::editor::ThemeService
+  [117/987] .?AV?$_Func_impl_no_alloc@V<lambda_0>@?0??wireSignals@Edi... -> ldv::editor::EditorMainWindow::?0??wireSignals::V<lambda_...
+  [118/987] .?AV<lambda_0>@?0??wireSignals@EditorMainWindow@editor@ld... -> ldv::editor::EditorMainWindow::?0??wireSignals::<lambda_0>
+  [119/987] .?AV?$_Func_impl_no_alloc@V<lambda_1>@?0??wireSignals@Edi... -> ldv::editor::EditorMainWindow::?0??wireSignals::V<lambda_...
+  [120/987] .?AV<lambda_1>@?0??wireSignals@EditorMainWindow@editor@ld... -> ldv::editor::EditorMainWindow::?0??wireSignals::<lambda_1>
+  [121/987] .?AV?$_Func_impl_no_alloc@V<lambda_2>@?0??wireSignals@Edi... -> ldv::editor::EditorMainWindow::?0??wireSignals::V<lambda_...
+  [122/987] .?AV<lambda_2>@?0??wireSignals@EditorMainWindow@editor@ld... -> ldv::editor::EditorMainWindow::?0??wireSignals::<lambda_2>
+  [123/987] .?AV?$_Func_impl_no_alloc@V<lambda_14>@?0??hookProjectCal... -> ldv::editor::EditorMainWindow::?0??hookProjectCallbacks::...
+  [124/987] .?AV<lambda_14>@?0??hookProjectCallbacks@EditorMainWindow... -> ldv::editor::EditorMainWindow::?0??hookProjectCallbacks::...
+  [125/987] .?AV?$_Func_impl_no_alloc@V<lambda_15>@?0??onPlayStopTogg... -> ldv::editor::EditorMainWindow::?0??onPlayStopToggle::V<la...
+  [126/987] .?AV<lambda_15>@?0??onPlayStopToggle@EditorMainWindow@edi... -> ldv::editor::EditorMainWindow::?0??onPlayStopToggle::<lam...
+  [127/987] .?AV?$_Func_impl_no_alloc@V<lambda_16>@?0??onPlayStopTogg... -> ldv::editor::EditorMainWindow::?0??onPlayStopToggle::V<la...
+  [128/987] .?AV<lambda_16>@?0??onPlayStopToggle@EditorMainWindow@edi... -> ldv::editor::EditorMainWindow::?0??onPlayStopToggle::<lam...
+  [129/987] .?AVLoginDialog@editor@ldv@@ -> ldv::editor::LoginDialog
+  [130/987] .?AVQDialog@@ -> QDialog
+  [131/987] .?AVPublishDialog@editor@ldv@@ -> ldv::editor::PublishDialog
+  [132/987] .?AVNewProjectDialog@editor@ldv@@ -> ldv::editor::NewProjectDialog
+  [133/987] .?AV?$_Func_base@XW4ChangeHint@EditorContext@editor@ldv@@... -> ldv::editor::EditorContext::XW4ChangeHint::_Func_base
+  [134/987] .?AV?$_Func_base@X_K@std@@ -> std::X_K::_Func_base
+  [135/987] .?AV?$_Func_impl_no_alloc@V<lambda_1>@?0???$registerConve... -> std::_K::_KV?$allocator::V?$vector::?0???$registerConvert...
+  [136/987] .?AV?$_Func_base@_NPEBXPEAX@std@@ -> std::_NPEBXPEAX::_Func_base
+  [137/987] .?AV<lambda_1>@?0???$registerConverter@V?$vector@_KV?$all... -> std::_K::_KV?$allocator::V?$vector::?0???$registerConvert...
+  [138/987] .?AV?$_Func_impl_no_alloc@V<lambda_1>@?0???$registerMutab... -> std::_K::_KV?$allocator::V?$vector::?0???$registerMutable...
+  [139/987] .?AV?$_Func_base@_NPEAXPEAX@std@@ -> std::_NPEAXPEAX::_Func_base
+  [140/987] .?AV<lambda_1>@?0???$registerMutableView@V?$vector@_KV?$a... -> std::_K::_KV?$allocator::V?$vector::?0???$registerMutable...
+  [141/987] .?AV?$_Func_base@XPEBD@std@@ -> std::XPEBD::_Func_base
+  [142/987] .?AV?$_Func_base@X_N@std@@ -> std::X_N::_Func_base
+  [143/987] .?AVAssetItemDelegate@editor@ldv@@ -> ldv::editor::AssetItemDelegate
+  [144/987] .?AVQStyledItemDelegate@@ -> QStyledItemDelegate
+  [145/987] .?AVQAbstractItemDelegate@@ -> QAbstractItemDelegate
+  [146/987] .?AV<lambda_1>@mThreadInitFunction@JobSystemThreadPool@JPH@@ -> JPH::JobSystemThreadPool::mThreadInitFunction::<lambda_1>
+  [147/987] .?AV<lambda_1>@mThreadExitFunction@JobSystemThreadPool@JPH@@ -> JPH::JobSystemThreadPool::mThreadExitFunction::<lambda_1>
+  [148/987] .?AV<lambda_0>@?0??Update@PhysicsSystem@JPH@@QEAA?AW4EPhy... -> JPH::PhysicsSystem::?0??Update::<lambda_0>
+  [149/987] .?AV<lambda_1>@?0??Update@PhysicsSystem@JPH@@QEAA?AW4EPhy... -> JPH::PhysicsSystem::?0??Update::<lambda_1>
+  [150/987] .?AV<lambda_2>@?0??Update@PhysicsSystem@JPH@@QEAA?AW4EPhy... -> JPH::PhysicsSystem::?0??Update::<lambda_2>
+  [151/987] .?AV<lambda_3>@?0??Update@PhysicsSystem@JPH@@QEAA?AW4EPhy... -> JPH::PhysicsSystem::?0??Update::<lambda_3>
+  [152/987] .?AV<lambda_4>@?0??Update@PhysicsSystem@JPH@@QEAA?AW4EPhy... -> JPH::PhysicsSystem::?0??Update::<lambda_4>
+  [153/987] .?AV<lambda_5>@?0??Update@PhysicsSystem@JPH@@QEAA?AW4EPhy... -> JPH::PhysicsSystem::?0??Update::<lambda_5>
+  [154/987] .?AV<lambda_6>@?0??Update@PhysicsSystem@JPH@@QEAA?AW4EPhy... -> JPH::PhysicsSystem::?0??Update::<lambda_6>
+  [155/987] .?AV<lambda_7>@?0??Update@PhysicsSystem@JPH@@QEAA?AW4EPhy... -> JPH::PhysicsSystem::?0??Update::<lambda_7>
+  [156/987] .?AV<lambda_8>@?0??Update@PhysicsSystem@JPH@@QEAA?AW4EPhy... -> JPH::PhysicsSystem::?0??Update::<lambda_8>
+  [157/987] .?AV<lambda_9>@?0??Update@PhysicsSystem@JPH@@QEAA?AW4EPhy... -> JPH::PhysicsSystem::?0??Update::<lambda_9>
+  [158/987] .?AV<lambda_10>@?0??Update@PhysicsSystem@JPH@@QEAA?AW4EPh... -> JPH::PhysicsSystem::?0??Update::<lambda_10>
+  [159/987] .?AV<lambda_11>@?0??Update@PhysicsSystem@JPH@@QEAA?AW4EPh... -> JPH::PhysicsSystem::?0??Update::<lambda_11>
+  [160/987] .?AV<lambda_12>@?0??Update@PhysicsSystem@JPH@@QEAA?AW4EPh... -> JPH::PhysicsSystem::?0??Update::<lambda_12>
+  [161/987] .?AV<lambda_13>@?0??Update@PhysicsSystem@JPH@@QEAA?AW4EPh... -> JPH::PhysicsSystem::?0??Update::<lambda_13>
+  [162/987] .?AV<lambda_14>@?0??Update@PhysicsSystem@JPH@@QEAA?AW4EPh... -> JPH::PhysicsSystem::?0??Update::<lambda_14>
+  [163/987] .?AV<lambda_15>@?0??Update@PhysicsSystem@JPH@@QEAA?AW4EPh... -> JPH::PhysicsSystem::?0??Update::<lambda_15>
+  [164/987] .?AV<lambda_16>@?0??Update@PhysicsSystem@JPH@@QEAA?AW4EPh... -> JPH::PhysicsSystem::?0??Update::<lambda_16>
+  [165/987] .?AV<lambda_17>@?0??Update@PhysicsSystem@JPH@@QEAA?AW4EPh... -> JPH::PhysicsSystem::?0??Update::<lambda_17>
+  [166/987] .?AV<lambda_18>@?0??Update@PhysicsSystem@JPH@@QEAA?AW4EPh... -> JPH::PhysicsSystem::?0??Update::<lambda_18>
+  [167/987] .?AV<lambda_19>@?0??TrySpawnJobFindCollisions@PhysicsSyst... -> JPH::PhysicsSystem::?0??TrySpawnJobFindCollisions::<lambd...
+  [168/987] .?AV<lambda_20>@?0??JobPostIntegrateVelocity@PhysicsSyste... -> JPH::PhysicsSystem::?0??JobPostIntegrateVelocity::<lambda...
+  [169/987] .?AV<lambda_21>@?0??JobSoftBodyPrepare@PhysicsSystem@JPH@... -> JPH::PhysicsSystem::?0??JobSoftBodyPrepare::<lambda_21>
+  [170/987] .?AV<lambda_22>@?0??JobSoftBodyPrepare@PhysicsSystem@JPH@... -> JPH::PhysicsSystem::?0??JobSoftBodyPrepare::<lambda_22>
+  [171/987] .?AV<lambda_23>@?0??JobSoftBodyPrepare@PhysicsSystem@JPH@... -> JPH::PhysicsSystem::?0??JobSoftBodyPrepare::<lambda_23>
+  [172/987] .?AVBoxShape@JPH@@ -> JPH::BoxShape
+  [173/987] .?AVIgnoreCharactersFilter@gameplay@ldv@@ -> ldv::gameplay::IgnoreCharactersFilter
+  [174/987] .?AVIgnoreSingleBodyFilter@JPH@@ -> JPH::IgnoreSingleBodyFilter
+  [175/987] .?AV?$ClosestHitCollisionCollector@V?$CollisionCollector@... -> JPH::VShapeCastResult::V?$CollisionCollector::ClosestHitC...
+  [176/987] .?AV?$CollisionCollector@VShapeCastResult@JPH@@VCollision... -> JPH::VShapeCastResult::CollisionCollector
+  [177/987] .?AVShapeFilter@JPH@@ -> JPH::ShapeFilter
+  [178/987] .?AV<lambda_0>@?0??DrawGetSupportFunction@ConvexShape@JPH... -> JPH::ConvexShape::?0??DrawGetSupportFunction::<lambda_0>
+  [179/987] .?AVSocketStream@detail@httplib@@ -> httplib::detail::SocketStream
+  [180/987] .?AVStream@httplib@@ -> httplib::Stream
+  [181/987] .?AV?$_Func_impl_no_alloc@V<lambda_1>@?0??connect_with_pr... -> httplib::SSLClient::?0??connect_with_proxy::V<lambda_1>::...
+  [182/987] .?AV?$_Func_base@_NAEAVStream@httplib@@@std@@ -> httplib::_NAEAVStream::_Func_base
+  [183/987] .?AVBufferStream@detail@httplib@@ -> httplib::detail::BufferStream
+  [184/987] .?AV?$collate@D@std@@ -> std::D::collate
+  [185/987] .?AV_Root_node@std@@ -> std::_Root_node
+  [186/987] .?AV_Node_base@std@@ -> std::_Node_base
+  [187/987] .?AV_Node_capture@std@@ -> std::_Node_capture
+  [188/987] .?AV_Node_back@std@@ -> std::_Node_back
+  [189/987] .?AV?$_Node_class@DV?$regex_traits@D@std@@@std@@ -> std::D::DV?$regex_traits::_Node_class
+  [190/987] .?AV_Node_assert@std@@ -> std::_Node_assert
+  [191/987] .?AV?$_Node_str@D@std@@ -> std::D::_Node_str
+  [192/987] .?AV_Node_endif@std@@ -> std::_Node_endif
+  [193/987] .?AV_Node_if@std@@ -> std::_Node_if
+  [194/987] .?AV_Node_end_group@std@@ -> std::_Node_end_group
+  [195/987] .?AV_Node_end_rep@std@@ -> std::_Node_end_rep
+  [196/987] .?AV_Node_rep@std@@ -> std::_Node_rep
+  [197/987] .?AV?$basic_ostringstream@DU?$char_traits@D@std@@V?$alloc... -> std::D::DU?$char_traits::basic_ostringstream
+  [198/987] .?AV?$basic_ostream@DU?$char_traits@D@std@@@std@@ -> std::D::DU?$char_traits::basic_ostream
+  [199/987] .?AV?$basic_ios@DU?$char_traits@D@std@@@std@@ -> std::D::DU?$char_traits::basic_ios
+  [200/987] .?AVios_base@std@@ -> std::ios_base
+  [201/987] .?AV?$_Iosb@H@std@@ -> std::H::_Iosb
+  [202/987] .?AV?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator... -> std::D::DU?$char_traits::basic_stringbuf
+  [203/987] .?AV?$basic_streambuf@DU?$char_traits@D@std@@@std@@ -> std::D::DU?$char_traits::basic_streambuf
+  [204/987] .?AVnocompressor@detail@httplib@@ -> httplib::detail::nocompressor
+  [205/987] .?AVcompressor@detail@httplib@@ -> httplib::detail::compressor
+  [206/987] .?AVdata_sink_streambuf@DataSink@httplib@@ -> httplib::DataSink::data_sink_streambuf
+  [207/987] .?AV?$_Func_impl_no_alloc@V<lambda_1>@?0???$write_content... -> httplib::ClientImpl::?0??write_content_with_provider::V<l...
+  [208/987] .?AV?$_Func_base@_NPEBD_K@std@@ -> std::_NPEBD_K::_Func_base
+  [209/987] .?AV?$_Func_impl_no_alloc@V<lambda_1>@?0???R1?0???$write_... -> httplib::ClientImpl::?0??write_content_with_provider::V<l...
+  [210/987] .?AV<lambda_1>@?0???R0?0???$write_content_chunked@V<lambd... -> httplib::ClientImpl::?0??write_content_with_provider::V<l...
+  [211/987] .?AV<lambda_1>@?0???$write_content_chunked@V<lambda_1>@?0... -> httplib::ClientImpl::?0??write_content_with_provider::V<l...
+  [212/987] .?AV?$_Func_impl_no_alloc@V<lambda_2>@?0???$write_content... -> httplib::ClientImpl::?0??write_content_with_provider::V<l...
+  [213/987] .?AV?$_Func_base@_N$$V@std@@ -> std::_N$$V::_Func_base
+  [214/987] .?AV<lambda_2>@?0???$write_content_chunked@V<lambda_1>@?0... -> httplib::ClientImpl::?0??write_content_with_provider::V<l...
+  [215/987] .?AV?$_Func_impl_no_alloc@V<lambda_4>@?0???$write_content... -> httplib::ClientImpl::?0??write_content_with_provider::V<l...
+  [216/987] .?AV?$_Func_impl_no_alloc@V<lambda_1>@?0???R<lambda_3>@?0... -> httplib::ClientImpl::?0??write_content_with_provider::V<l...
+  [217/987] .?AV<lambda_1>@?0???R<lambda_3>@?0???$write_content_chunk... -> httplib::ClientImpl::?0??write_content_with_provider::V<l...
+  [218/987] .?AV<lambda_4>@?0???$write_content_chunked@V<lambda_1>@?0... -> httplib::ClientImpl::?0??write_content_with_provider::V<l...
+  [219/987] .?AV?$_Func_impl_no_alloc@V<lambda_5>@?0???$write_content... -> httplib::ClientImpl::?0??write_content_with_provider::V<l...
+  [220/987] .?AV?$_Func_base@XAEBV?$unordered_multimap@V?$basic_strin... -> std::D::DU?$char_traits::V?$basic_string::XAEBV?$unordere...
+  [221/987] .?AV<lambda_5>@?0???$write_content_chunked@V<lambda_1>@?0... -> httplib::ClientImpl::?0??write_content_with_provider::V<l...
+  [222/987] .?AV?$_Func_impl_no_alloc@V<lambda_1>@?0???$write_content... -> httplib::ClientImpl::?0??write_content_with_provider::V<l...
+  [223/987] .?AV<lambda_1>@?0???$write_content@V<lambda_1>@?0??write_... -> httplib::ClientImpl::?0??write_content_with_provider::V<l...
+  [224/987] .?AV?$_Func_impl_no_alloc@V<lambda_2>@?0???$write_content... -> httplib::ClientImpl::?0??write_content_with_provider::V<l...
+  [225/987] .?AV<lambda_2>@?0???$write_content@V<lambda_1>@?0??write_... -> httplib::ClientImpl::?0??write_content_with_provider::V<l...
+  [226/987] .?AV?$_Func_impl_no_alloc@V<lambda_1>@?0??process_request... -> httplib::ClientImpl::?0??process_request::V<lambda_1>::_F...
+  [227/987] .?AV?$_Func_base@_NPEBD_K_K_K@std@@ -> std::_NPEBD_K_K_K::_Func_base
+  [228/987] .?AV<lambda_1>@?0??process_request@ClientImpl@httplib@@IE... -> httplib::ClientImpl::?0??process_request::<lambda_1>
+  [229/987] .?AV?$_Func_impl_no_alloc@V<lambda_2>@?0??process_request... -> httplib::ClientImpl::?0??process_request::V<lambda_2>::_F...
+  [230/987] .?AV<lambda_2>@?0??process_request@ClientImpl@httplib@@IE... -> httplib::ClientImpl::?0??process_request::<lambda_2>
+  [231/987] .?AV?$_Func_impl_no_alloc@V<lambda_1>@?0???$prepare_conte... -> httplib::UResponse::?0???$prepare_content_receiver::V<lam...
+  [232/987] .?AV?$_Func_impl_no_alloc@V<lambda_1>@?0???R1?0???$prepar... -> httplib::UResponse::?0???R1?0???$prepare_content_receiver...
+  [233/987] .?AV<lambda_1>@?0???R0?0???$prepare_content_receiver@URes... -> httplib::UResponse::?0???R0?0???$prepare_content_receiver...
+  [234/987] .?AV<lambda_1>@?0???$prepare_content_receiver@UResponse@h... -> httplib::UResponse::?0???$prepare_content_receiver::<lamb...
+  [235/987] .?AV?$_Func_impl_no_alloc@V<lambda_2>@?0???$prepare_conte... -> httplib::UResponse::?0???$prepare_content_receiver::V<lam...
+  [236/987] .?AV<lambda_2>@?0???$prepare_content_receiver@UResponse@h... -> httplib::UResponse::?0???$prepare_content_receiver::<lamb...
+  [237/987] .?AV?$_Func_impl_no_alloc@V<lambda_3>@?0??process_request... -> httplib::ClientImpl::?0??process_request::V<lambda_3>::_F...
+  [238/987] .?AV?$_Func_base@_N_K_K@std@@ -> std::_N_K_K::_Func_base
+  [239/987] .?AV<lambda_3>@?0??process_request@ClientImpl@httplib@@IE... -> httplib::ClientImpl::?0??process_request::<lambda_3>
+  [240/987] .?AV<lambda_1>@?0??connect_with_proxy@SSLClient@httplib@@... -> httplib::SSLClient::?0??connect_with_proxy::<lambda_1>
+  [241/987] .?AV?$_Func_impl_no_alloc@V<lambda_2>@?0??connect_with_pr... -> httplib::SSLClient::?0??connect_with_proxy::V<lambda_2>::...
+  [242/987] .?AV?$basic_stringstream@DU?$char_traits@D@std@@V?$alloca... -> std::D::DU?$char_traits::basic_stringstream
+  [243/987] .?AV?$basic_iostream@DU?$char_traits@D@std@@@std@@ -> std::D::DU?$char_traits::basic_iostream
+  [244/987] .?AV?$basic_istream@DU?$char_traits@D@std@@@std@@ -> std::D::DU?$char_traits::basic_istream
+  [245/987] .?AV<lambda_2>@?0??connect_with_proxy@SSLClient@httplib@@... -> httplib::SSLClient::?0??connect_with_proxy::<lambda_2>
+  [246/987] .?AV?$_Func_impl_no_alloc@V<lambda_1>@?0???R1?0??initiali... -> httplib::SSLClient::?0???R1?0??initialize_ssl::V<lambda_1...
+  [247/987] .?AV<lambda_1>@?0???R0?0??initialize_ssl@SSLClient@httpli... -> httplib::SSLClient::?0???R0?0??initialize_ssl::<lambda_1>
+  [248/987] .?AV?$_Func_impl_no_alloc@V<lambda_1>@?0??check_host_name... -> httplib::SSLClient::?0??check_host_name::V<lambda_1>::_Fu...
+  [249/987] .?AV?$_Func_base@XPEBDPEBD@std@@ -> std::XPEBDPEBD::_Func_base
+  [250/987] .?AV<lambda_1>@?0??check_host_name@SSLClient@httplib@@AEB... -> httplib::SSLClient::?0??check_host_name::<lambda_1>
+  [251/987] .?AV?$_Func_impl_no_alloc@V<lambda_1>@?0??send_@ClientImp... -> httplib::ClientImpl::?0??send_::V<lambda_1>::_Func_impl_n...
+  [252/987] .?AV<lambda_1>@?0??send_@ClientImpl@httplib@@AEAA_NAEAURe... -> httplib::ClientImpl::?0??send_::<lambda_1>
+  [253/987] .?AV?$_Func_impl_no_alloc@V<lambda_2>@?0??send_@ClientImp... -> httplib::ClientImpl::?0??send_::V<lambda_2>::_Func_impl_n...
+  [254/987] .?AVSSLClient@httplib@@ -> httplib::SSLClient
+  [255/987] .?AVClientImpl@httplib@@ -> httplib::ClientImpl
+  [256/987] .?AV?$_Func_impl_no_alloc@P6A_JAEAVStream@httplib@@AEBV?$... -> httplib::P6A_JAEAVStream::_Func_impl_no_alloc
+  [257/987] .?AV?$_Func_base@_JAEAVStream@httplib@@AEAV?$unordered_mu... -> httplib::_JAEAVStream::_Func_base
+  [258/987] .?AV?$_Func_impl_no_alloc@V<lambda_1>@?0???$create_socket... -> httplib::detail::?0??create_client_socket::V<lambda_1>::?...
+  [259/987] .?AV<lambda_1>@?0???$create_socket@V<lambda_1>@?0??create... -> httplib::detail::?0??create_client_socket::V<lambda_1>::?...
+  [260/987] .?AV?$_Func_impl_no_alloc@V<lambda_1>@?0???0SSLClient@htt... -> httplib::?0???0SSLClient::V<lambda_1>::_Func_impl_no_alloc
+  [261/987] .?AV<lambda_1>@?0???0SSLClient@httplib@@QEAA@AEBV?$basic_... -> httplib::?0???0SSLClient::<lambda_1>
+  [262/987] .?AVSSLSocketStream@detail@httplib@@ -> httplib::detail::SSLSocketStream
+  [263/987] .?AV<lambda_2>@?0??send_@ClientImpl@httplib@@AEAA_NAEAURe... -> httplib::ClientImpl::?0??send_::<lambda_2>
+  [264/987] .?AV?$basic_ofstream@DU?$char_traits@D@std@@@std@@ -> std::D::DU?$char_traits::basic_ofstream
+  [265/987] .?AV?$basic_filebuf@DU?$char_traits@D@std@@@std@@ -> std::D::DU?$char_traits::basic_filebuf
+  [266/987] .?AVinvalid_argument@std@@ -> std::invalid_argument
+  [267/987] .?AVlogic_error@std@@ -> std::logic_error
+  [268/987] .?AV?$_Func_impl_no_alloc@V<lambda_0>@?0??ensure_default_... -> ?A0xB5EE59B9::?0??ensure_default_camera_buffer::V<lambda_...
+  [269/987] .?AV<lambda_0>@?0??ensure_default_camera_buffer@?A0xB5EE5... -> ?A0xB5EE59B9::?0??ensure_default_camera_buffer::<lambda_0>
+  [270/987] .?AV?$_Func_base@XPEAVICommandList@nvrhi@@@std@@ -> nvrhi::XPEAVICommandList::_Func_base
+  [271/987] .?AVNvrhiCallback@@ -> NvrhiCallback
+  [272/987] .?AVIMessageCallback@nvrhi@@ -> nvrhi::IMessageCallback
+  [273/987] .?AVVulkanBackend@@ -> VulkanBackend
+  [274/987] .?AVgfx_backend@@ -> gfx_backend
+  [275/987] .?AVD3D12Backend@@ -> D3D12Backend
+  [276/987] .?AVMenu@qlementine@oclero@@ -> oclero::qlementine::Menu
+  [277/987] .?AVQMenu@@ -> QMenu
+  [278/987] .?AVRoundedFocusFrame@qlementine@oclero@@ -> oclero::qlementine::RoundedFocusFrame
+  [279/987] .?AVQFocusFrame@@ -> QFocusFrame
+  [280/987] .?AV?$_Func_impl_no_alloc@V<lambda_1>@?0??stopAll@WidgetA... -> oclero::qlementine::WidgetAnimationManager::?0??stopAll::...
+  [281/987] .?AV<lambda_1>@?0??stopAll@WidgetAnimationManager@qlement... -> oclero::qlementine::WidgetAnimationManager::?0??stopAll::...
+  [282/987] .?AVWidgetAnimator@qlementine@oclero@@ -> oclero::qlementine::WidgetAnimator
+  [283/987] .?AV?$_Func_base@XPEBVQWidget@@PEAVWidgetAnimator@qlement... -> XPEBVQWidget::_Func_base
+  [284/987] .?AVSwitch@qlementine@oclero@@ -> oclero::qlementine::Switch
+  [285/987] .?AVQAbstractButton@@ -> QAbstractButton
+  [286/987] .?AVComboBoxDelegate@qlementine@oclero@@ -> oclero::qlementine::ComboBoxDelegate
+  [287/987] .?AVQItemDelegate@@ -> QItemDelegate
+  [288/987] .?AVLineEdit@qlementine@oclero@@ -> oclero::qlementine::LineEdit
+  [289/987] .?AVQLineEdit@@ -> QLineEdit
+  [290/987] .?AVPlainTextEdit@qlementine@oclero@@ -> oclero::qlementine::PlainTextEdit
+  [291/987] .?AVQPlainTextEdit@@ -> QPlainTextEdit
+  [292/987] .?AVQAbstractScrollArea@@ -> QAbstractScrollArea
+  [293/987] .?AVQFrame@@ -> QFrame
+  [294/987] .?AVFlashActionHelper@qlementine@oclero@@ -> oclero::qlementine::FlashActionHelper
+  [295/987] .?AV?$_Func_impl_no_alloc@V<lambda_0>@?0??buildTransform@... -> ldv::editor::?A0x41263C45::?0??buildTransform::V<lambda_0...
+  [296/987] .?AV<lambda_0>@?0??buildTransform@?A0x41263C45@editor@ldv... -> ldv::editor::?A0x41263C45::?0??buildTransform::<lambda_0>
+  [297/987] .?AV?$_Func_impl_no_alloc@V<lambda_1>@?0??buildTransform@... -> ldv::editor::?A0x41263C45::?0??buildTransform::V<lambda_1...
+  [298/987] .?AV<lambda_1>@?0??buildTransform@?A0x41263C45@editor@ldv... -> ldv::editor::?A0x41263C45::?0??buildTransform::<lambda_1>
+  [299/987] .?AV?$_Func_impl_no_alloc@V<lambda_2>@?0??buildTransform@... -> ldv::editor::?A0x41263C45::?0??buildTransform::V<lambda_2...
+  [300/987] .?AV<lambda_2>@?0??buildTransform@?A0x41263C45@editor@ldv... -> ldv::editor::?A0x41263C45::?0??buildTransform::<lambda_2>
+  [301/987] .?AV?$_Func_impl_no_alloc@V<lambda_3>@?0??buildTransformM... -> ldv::editor::?A0x41263C45::?0??buildTransformMulti::V<lam...
+  [302/987] .?AV<lambda_3>@?0??buildTransformMulti@?A0x41263C45@edito... -> ldv::editor::?A0x41263C45::?0??buildTransformMulti::<lamb...
+  [303/987] .?AV?$_Func_impl_no_alloc@V<lambda_4>@?0??buildTransformM... -> ldv::editor::?A0x41263C45::?0??buildTransformMulti::V<lam...
+  [304/987] .?AV<lambda_4>@?0??buildTransformMulti@?A0x41263C45@edito... -> ldv::editor::?A0x41263C45::?0??buildTransformMulti::<lamb...
+  [305/987] .?AV?$_Func_base@XMMM@std@@ -> std::XMMM::_Func_base
+  [306/987] .?AV?$_Ref_count_obj2@V?$vector@_KV?$allocator@_K@std@@@s... -> std::_K::_KV?$allocator::V?$vector::_Ref_count_obj2
+  [307/987] .?AV?$_Ref_count_obj2@H@std@@ -> std::H::_Ref_count_obj2
+  [308/987] .?AVCleanSpinBox@editor@ldv@@ -> ldv::editor::CleanSpinBox
+  [309/987] .?AVQDoubleSpinBox@@ -> QDoubleSpinBox
+  [310/987] .?AVQAbstractSpinBox@@ -> QAbstractSpinBox
+  [311/987] .?AVCollapsibleSection@editor@ldv@@ -> ldv::editor::CollapsibleSection
+  [312/987] .?AVPlainComboDelegate@editor@ldv@@ -> ldv::editor::PlainComboDelegate
+  [313/987] .?AVCDockManager@ads@@ -> ads::CDockManager
+  [314/987] .?AVCDockContainerWidget@ads@@ -> ads::CDockContainerWidget
+  [315/987] .?AV?$basic_ifstream@DU?$char_traits@D@std@@@std@@ -> std::D::DU?$char_traits::basic_ifstream
+  [316/987] .?AVFileSink@scene@ldv@@ -> ldv::scene::FileSink
+  [317/987] .?AVSeverityBlockData@?A0xC3070FC8@editor@ldv@@ -> ldv::editor::?A0xC3070FC8::SeverityBlockData
+  [318/987] .?AVOutputPanel@editor@ldv@@ -> ldv::editor::OutputPanel
+  [319/987] .?AVSeverityHighlighter@editor@ldv@@ -> ldv::editor::SeverityHighlighter
+  [320/987] .?AVQSyntaxHighlighter@@ -> QSyntaxHighlighter
+  [321/987] .?AVQTextBlockUserData@@ -> QTextBlockUserData
+  [322/987] .?AVLinkLabel@?A0xE1468FF4@editor@ldv@@ -> ldv::editor::?A0xE1468FF4::LinkLabel
+  [323/987] .?AV?$_Func_impl_no_alloc@V<lambda_0>@?0???0WelcomeWidget... -> ldv::editor::?0???0WelcomeWidget::V<lambda_0>::_Func_impl...
+  [324/987] .?AV<lambda_0>@?0???0WelcomeWidget@editor@ldv@@QEAA@PEAVQ... -> ldv::editor::?0???0WelcomeWidget::<lambda_0>
+  [325/987] .?AV?$_Func_impl_no_alloc@V<lambda_1>@?0???0WelcomeWidget... -> ldv::editor::?0???0WelcomeWidget::V<lambda_1>::_Func_impl...
+  [326/987] .?AV<lambda_1>@?0???0WelcomeWidget@editor@ldv@@QEAA@PEAVQ... -> ldv::editor::?0???0WelcomeWidget::<lambda_1>
+  [327/987] .?AV?$_Func_impl_no_alloc@V<lambda_2>@?0??makeRecentRow@W... -> ldv::editor::WelcomeWidget::?0??makeRecentRow::V<lambda_2...
+  [328/987] .?AV<lambda_2>@?0??makeRecentRow@WelcomeWidget@editor@ldv... -> ldv::editor::WelcomeWidget::?0??makeRecentRow::<lambda_2>
+  [329/987] .?AVWelcomeWidget@editor@ldv@@ -> ldv::editor::WelcomeWidget
+  [330/987] .?AVQLabel@@ -> QLabel
+  [331/987] .?AVCDockWidget@ads@@ -> ads::CDockWidget
+  [332/987] .?AVScriptEditor@editor@ldv@@ -> ldv::editor::ScriptEditor
+  [333/987] .?AVCPushButton@ads@@ -> ads::CPushButton
+  [334/987] .?AVQPushButton@@ -> QPushButton
+  [335/987] .?AVOutliner@editor@ldv@@ -> ldv::editor::Outliner
+  [336/987] .?AVQTreeWidget@@ -> QTreeWidget
+  [337/987] .?AVQTreeView@@ -> QTreeView
+  [338/987] .?AVQAbstractItemView@@ -> QAbstractItemView
+  [339/987] .?AVViewportWidget@editor@ldv@@ -> ldv::editor::ViewportWidget
+  [340/987] .?AVRotateGizmo@editor@ldv@@ -> ldv::editor::RotateGizmo
+  [341/987] .?AVGizmoHandler@editor@ldv@@ -> ldv::editor::GizmoHandler
+  [342/987] .?AVMoveGizmo@editor@ldv@@ -> ldv::editor::MoveGizmo
+  [343/987] .?AVScaleGizmo@editor@ldv@@ -> ldv::editor::ScaleGizmo
+  [344/987] .?AV?$_Func_impl_no_alloc@V<lambda_0>@?0??Initialize@View... -> ldv::editor::ViewportRenderer::?0??Initialize::V<lambda_0...
+  [345/987] .?AV<lambda_0>@?0??Initialize@ViewportRenderer@editor@ldv... -> ldv::editor::ViewportRenderer::?0??Initialize::<lambda_0>
+  [346/987] .?AVAssetBrowser@editor@ldv@@ -> ldv::editor::AssetBrowser
+  [347/987] .?AVInspector@editor@ldv@@ -> ldv::editor::Inspector
+  [348/987] .?AVQScrollArea@@ -> QScrollArea
+  [349/987] .?AV?$_Func_impl_no_alloc@V?$_Fake_no_copy_callable_adapt... -> ldv::editor::AccountWidget::?0??fetchAvatar::V<lambda_0>:...
+  [350/987] .?AV?$_Fake_no_copy_callable_adapter@V<lambda_1>@?0???$cr... -> ldv::editor::AccountWidget::?0??fetchAvatar::V<lambda_0>:...
+  [351/987] .?AVAccountWidget@editor@ldv@@ -> ldv::editor::AccountWidget
+  [352/987] .?AV?$_Deferred_async_state@X@std@@ -> std::X::_Deferred_async_state
+  [353/987] .?AV?$_Packaged_state@$$A6AXXZ@std@@ -> std::$$A6AXXZ::_Packaged_state
+  [354/987] .?AV?$_Associated_state@H@std@@ -> std::H::_Associated_state
+  [355/987] .?AVfuture_error@std@@ -> std::future_error
+  [356/987] .?AV_Future_error_category2@std@@ -> std::_Future_error_category2
+  [357/987] .?AV?$_Func_impl_no_alloc@V?$_Fake_no_copy_callable_adapt... -> ldv::editor::LoginDialog::?0??doLogin::V<lambda_0>::?0???...
+  [358/987] .?AV?$_Fake_no_copy_callable_adapter@V<lambda_1>@?0???$cr... -> ldv::editor::LoginDialog::?0??doLogin::V<lambda_0>::?0???...
+  [359/987] .?AV?$_Func_impl_no_alloc@V?$_Fake_no_copy_callable_adapt... -> ldv::editor::LoginDialog::?0??doMFA::V<lambda_1>::?0???$c...
+  [360/987] .?AV?$_Fake_no_copy_callable_adapter@V<lambda_1>@?0???$cr... -> ldv::editor::LoginDialog::?0??doMFA::V<lambda_1>::?0???$c...
+  [361/987] .?AV?$_Func_impl_no_alloc@V?$_Fake_no_copy_callable_adapt... -> ldv::editor::PublishDialog::?0??onPublish::V<lambda_1>::?...
+  [362/987] .?AV?$_Fake_no_copy_callable_adapter@V<lambda_1>@?0???$cr... -> ldv::editor::PublishDialog::?0??onPublish::V<lambda_1>::?...
+  [363/987] .?AV?$_Func_impl_no_alloc@V?$_Fake_no_copy_callable_adapt... -> ldv::editor::PublishDialog::?0??onPublishNew::V<lambda_2>...
+  [364/987] .?AV?$_Fake_no_copy_callable_adapter@V<lambda_1>@?0???$cr... -> ldv::editor::PublishDialog::?0??onPublishNew::V<lambda_2>...
+  [365/987] .?AVStudioSettingsDialog@editor@ldv@@ -> ldv::editor::StudioSettingsDialog
+  [366/987] .?AVBufferSink@scene@ldv@@ -> ldv::scene::BufferSink
+  [367/987] .?AVAssetFilterProxy@editor@ldv@@ -> ldv::editor::AssetFilterProxy
+  [368/987] .?AVQSortFilterProxyModel@@ -> QSortFilterProxyModel
+  [369/987] .?AVQAbstractProxyModel@@ -> QAbstractProxyModel
+  [370/987] .?AVQAbstractItemModel@@ -> QAbstractItemModel
+  [371/987] .?AVAssetFileModel@editor@ldv@@ -> ldv::editor::AssetFileModel
+  [372/987] .?AVQAbstractListModel@@ -> QAbstractListModel
+  [373/987] .?AVSegmentLabel@?A0xB09729EB@editor@ldv@@ -> ldv::editor::?A0xB09729EB::SegmentLabel
+  [374/987] .?AV?$_Func_impl_no_alloc@V<lambda_1>@?0???R1?0??rebuild@... -> ldv::editor::PathBar::?0???R1?0??rebuild::V<lambda_1>::_F...
+  [375/987] .?AV<lambda_1>@?0???R0?0??rebuild@PathBar@editor@ldv@@AEA... -> ldv::editor::PathBar::?0???R0?0??rebuild::<lambda_1>
+  [376/987] .?AVPathBar@editor@ldv@@ -> ldv::editor::PathBar
+  [377/987] .?AV?$_Func_base@XAEBVQString@@@std@@ -> XAEBVQString::_Func_base
+  [378/987] .?AVPlayerEmulator@editor@ldv@@ -> ldv::editor::PlayerEmulator
+  [379/987] .?AV<lambda_0>@?0??Draw@TaperedCapsuleShape@JPH@@UEBAXPEA... -> JPH::TaperedCapsuleShape::?0??Draw::<lambda_0>
+  [380/987] .?AV<lambda_1>@mTireMaxImpulseCallback@WheeledVehicleCont... -> JPH::WheeledVehicleController::mTireMaxImpulseCallback::<...
+  [381/987] .?AV<lambda_0>@?0??Initialize@DebugRenderer@JPH@@IEAAXXZ@ -> JPH::DebugRenderer::?0??Initialize::<lambda_0>
+  [382/987] .?AV?$_Ref_count_obj2@U_Dir_enum_impl@filesystem@std@@@std@@ -> std::filesystem::U_Dir_enum_impl::_Ref_count_obj2
+  [383/987] .?AV?$_Func_impl_no_alloc@V<lambda_0>@?0??create_fallback... -> ?0??create_fallback_texture::V<lambda_0>::_Func_impl_no_a...
+  [384/987] .?AV<lambda_0>@?0??create_fallback_texture@@YA_NPEAUgfx_r... -> ?0??create_fallback_texture::<lambda_0>
+  [385/987] .?AV?$_Func_impl_no_alloc@V<lambda_1>@?0??gfx_res_load_te... -> ?0??gfx_res_load_texture_source::V<lambda_1>::_Func_impl_...
+  [386/987] .?AV<lambda_1>@?0??gfx_res_load_texture_source@@YA?AUgfx_... -> ?0??gfx_res_load_texture_source::<lambda_1>
+  [387/987] .?AV?$_Func_impl_no_alloc@V<lambda_2>@?0??gfx_res_load_te... -> ?0??gfx_res_load_texture_source::V<lambda_2>::_Func_impl_...
+  [388/987] .?AV<lambda_2>@?0??gfx_res_load_texture_source@@YA?AUgfx_... -> ?0??gfx_res_load_texture_source::<lambda_2>
+  [389/987] .?AV?$_Func_impl_no_alloc@V<lambda_3>@?0??gfx_res_load_me... -> ?0??gfx_res_load_mesh::V<lambda_3>::_Func_impl_no_alloc
+  [390/987] .?AV<lambda_3>@?0??gfx_res_load_mesh@@YA?AUgfx_handle@@PE... -> ?0??gfx_res_load_mesh::<lambda_3>
+  [391/987] .?AV?$_Func_impl_no_alloc@V<lambda_0>@?0??create_mesh@?A0... -> ?A0x627F7237::?0??create_mesh::V<lambda_0>::_Func_impl_no...
+  [392/987] .?AV<lambda_0>@?0??create_mesh@?A0x627F7237@@YA_NPEAUgfx_... -> ?A0x627F7237::?0??create_mesh::<lambda_0>
+  [393/987] .?AV?$_Func_impl_no_alloc@V<lambda_1>@?0??load_cubemap_fr... -> ?A0x627F7237::?0??load_cubemap_from_path::V<lambda_1>::_F...
+  [394/987] .?AV<lambda_1>@?0??load_cubemap_from_path@?A0x627F7237@@Y... -> ?A0x627F7237::?0??load_cubemap_from_path::<lambda_1>
+  [395/987] .?AV?$_Func_impl_no_alloc@V<lambda_1>@?0??create_geometry... -> ?0??create_geometry::V<lambda_1>::_Func_impl_no_alloc
+  [396/987] .?AV<lambda_1>@?0??create_geometry@@YAXPEAUgfx_object_poo... -> ?0??create_geometry::<lambda_1>
+  [397/987] .?AV?$_Func_impl_no_alloc@V<lambda_0>@?0??create_instance... -> ?0??create_instance_index_buffer::V<lambda_0>::_Func_impl...
+  [398/987] .?AV<lambda_0>@?0??create_instance_index_buffer@@YA_NPEAU... -> ?0??create_instance_index_buffer::<lambda_0>
+  [399/987] .?AVIAccelStruct@rt@nvrhi@@ -> nvrhi::rt::IAccelStruct
+  [400/987] .?AVAccelStructWrapper@validation@nvrhi@@ -> nvrhi::validation::AccelStructWrapper
+  [401/987] .?AVICommandList@nvrhi@@ -> nvrhi::ICommandList
+  [402/987] .?AVCommandListWrapper@validation@nvrhi@@ -> nvrhi::validation::CommandListWrapper
+  [403/987] .?AVIResource@nvrhi@@ -> nvrhi::IResource
+  [404/987] .?AVDeviceWrapper@validation@nvrhi@@ -> nvrhi::validation::DeviceWrapper
+  [405/987] .?AV?$RefCounter@VIDevice@nvrhi@@@nvrhi@@ -> nvrhi::VIDevice::RefCounter
+  [406/987] .?AVIDevice@nvrhi@@ -> nvrhi::IDevice
+  [407/987] .?AV?$RefCounter@VIAccelStruct@rt@nvrhi@@@nvrhi@@ -> nvrhi::rt::VIAccelStruct::RefCounter
+  [408/987] .?AVLoggingCallback@?A0x362DC738@gfx@ldv@@ -> ldv::gfx::?A0x362DC738::LoggingCallback
+  [409/987] .?AVDeviceLostError@vk@@ -> vk::DeviceLostError
+  [410/987] .?AVDevice@vulkan@nvrhi@@ -> nvrhi::vulkan::Device
+  [411/987] .?AV?$RefCounter@VIDevice@vulkan@nvrhi@@@nvrhi@@ -> nvrhi::vulkan::VIDevice::RefCounter
+  [412/987] .?AVIDevice@vulkan@nvrhi@@ -> nvrhi::vulkan::IDevice
+  [413/987] .?AVHeap@vulkan@nvrhi@@ -> nvrhi::vulkan::Heap
+  [414/987] .?AVMemoryResource@vulkan@nvrhi@@ -> nvrhi::vulkan::MemoryResource
+  [415/987] .?AV?$RefCounter@VIHeap@nvrhi@@@nvrhi@@ -> nvrhi::VIHeap::RefCounter
+  [416/987] .?AVIHeap@nvrhi@@ -> nvrhi::IHeap
+  [417/987] .?AVOutOfHostMemoryError@vk@@ -> vk::OutOfHostMemoryError
+  [418/987] .?AVSystemError@vk@@ -> vk::SystemError
+  [419/987] .?AVError@vk@@ -> vk::Error
+  [420/987] .?AVOutOfDeviceMemoryError@vk@@ -> vk::OutOfDeviceMemoryError
+  [421/987] .?AVInitializationFailedError@vk@@ -> vk::InitializationFailedError
+  [422/987] .?AVMemoryMapFailedError@vk@@ -> vk::MemoryMapFailedError
+  [423/987] .?AVLayerNotPresentError@vk@@ -> vk::LayerNotPresentError
+  [424/987] .?AVExtensionNotPresentError@vk@@ -> vk::ExtensionNotPresentError
+  [425/987] .?AVFeatureNotPresentError@vk@@ -> vk::FeatureNotPresentError
+  [426/987] .?AVIncompatibleDriverError@vk@@ -> vk::IncompatibleDriverError
+  [427/987] .?AVTooManyObjectsError@vk@@ -> vk::TooManyObjectsError
+  [428/987] .?AVFormatNotSupportedError@vk@@ -> vk::FormatNotSupportedError
+  [429/987] .?AVFragmentedPoolError@vk@@ -> vk::FragmentedPoolError
+  [430/987] .?AVUnknownError@vk@@ -> vk::UnknownError
+  [431/987] .?AVValidationFailedError@vk@@ -> vk::ValidationFailedError
+  [432/987] .?AVOutOfPoolMemoryError@vk@@ -> vk::OutOfPoolMemoryError
+  [433/987] .?AVInvalidExternalHandleError@vk@@ -> vk::InvalidExternalHandleError
+  [434/987] .?AVFragmentationError@vk@@ -> vk::FragmentationError
+  [435/987] .?AVInvalidOpaqueCaptureAddressError@vk@@ -> vk::InvalidOpaqueCaptureAddressError
+  [436/987] .?AVNotPermittedError@vk@@ -> vk::NotPermittedError
+  [437/987] .?AVSurfaceLostKHRError@vk@@ -> vk::SurfaceLostKHRError
+  [438/987] .?AVNativeWindowInUseKHRError@vk@@ -> vk::NativeWindowInUseKHRError
+  [439/987] .?AVOutOfDateKHRError@vk@@ -> vk::OutOfDateKHRError
+  [440/987] .?AVIncompatibleDisplayKHRError@vk@@ -> vk::IncompatibleDisplayKHRError
+  [441/987] .?AVInvalidShaderNVError@vk@@ -> vk::InvalidShaderNVError
+  [442/987] .?AVImageUsageNotSupportedKHRError@vk@@ -> vk::ImageUsageNotSupportedKHRError
+  [443/987] .?AVVideoPictureLayoutNotSupportedKHRError@vk@@ -> vk::VideoPictureLayoutNotSupportedKHRError
+  [444/987] .?AVVideoProfileOperationNotSupportedKHRError@vk@@ -> vk::VideoProfileOperationNotSupportedKHRError
+  [445/987] .?AVVideoProfileFormatNotSupportedKHRError@vk@@ -> vk::VideoProfileFormatNotSupportedKHRError
+  [446/987] .?AVVideoProfileCodecNotSupportedKHRError@vk@@ -> vk::VideoProfileCodecNotSupportedKHRError
+  [447/987] .?AVVideoStdVersionNotSupportedKHRError@vk@@ -> vk::VideoStdVersionNotSupportedKHRError
+  [448/987] .?AVInvalidDrmFormatModifierPlaneLayoutEXTError@vk@@ -> vk::InvalidDrmFormatModifierPlaneLayoutEXTError
+  [449/987] .?AVFullScreenExclusiveModeLostEXTError@vk@@ -> vk::FullScreenExclusiveModeLostEXTError
+  [450/987] .?AVInvalidVideoStdParametersKHRError@vk@@ -> vk::InvalidVideoStdParametersKHRError
+  [451/987] .?AVCompressionExhaustedEXTError@vk@@ -> vk::CompressionExhaustedEXTError
+  [452/987] .?AVNotEnoughSpaceKHRError@vk@@ -> vk::NotEnoughSpaceKHRError
+  [453/987] .?AVErrorCategoryImpl@vk@@ -> vk::ErrorCategoryImpl
+  [454/987] .?AVDevice@d3d12@nvrhi@@ -> nvrhi::d3d12::Device
+  [455/987] .?AV?$RefCounter@VIDevice@d3d12@nvrhi@@@nvrhi@@ -> nvrhi::d3d12::VIDevice::RefCounter
+  [456/987] .?AVIDevice@d3d12@nvrhi@@ -> nvrhi::d3d12::IDevice
+  [457/987] .?AVSampler@d3d12@nvrhi@@ -> nvrhi::d3d12::Sampler
+  [458/987] .?AV?$RefCounter@VISampler@nvrhi@@@nvrhi@@ -> nvrhi::VISampler::RefCounter
+  [459/987] .?AVISampler@nvrhi@@ -> nvrhi::ISampler
+  [460/987] .?AVStaticDescriptorHeap@d3d12@nvrhi@@ -> nvrhi::d3d12::StaticDescriptorHeap
+  [461/987] .?AVIDescriptorHeap@d3d12@nvrhi@@ -> nvrhi::d3d12::IDescriptorHeap
+  [462/987] .?AVHeap@d3d12@nvrhi@@ -> nvrhi::d3d12::Heap
+  [463/987] .?AVThemeManager@qlementine@oclero@@ -> oclero::qlementine::ThemeManager
+  [464/987] .?AVAction@qlementine@oclero@@ -> oclero::qlementine::Action
+  [465/987] .?AVQAction@@ -> QAction
+  [466/987] .?AVColorButton@qlementine@oclero@@ -> oclero::qlementine::ColorButton
+  [467/987] .?AVColorEditor@qlementine@oclero@@ -> oclero::qlementine::ColorEditor
+  [468/987] .?AVExpander@qlementine@oclero@@ -> oclero::qlementine::Expander
+  [469/987] .?AVIconWidget@qlementine@oclero@@ -> oclero::qlementine::IconWidget
+  [470/987] .?AVLabel@qlementine@oclero@@ -> oclero::qlementine::Label
+  [471/987] .?AVLoadingSpinner@qlementine@oclero@@ -> oclero::qlementine::LoadingSpinner
+  [472/987] .?AVNotificationBadge@qlementine@oclero@@ -> oclero::qlementine::NotificationBadge
+  [473/987] .?AV?$_Func_impl_no_alloc@V<lambda_0>@?0???0Popover@qleme... -> oclero::qlementine::?0???0Popover::V<lambda_0>::_Func_imp...
+  [474/987] .?AV<lambda_0>@?0???0Popover@qlementine@oclero@@QEAA@PEAV... -> oclero::qlementine::?0???0Popover::<lambda_0>
+  [475/987] .?AVPopover@qlementine@oclero@@ -> oclero::qlementine::Popover
+  [476/987] .?AVPopoverFrame@Popover@qlementine@oclero@@ -> oclero::qlementine::Popover::PopoverFrame
+  [477/987] .?AVPopoverButton@qlementine@oclero@@ -> oclero::qlementine::PopoverButton
+  [478/987] .?AVStatusBadgeWidget@qlementine@oclero@@ -> oclero::qlementine::StatusBadgeWidget
+  [479/987] .?AVThemeEditor@qlementine@oclero@@ -> oclero::qlementine::ThemeEditor
+  [480/987] .?AV?$_Func_impl_no_alloc@V<lambda_1>@?0??setupColorEdito... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [481/987] .?AV?$_Func_base@XAEBVQColor@@@std@@ -> XAEBVQColor::_Func_base
+  [482/987] .?AV<lambda_1>@?0??setupColorEditors@Impl@ThemeEditor@qle... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [483/987] .?AV?$_Func_impl_no_alloc@V<lambda_2>@?0??setupColorEdito... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [484/987] .?AV<lambda_2>@?0??setupColorEditors@Impl@ThemeEditor@qle... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [485/987] .?AV?$_Func_impl_no_alloc@V<lambda_3>@?0??setupColorEdito... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [486/987] .?AV<lambda_3>@?0??setupColorEditors@Impl@ThemeEditor@qle... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [487/987] .?AV?$_Func_impl_no_alloc@V<lambda_4>@?0??setupColorEdito... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [488/987] .?AV<lambda_4>@?0??setupColorEditors@Impl@ThemeEditor@qle... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [489/987] .?AV?$_Func_impl_no_alloc@V<lambda_5>@?0??setupColorEdito... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [490/987] .?AV<lambda_5>@?0??setupColorEditors@Impl@ThemeEditor@qle... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [491/987] .?AV?$_Func_impl_no_alloc@V<lambda_6>@?0??setupColorEdito... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [492/987] .?AV<lambda_6>@?0??setupColorEditors@Impl@ThemeEditor@qle... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [493/987] .?AV?$_Func_impl_no_alloc@V<lambda_7>@?0??setupColorEdito... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [494/987] .?AV<lambda_7>@?0??setupColorEditors@Impl@ThemeEditor@qle... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [495/987] .?AV?$_Func_impl_no_alloc@V<lambda_8>@?0??setupColorEdito... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [496/987] .?AV<lambda_8>@?0??setupColorEditors@Impl@ThemeEditor@qle... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [497/987] .?AV?$_Func_impl_no_alloc@V<lambda_9>@?0??setupColorEdito... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [498/987] .?AV<lambda_9>@?0??setupColorEditors@Impl@ThemeEditor@qle... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [499/987] .?AV?$_Func_impl_no_alloc@V<lambda_10>@?0??setupColorEdit... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [500/987] .?AV<lambda_10>@?0??setupColorEditors@Impl@ThemeEditor@ql... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [501/987] .?AV?$_Func_impl_no_alloc@V<lambda_11>@?0??setupColorEdit... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [502/987] .?AV<lambda_11>@?0??setupColorEditors@Impl@ThemeEditor@ql... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [503/987] .?AV?$_Func_impl_no_alloc@V<lambda_12>@?0??setupColorEdit... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [504/987] .?AV<lambda_12>@?0??setupColorEditors@Impl@ThemeEditor@ql... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [505/987] .?AV?$_Func_impl_no_alloc@V<lambda_13>@?0??setupColorEdit... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [506/987] .?AV<lambda_13>@?0??setupColorEditors@Impl@ThemeEditor@ql... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [507/987] .?AV?$_Func_impl_no_alloc@V<lambda_14>@?0??setupColorEdit... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [508/987] .?AV<lambda_14>@?0??setupColorEditors@Impl@ThemeEditor@ql... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [509/987] .?AV?$_Func_impl_no_alloc@V<lambda_15>@?0??setupColorEdit... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [510/987] .?AV<lambda_15>@?0??setupColorEditors@Impl@ThemeEditor@ql... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [511/987] .?AV?$_Func_impl_no_alloc@V<lambda_16>@?0??setupColorEdit... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [512/987] .?AV<lambda_16>@?0??setupColorEditors@Impl@ThemeEditor@ql... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [513/987] .?AV?$_Func_impl_no_alloc@V<lambda_17>@?0??setupColorEdit... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [514/987] .?AV<lambda_17>@?0??setupColorEditors@Impl@ThemeEditor@ql... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [515/987] .?AV?$_Func_impl_no_alloc@V<lambda_18>@?0??setupColorEdit... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [516/987] .?AV<lambda_18>@?0??setupColorEditors@Impl@ThemeEditor@ql... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [517/987] .?AV?$_Func_impl_no_alloc@V<lambda_19>@?0??setupColorEdit... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [518/987] .?AV<lambda_19>@?0??setupColorEditors@Impl@ThemeEditor@ql... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [519/987] .?AV?$_Func_impl_no_alloc@V<lambda_20>@?0??setupColorEdit... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [520/987] .?AV<lambda_20>@?0??setupColorEditors@Impl@ThemeEditor@ql... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [521/987] .?AV?$_Func_impl_no_alloc@V<lambda_21>@?0??setupColorEdit... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [522/987] .?AV<lambda_21>@?0??setupColorEditors@Impl@ThemeEditor@ql... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [523/987] .?AV?$_Func_impl_no_alloc@V<lambda_22>@?0??setupColorEdit... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [524/987] .?AV<lambda_22>@?0??setupColorEditors@Impl@ThemeEditor@ql... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [525/987] .?AV?$_Func_impl_no_alloc@V<lambda_23>@?0??setupColorEdit... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [526/987] .?AV<lambda_23>@?0??setupColorEditors@Impl@ThemeEditor@ql... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [527/987] .?AV?$_Func_impl_no_alloc@V<lambda_24>@?0??setupColorEdit... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [528/987] .?AV<lambda_24>@?0??setupColorEditors@Impl@ThemeEditor@ql... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [529/987] .?AV?$_Func_impl_no_alloc@V<lambda_25>@?0??setupColorEdit... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [530/987] .?AV<lambda_25>@?0??setupColorEditors@Impl@ThemeEditor@ql... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [531/987] .?AV?$_Func_impl_no_alloc@V<lambda_26>@?0??setupColorEdit... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [532/987] .?AV<lambda_26>@?0??setupColorEditors@Impl@ThemeEditor@ql... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [533/987] .?AV?$_Func_impl_no_alloc@V<lambda_27>@?0??setupColorEdit... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [534/987] .?AV<lambda_27>@?0??setupColorEditors@Impl@ThemeEditor@ql... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [535/987] .?AV?$_Func_impl_no_alloc@V<lambda_28>@?0??setupColorEdit... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [536/987] .?AV<lambda_28>@?0??setupColorEditors@Impl@ThemeEditor@ql... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [537/987] .?AV?$_Func_impl_no_alloc@V<lambda_29>@?0??setupColorEdit... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [538/987] .?AV<lambda_29>@?0??setupColorEditors@Impl@ThemeEditor@ql... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [539/987] .?AV?$_Func_impl_no_alloc@V<lambda_30>@?0??setupColorEdit... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [540/987] .?AV<lambda_30>@?0??setupColorEditors@Impl@ThemeEditor@ql... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [541/987] .?AV?$_Func_impl_no_alloc@V<lambda_31>@?0??setupColorEdit... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [542/987] .?AV<lambda_31>@?0??setupColorEditors@Impl@ThemeEditor@ql... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [543/987] .?AV?$_Func_impl_no_alloc@V<lambda_32>@?0??setupColorEdit... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [544/987] .?AV<lambda_32>@?0??setupColorEditors@Impl@ThemeEditor@ql... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [545/987] .?AV?$_Func_impl_no_alloc@V<lambda_33>@?0??setupColorEdit... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [546/987] .?AV<lambda_33>@?0??setupColorEditors@Impl@ThemeEditor@ql... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [547/987] .?AV?$_Func_impl_no_alloc@V<lambda_34>@?0??setupColorEdit... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [548/987] .?AV<lambda_34>@?0??setupColorEditors@Impl@ThemeEditor@ql... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [549/987] .?AV?$_Func_impl_no_alloc@V<lambda_35>@?0??setupColorEdit... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [550/987] .?AV<lambda_35>@?0??setupColorEditors@Impl@ThemeEditor@ql... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [551/987] .?AV?$_Func_impl_no_alloc@V<lambda_36>@?0??setupColorEdit... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [552/987] .?AV<lambda_36>@?0??setupColorEditors@Impl@ThemeEditor@ql... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [553/987] .?AV?$_Func_impl_no_alloc@V<lambda_37>@?0??setupColorEdit... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [554/987] .?AV<lambda_37>@?0??setupColorEditors@Impl@ThemeEditor@ql... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [555/987] .?AV?$_Func_impl_no_alloc@V<lambda_38>@?0??setupColorEdit... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [556/987] .?AV<lambda_38>@?0??setupColorEditors@Impl@ThemeEditor@ql... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [557/987] .?AV?$_Func_impl_no_alloc@V<lambda_39>@?0??setupColorEdit... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [558/987] .?AV<lambda_39>@?0??setupColorEditors@Impl@ThemeEditor@ql... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [559/987] .?AV?$_Func_impl_no_alloc@V<lambda_40>@?0??setupColorEdit... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [560/987] .?AV<lambda_40>@?0??setupColorEditors@Impl@ThemeEditor@ql... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [561/987] .?AV?$_Func_impl_no_alloc@V<lambda_41>@?0??setupColorEdit... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [562/987] .?AV<lambda_41>@?0??setupColorEditors@Impl@ThemeEditor@ql... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [563/987] .?AV?$_Func_impl_no_alloc@V<lambda_42>@?0??setupColorEdit... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [564/987] .?AV<lambda_42>@?0??setupColorEditors@Impl@ThemeEditor@ql... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [565/987] .?AV?$_Func_impl_no_alloc@V<lambda_43>@?0??setupColorEdit... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [566/987] .?AV<lambda_43>@?0??setupColorEditors@Impl@ThemeEditor@ql... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [567/987] .?AV?$_Func_impl_no_alloc@V<lambda_44>@?0??setupColorEdit... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [568/987] .?AV<lambda_44>@?0??setupColorEditors@Impl@ThemeEditor@ql... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [569/987] .?AV?$_Func_impl_no_alloc@V<lambda_45>@?0??setupColorEdit... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [570/987] .?AV<lambda_45>@?0??setupColorEditors@Impl@ThemeEditor@ql... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [571/987] .?AV?$_Func_impl_no_alloc@V<lambda_46>@?0??setupColorEdit... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [572/987] .?AV<lambda_46>@?0??setupColorEditors@Impl@ThemeEditor@ql... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [573/987] .?AV?$_Func_impl_no_alloc@V<lambda_47>@?0??setupColorEdit... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [574/987] .?AV<lambda_47>@?0??setupColorEditors@Impl@ThemeEditor@ql... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [575/987] .?AV?$_Func_impl_no_alloc@V<lambda_48>@?0??setupColorEdit... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [576/987] .?AV<lambda_48>@?0??setupColorEditors@Impl@ThemeEditor@ql... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [577/987] .?AV?$_Func_impl_no_alloc@V<lambda_49>@?0??setupColorEdit... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [578/987] .?AV<lambda_49>@?0??setupColorEditors@Impl@ThemeEditor@ql... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [579/987] .?AV?$_Func_impl_no_alloc@V<lambda_50>@?0??setupColorEdit... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [580/987] .?AV<lambda_50>@?0??setupColorEditors@Impl@ThemeEditor@ql... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [581/987] .?AV?$_Func_impl_no_alloc@V<lambda_51>@?0??setupColorEdit... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [582/987] .?AV<lambda_51>@?0??setupColorEditors@Impl@ThemeEditor@ql... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [583/987] .?AV?$_Func_impl_no_alloc@V<lambda_52>@?0??setupColorEdit... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [584/987] .?AV<lambda_52>@?0??setupColorEditors@Impl@ThemeEditor@ql... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [585/987] .?AV?$_Func_impl_no_alloc@V<lambda_53>@?0??setupColorEdit... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [586/987] .?AV<lambda_53>@?0??setupColorEditors@Impl@ThemeEditor@ql... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [587/987] .?AV?$_Func_impl_no_alloc@V<lambda_54>@?0??setupColorEdit... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [588/987] .?AV<lambda_54>@?0??setupColorEditors@Impl@ThemeEditor@ql... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [589/987] .?AV?$_Func_impl_no_alloc@V<lambda_55>@?0??setupColorEdit... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [590/987] .?AV<lambda_55>@?0??setupColorEditors@Impl@ThemeEditor@ql... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [591/987] .?AV?$_Func_impl_no_alloc@V<lambda_56>@?0??setupColorEdit... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [592/987] .?AV<lambda_56>@?0??setupColorEditors@Impl@ThemeEditor@ql... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [593/987] .?AV?$_Func_impl_no_alloc@V<lambda_57>@?0??setupColorEdit... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [594/987] .?AV<lambda_57>@?0??setupColorEditors@Impl@ThemeEditor@ql... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [595/987] .?AV?$_Func_impl_no_alloc@V<lambda_58>@?0??setupColorEdit... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [596/987] .?AV<lambda_58>@?0??setupColorEditors@Impl@ThemeEditor@ql... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [597/987] .?AV?$_Func_impl_no_alloc@V<lambda_59>@?0??setupColorEdit... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [598/987] .?AV<lambda_59>@?0??setupColorEditors@Impl@ThemeEditor@ql... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [599/987] .?AV?$_Func_impl_no_alloc@V<lambda_60>@?0??setupColorEdit... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [600/987] .?AV<lambda_60>@?0??setupColorEditors@Impl@ThemeEditor@ql... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [601/987] .?AV?$_Func_impl_no_alloc@V<lambda_61>@?0??setupColorEdit... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [602/987] .?AV<lambda_61>@?0??setupColorEditors@Impl@ThemeEditor@ql... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [603/987] .?AV?$_Func_impl_no_alloc@V<lambda_62>@?0??setupColorEdit... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [604/987] .?AV<lambda_62>@?0??setupColorEditors@Impl@ThemeEditor@ql... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [605/987] .?AV?$_Func_impl_no_alloc@V<lambda_63>@?0??setupColorEdit... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [606/987] .?AV<lambda_63>@?0??setupColorEditors@Impl@ThemeEditor@ql... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [607/987] .?AV?$_Func_impl_no_alloc@V<lambda_64>@?0??setupColorEdit... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [608/987] .?AV<lambda_64>@?0??setupColorEditors@Impl@ThemeEditor@ql... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [609/987] .?AV?$_Func_impl_no_alloc@V<lambda_65>@?0??setupColorEdit... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [610/987] .?AV<lambda_65>@?0??setupColorEditors@Impl@ThemeEditor@ql... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [611/987] .?AV?$_Func_impl_no_alloc@V<lambda_66>@?0??setupColorEdit... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [612/987] .?AV<lambda_66>@?0??setupColorEditors@Impl@ThemeEditor@ql... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [613/987] .?AV?$_Func_impl_no_alloc@V<lambda_67>@?0??setupColorEdit... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [614/987] .?AV<lambda_67>@?0??setupColorEditors@Impl@ThemeEditor@ql... -> oclero::qlementine::ThemeEditor::Impl::?0??setupColorEdit...
+  [615/987] .?AVAboutDialog@qlementine@oclero@@ -> oclero::qlementine::AboutDialog
+  [616/987] .?AVActionButton@qlementine@oclero@@ -> oclero::qlementine::ActionButton
+  [617/987] .?AV?$_Func_impl_no_alloc@V<lambda_0>@?0??buildVec3@?A0x6... -> ldv::editor::?A0x64E603A3::?0??buildVec3::V<lambda_0>::_F...
+  [618/987] .?AV<lambda_0>@?0??buildVec3@?A0x64E603A3@editor@ldv@@YAX... -> ldv::editor::?A0x64E603A3::?0??buildVec3::<lambda_0>
+  [619/987] .?AV?$_Func_impl_no_alloc@V<lambda_1>@?0??buildMultiVec3@... -> ldv::editor::?A0x64E603A3::?0??buildMultiVec3::V<lambda_1...
+  [620/987] .?AV<lambda_1>@?0??buildMultiVec3@?A0x64E603A3@editor@ldv... -> ldv::editor::?A0x64E603A3::?0??buildMultiVec3::<lambda_1>
+  [621/987] .?AVCDockComponentsFactory@ads@@ -> ads::CDockComponentsFactory
+  [622/987] .?AVCFloatingDockContainer@ads@@ -> ads::CFloatingDockContainer
+  [623/987] .?AVIFloatingWidget@ads@@ -> ads::IFloatingWidget
+  [624/987] .?AVCAutoHideDockContainer@ads@@ -> ads::CAutoHideDockContainer
+  [625/987] .?AVCDockAreaWidget@ads@@ -> ads::CDockAreaWidget
+  [626/987] .?AVCDockOverlay@ads@@ -> ads::CDockOverlay
+  [627/987] .?AVCDockOverlayCross@ads@@ -> ads::CDockOverlayCross
+  [628/987] .?AVCDockFocusController@ads@@ -> ads::CDockFocusController
+  [629/987] .?AV?$_Func_impl_no_alloc@V<lambda_1>@?0???$registerConve... -> ads::VCDockWidget::V?$QPointer::?0???$registerConverter::...
+  [630/987] .?AV<lambda_1>@?0???$registerConverter@V?$QPointer@VCDock... -> ads::VCDockWidget::V?$QPointer::?0???$registerConverter::...
+  [631/987] .?AVCIconProvider@ads@@ -> ads::CIconProvider
+  [632/987] .?AVCDockWidgetTab@ads@@ -> ads::CDockWidgetTab
+  [633/987] .?AVQsciScintilla@@ -> QsciScintilla
+  [634/987] .?AVQsciScintillaBase@@ -> QsciScintillaBase
+  [635/987] .?AVQsciLexerLua@@ -> QsciLexerLua
+  [636/987] .?AVQsciLexer@@ -> QsciLexer
+  [637/987] .?AVCAutoHideSideBar@ads@@ -> ads::CAutoHideSideBar
+  [638/987] .?AVCTabsWidget@ads@@ -> ads::CTabsWidget
+  [639/987] .?AVCAutoHideTab@ads@@ -> ads::CAutoHideTab
+  [640/987] .?AV?$_Func_impl_no_alloc@V<lambda_1>@?0???$registerConve... -> ads::VCAutoHideDockContainer::V?$QPointer::?0???$register...
+  [641/987] .?AV<lambda_1>@?0???$registerConverter@V?$QPointer@VCAuto... -> ads::VCAutoHideDockContainer::V?$QPointer::?0???$register...
+  [642/987] .?AVCDockAreaTabBar@ads@@ -> ads::CDockAreaTabBar
+  [643/987] .?AVCDockAreaTitleBar@ads@@ -> ads::CDockAreaTitleBar
+  [644/987] .?AVCTitleBarButton@ads@@ -> ads::CTitleBarButton
+  [645/987] .?AVQToolButton@@ -> QToolButton
+  [646/987] .?AVCSpacerWidget@ads@@ -> ads::CSpacerWidget
+  [647/987] .?AVCFloatingDragPreview@ads@@ -> ads::CFloatingDragPreview
+  [648/987] .?AVCResizeHandle@ads@@ -> ads::CResizeHandle
+  [649/987] .?AVCDockSplitter@ads@@ -> ads::CDockSplitter
+  [650/987] .?AVQSplitter@@ -> QSplitter
+  [651/987] .?AVCElidingLabel@ads@@ -> ads::CElidingLabel
+  [652/987] .?AV?$_Func_impl_no_alloc@VContentProviderAdapter@detail@... -> httplib::detail::VContentProviderAdapter::_Func_impl_no_a...
+  [653/987] .?AV?$_Func_base@_N_K_KAEAVDataSink@httplib@@@std@@ -> httplib::_N_K_KAEAVDataSink::_Func_base
+  [654/987] .?AVContentProviderAdapter@detail@httplib@@ -> httplib::detail::ContentProviderAdapter
+  [655/987] .?AVlua_exception@@ -> lua_exception
+  [656/987] .?AVAstAttr@Luau@@ -> Luau::AstAttr
+  [657/987] .?AVAstNode@Luau@@ -> Luau::AstNode
+  [658/987] .?AVAstGenericType@Luau@@ -> Luau::AstGenericType
+  [659/987] .?AVAstGenericTypePack@Luau@@ -> Luau::AstGenericTypePack
+  [660/987] .?AVAstExprGroup@Luau@@ -> Luau::AstExprGroup
+  [661/987] .?AVAstExpr@Luau@@ -> Luau::AstExpr
+  [662/987] .?AVAstExprConstantNil@Luau@@ -> Luau::AstExprConstantNil
+  [663/987] .?AVAstExprConstantBool@Luau@@ -> Luau::AstExprConstantBool
+  [664/987] .?AVAstExprConstantNumber@Luau@@ -> Luau::AstExprConstantNumber
+  [665/987] .?AVAstExprConstantString@Luau@@ -> Luau::AstExprConstantString
+  [666/987] .?AVAstExprLocal@Luau@@ -> Luau::AstExprLocal
+  [667/987] .?AVAstExprGlobal@Luau@@ -> Luau::AstExprGlobal
+  [668/987] .?AVAstExprVarargs@Luau@@ -> Luau::AstExprVarargs
+  [669/987] .?AVAstExprCall@Luau@@ -> Luau::AstExprCall
+  [670/987] .?AVAstExprIndexName@Luau@@ -> Luau::AstExprIndexName
+  [671/987] .?AVAstExprIndexExpr@Luau@@ -> Luau::AstExprIndexExpr
+  [672/987] .?AVAstExprFunction@Luau@@ -> Luau::AstExprFunction
+  [673/987] .?AVAstExprTable@Luau@@ -> Luau::AstExprTable
+  [674/987] .?AVAstExprUnary@Luau@@ -> Luau::AstExprUnary
+  [675/987] .?AVAstExprBinary@Luau@@ -> Luau::AstExprBinary
+  [676/987] .?AVAstExprTypeAssertion@Luau@@ -> Luau::AstExprTypeAssertion
+  [677/987] .?AVAstExprIfElse@Luau@@ -> Luau::AstExprIfElse
+  [678/987] .?AVAstExprError@Luau@@ -> Luau::AstExprError
+  [679/987] .?AVAstExprInterpString@Luau@@ -> Luau::AstExprInterpString
+  [680/987] .?AVAstExprInstantiate@Luau@@ -> Luau::AstExprInstantiate
+  [681/987] .?AVAstStatBlock@Luau@@ -> Luau::AstStatBlock
+  [682/987] .?AVAstStat@Luau@@ -> Luau::AstStat
+  [683/987] .?AVAstStatIf@Luau@@ -> Luau::AstStatIf
+  [684/987] .?AVAstStatWhile@Luau@@ -> Luau::AstStatWhile
+  [685/987] .?AVAstStatRepeat@Luau@@ -> Luau::AstStatRepeat
+  [686/987] .?AVAstStatBreak@Luau@@ -> Luau::AstStatBreak
+  [687/987] .?AVAstStatContinue@Luau@@ -> Luau::AstStatContinue
+  [688/987] .?AVAstStatReturn@Luau@@ -> Luau::AstStatReturn
+  [689/987] .?AVAstStatExpr@Luau@@ -> Luau::AstStatExpr
+  [690/987] .?AVAstStatLocal@Luau@@ -> Luau::AstStatLocal
+  [691/987] .?AVAstStatFor@Luau@@ -> Luau::AstStatFor
+  [692/987] .?AVAstStatForIn@Luau@@ -> Luau::AstStatForIn
+  [693/987] .?AVAstStatAssign@Luau@@ -> Luau::AstStatAssign
+  [694/987] .?AVAstStatCompoundAssign@Luau@@ -> Luau::AstStatCompoundAssign
+  [695/987] .?AVAstStatFunction@Luau@@ -> Luau::AstStatFunction
+  [696/987] .?AVAstStatLocalFunction@Luau@@ -> Luau::AstStatLocalFunction
+  [697/987] .?AVAstStatTypeAlias@Luau@@ -> Luau::AstStatTypeAlias
+  [698/987] .?AVAstStatTypeFunction@Luau@@ -> Luau::AstStatTypeFunction
+  [699/987] .?AVAstStatDeclareGlobal@Luau@@ -> Luau::AstStatDeclareGlobal
+  [700/987] .?AVAstStatDeclareFunction@Luau@@ -> Luau::AstStatDeclareFunction
+  [701/987] .?AVAstStatDeclareExternType@Luau@@ -> Luau::AstStatDeclareExternType
+  [702/987] .?AVAstStatError@Luau@@ -> Luau::AstStatError
+  [703/987] .?AVAstTypeReference@Luau@@ -> Luau::AstTypeReference
+  [704/987] .?AVAstType@Luau@@ -> Luau::AstType
+  [705/987] .?AVAstTypeTable@Luau@@ -> Luau::AstTypeTable
+  [706/987] .?AVAstTypeFunction@Luau@@ -> Luau::AstTypeFunction
+  [707/987] .?AVAstTypeTypeof@Luau@@ -> Luau::AstTypeTypeof
+  [708/987] .?AVAstTypeOptional@Luau@@ -> Luau::AstTypeOptional
+  [709/987] .?AVAstTypeUnion@Luau@@ -> Luau::AstTypeUnion
+  [710/987] .?AVAstTypeIntersection@Luau@@ -> Luau::AstTypeIntersection
+  [711/987] .?AVAstTypeSingletonBool@Luau@@ -> Luau::AstTypeSingletonBool
+  [712/987] .?AVAstTypeSingletonString@Luau@@ -> Luau::AstTypeSingletonString
+  [713/987] .?AVAstTypeGroup@Luau@@ -> Luau::AstTypeGroup
+  [714/987] .?AVAstTypeError@Luau@@ -> Luau::AstTypeError
+  [715/987] .?AVAstTypePackExplicit@Luau@@ -> Luau::AstTypePackExplicit
+  [716/987] .?AVAstTypePack@Luau@@ -> Luau::AstTypePack
+  [717/987] .?AVAstTypePackVariadic@Luau@@ -> Luau::AstTypePackVariadic
+  [718/987] .?AVAstTypePackGeneric@Luau@@ -> Luau::AstTypePackGeneric
+  [719/987] .?AVCompileError@Luau@@ -> Luau::CompileError
+  [720/987] .?AVAstVisitor@Luau@@ -> Luau::AstVisitor
+  [721/987] .?AVParseError@Luau@@ -> Luau::ParseError
+  [722/987] .?AV?$RefCounter@VICommandList@nvrhi@@@nvrhi@@ -> nvrhi::VICommandList::RefCounter
+  [723/987] .?AV?$_Ref_count_obj2@VTrackedCommandBuffer@vulkan@nvrhi@... -> nvrhi::vulkan::VTrackedCommandBuffer::_Ref_count_obj2
+  [724/987] .?AVCommandList@vulkan@nvrhi@@ -> nvrhi::vulkan::CommandList
+  [725/987] .?AVTexture@vulkan@nvrhi@@ -> nvrhi::vulkan::Texture
+  [726/987] .?AV?$RefCounter@VITexture@nvrhi@@@nvrhi@@ -> nvrhi::VITexture::RefCounter
+  [727/987] .?AVITexture@nvrhi@@ -> nvrhi::ITexture
+  [728/987] .?AVSampler@vulkan@nvrhi@@ -> nvrhi::vulkan::Sampler
+  [729/987] .?AVStagingTexture@vulkan@nvrhi@@ -> nvrhi::vulkan::StagingTexture
+  [730/987] .?AV?$RefCounter@VIStagingTexture@nvrhi@@@nvrhi@@ -> nvrhi::VIStagingTexture::RefCounter
+  [731/987] .?AVIStagingTexture@nvrhi@@ -> nvrhi::IStagingTexture
+  [732/987] .?AVBuffer@vulkan@nvrhi@@ -> nvrhi::vulkan::Buffer
+  [733/987] .?AV?$RefCounter@VIBuffer@nvrhi@@@nvrhi@@ -> nvrhi::VIBuffer::RefCounter
+  [734/987] .?AVIBuffer@nvrhi@@ -> nvrhi::IBuffer
+  [735/987] .?AVShader@vulkan@nvrhi@@ -> nvrhi::vulkan::Shader
+  [736/987] .?AV?$RefCounter@VIShader@nvrhi@@@nvrhi@@ -> nvrhi::VIShader::RefCounter
+  [737/987] .?AVIShader@nvrhi@@ -> nvrhi::IShader
+  [738/987] .?AVShaderLibrary@vulkan@nvrhi@@ -> nvrhi::vulkan::ShaderLibrary
+  [739/987] .?AV?$RefCounter@VIShaderLibrary@nvrhi@@@nvrhi@@ -> nvrhi::VIShaderLibrary::RefCounter
+  [740/987] .?AVIShaderLibrary@nvrhi@@ -> nvrhi::IShaderLibrary
+  [741/987] .?AVInputLayout@vulkan@nvrhi@@ -> nvrhi::vulkan::InputLayout
+  [742/987] .?AV?$RefCounter@VIInputLayout@nvrhi@@@nvrhi@@ -> nvrhi::VIInputLayout::RefCounter
+  [743/987] .?AVIInputLayout@nvrhi@@ -> nvrhi::IInputLayout
+  [744/987] .?AVTimerQuery@vulkan@nvrhi@@ -> nvrhi::vulkan::TimerQuery
+  [745/987] .?AV?$RefCounter@VITimerQuery@nvrhi@@@nvrhi@@ -> nvrhi::VITimerQuery::RefCounter
+  [746/987] .?AVITimerQuery@nvrhi@@ -> nvrhi::ITimerQuery
+  [747/987] .?AVEventQuery@vulkan@nvrhi@@ -> nvrhi::vulkan::EventQuery
+  [748/987] .?AV?$RefCounter@VIEventQuery@nvrhi@@@nvrhi@@ -> nvrhi::VIEventQuery::RefCounter
+  [749/987] .?AVIEventQuery@nvrhi@@ -> nvrhi::IEventQuery
+  [750/987] .?AVGraphicsPipeline@vulkan@nvrhi@@ -> nvrhi::vulkan::GraphicsPipeline
+  [751/987] .?AV?$RefCounter@VIGraphicsPipeline@nvrhi@@@nvrhi@@ -> nvrhi::VIGraphicsPipeline::RefCounter
+  [752/987] .?AVIGraphicsPipeline@nvrhi@@ -> nvrhi::IGraphicsPipeline
+  [753/987] .?AVFramebuffer@vulkan@nvrhi@@ -> nvrhi::vulkan::Framebuffer
+  [754/987] .?AV?$RefCounter@VIFramebuffer@nvrhi@@@nvrhi@@ -> nvrhi::VIFramebuffer::RefCounter
+  [755/987] .?AVIFramebuffer@nvrhi@@ -> nvrhi::IFramebuffer
+  [756/987] .?AVComputePipeline@vulkan@nvrhi@@ -> nvrhi::vulkan::ComputePipeline
+  [757/987] .?AV?$RefCounter@VIComputePipeline@nvrhi@@@nvrhi@@ -> nvrhi::VIComputePipeline::RefCounter
+  [758/987] .?AVIComputePipeline@nvrhi@@ -> nvrhi::IComputePipeline
+  [759/987] .?AVMeshletPipeline@vulkan@nvrhi@@ -> nvrhi::vulkan::MeshletPipeline
+  [760/987] .?AV?$RefCounter@VIMeshletPipeline@nvrhi@@@nvrhi@@ -> nvrhi::VIMeshletPipeline::RefCounter
+  [761/987] .?AVIMeshletPipeline@nvrhi@@ -> nvrhi::IMeshletPipeline
+  [762/987] .?AVAccelStruct@vulkan@nvrhi@@ -> nvrhi::vulkan::AccelStruct
+  [763/987] .?AVOpacityMicromap@vulkan@nvrhi@@ -> nvrhi::vulkan::OpacityMicromap
+  [764/987] .?AV?$RefCounter@VIOpacityMicromap@rt@nvrhi@@@nvrhi@@ -> nvrhi::rt::VIOpacityMicromap::RefCounter
+  [765/987] .?AVIOpacityMicromap@rt@nvrhi@@ -> nvrhi::rt::IOpacityMicromap
+  [766/987] .?AVRayTracingPipeline@vulkan@nvrhi@@ -> nvrhi::vulkan::RayTracingPipeline
+  [767/987] .?AV?$RefCounter@VIPipeline@rt@nvrhi@@@nvrhi@@ -> nvrhi::rt::VIPipeline::RefCounter
+  [768/987] .?AVIPipeline@rt@nvrhi@@ -> nvrhi::rt::IPipeline
+  [769/987] .?AVShaderTable@vulkan@nvrhi@@ -> nvrhi::vulkan::ShaderTable
+  [770/987] .?AV?$RefCounter@VIShaderTable@rt@nvrhi@@@nvrhi@@ -> nvrhi::rt::VIShaderTable::RefCounter
+  [771/987] .?AVIShaderTable@rt@nvrhi@@ -> nvrhi::rt::IShaderTable
+  [772/987] .?AVLogicError@vk@@ -> vk::LogicError
+  [773/987] .?AVBindingLayout@vulkan@nvrhi@@ -> nvrhi::vulkan::BindingLayout
+  [774/987] .?AV?$RefCounter@VIBindingLayout@nvrhi@@@nvrhi@@ -> nvrhi::VIBindingLayout::RefCounter
+  [775/987] .?AVIBindingLayout@nvrhi@@ -> nvrhi::IBindingLayout
+  [776/987] .?AVBindingSet@vulkan@nvrhi@@ -> nvrhi::vulkan::BindingSet
+  [777/987] .?AV?$RefCounter@VIBindingSet@nvrhi@@@nvrhi@@ -> nvrhi::VIBindingSet::RefCounter
+  [778/987] .?AVIBindingSet@nvrhi@@ -> nvrhi::IBindingSet
+  [779/987] .?AVDescriptorTable@vulkan@nvrhi@@ -> nvrhi::vulkan::DescriptorTable
+  [780/987] .?AV?$RefCounter@VIDescriptorTable@nvrhi@@@nvrhi@@ -> nvrhi::VIDescriptorTable::RefCounter
+  [781/987] .?AVIDescriptorTable@nvrhi@@ -> nvrhi::IDescriptorTable
+  [782/987] .?AVCommandList@d3d12@nvrhi@@ -> nvrhi::d3d12::CommandList
+  [783/987] .?AV?$RefCounter@VICommandList@d3d12@nvrhi@@@nvrhi@@ -> nvrhi::d3d12::VICommandList::RefCounter
+  [784/987] .?AVICommandList@d3d12@nvrhi@@ -> nvrhi::d3d12::ICommandList
+  [785/987] .?AV?$_Ref_count_obj2@VInternalCommandList@d3d12@nvrhi@@@... -> nvrhi::d3d12::VInternalCommandList::_Ref_count_obj2
+  [786/987] .?AV?$_Ref_count_obj2@VCommandListInstance@d3d12@nvrhi@@@... -> nvrhi::d3d12::VCommandListInstance::_Ref_count_obj2
+  [787/987] .?AVTexture@d3d12@nvrhi@@ -> nvrhi::d3d12::Texture
+  [788/987] .?AVStagingTexture@d3d12@nvrhi@@ -> nvrhi::d3d12::StagingTexture
+  [789/987] .?AVSamplerFeedbackTexture@d3d12@nvrhi@@ -> nvrhi::d3d12::SamplerFeedbackTexture
+  [790/987] .?AV?$RefCounter@VISamplerFeedbackTexture@nvrhi@@@nvrhi@@ -> nvrhi::VISamplerFeedbackTexture::RefCounter
+  [791/987] .?AVISamplerFeedbackTexture@nvrhi@@ -> nvrhi::ISamplerFeedbackTexture
+  [792/987] .?AV?$basic_stringstream@_WU?$char_traits@_W@std@@V?$allo... -> std::_W::_WU?$char_traits::basic_stringstream
+  [793/987] .?AV?$basic_iostream@_WU?$char_traits@_W@std@@@std@@ -> std::_W::_WU?$char_traits::basic_iostream
+  [794/987] .?AV?$basic_istream@_WU?$char_traits@_W@std@@@std@@ -> std::_W::_WU?$char_traits::basic_istream
+  [795/987] .?AV?$basic_ios@_WU?$char_traits@_W@std@@@std@@ -> std::_W::_WU?$char_traits::basic_ios
+  [796/987] .?AV?$basic_ostream@_WU?$char_traits@_W@std@@@std@@ -> std::_W::_WU?$char_traits::basic_ostream
+  [797/987] .?AV?$basic_stringbuf@_WU?$char_traits@_W@std@@V?$allocat... -> std::_W::_WU?$char_traits::basic_stringbuf
+  [798/987] .?AV?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@ -> std::_W::_WU?$char_traits::basic_streambuf
+  [799/987] .?AVBuffer@d3d12@nvrhi@@ -> nvrhi::d3d12::Buffer
+  [800/987] .?AVShader@d3d12@nvrhi@@ -> nvrhi::d3d12::Shader
+  [801/987] .?AVShaderLibrary@d3d12@nvrhi@@ -> nvrhi::d3d12::ShaderLibrary
+  [802/987] .?AVInputLayout@d3d12@nvrhi@@ -> nvrhi::d3d12::InputLayout
+  [803/987] .?AVShaderLibraryEntry@d3d12@nvrhi@@ -> nvrhi::d3d12::ShaderLibraryEntry
+  [804/987] .?AVTimerQuery@d3d12@nvrhi@@ -> nvrhi::d3d12::TimerQuery
+  [805/987] .?AVEventQuery@d3d12@nvrhi@@ -> nvrhi::d3d12::EventQuery
+  [806/987] .?AVFramebuffer@d3d12@nvrhi@@ -> nvrhi::d3d12::Framebuffer
+  [807/987] .?AVGraphicsPipeline@d3d12@nvrhi@@ -> nvrhi::d3d12::GraphicsPipeline
+  [808/987] .?AVComputePipeline@d3d12@nvrhi@@ -> nvrhi::d3d12::ComputePipeline
+  [809/987] .?AVMeshletPipeline@d3d12@nvrhi@@ -> nvrhi::d3d12::MeshletPipeline
+  [810/987] .?AVAccelStruct@d3d12@nvrhi@@ -> nvrhi::d3d12::AccelStruct
+  [811/987] .?AVShaderTable@d3d12@nvrhi@@ -> nvrhi::d3d12::ShaderTable
+  [812/987] .?AVRayTracingPipeline@d3d12@nvrhi@@ -> nvrhi::d3d12::RayTracingPipeline
+  [813/987] .?AVBindingSet@d3d12@nvrhi@@ -> nvrhi::d3d12::BindingSet
+  [814/987] .?AVDescriptorTable@d3d12@nvrhi@@ -> nvrhi::d3d12::DescriptorTable
+  [815/987] .?AVBindingLayout@d3d12@nvrhi@@ -> nvrhi::d3d12::BindingLayout
+  [816/987] .?AVBindlessLayout@d3d12@nvrhi@@ -> nvrhi::d3d12::BindlessLayout
+  [817/987] .?AVRootSignature@d3d12@nvrhi@@ -> nvrhi::d3d12::RootSignature
+  [818/987] .?AV?$RefCounter@VIRootSignature@d3d12@nvrhi@@@nvrhi@@ -> nvrhi::d3d12::VIRootSignature::RefCounter
+  [819/987] .?AVIRootSignature@d3d12@nvrhi@@ -> nvrhi::d3d12::IRootSignature
+  [820/987] .?AVQsciDocument@@ -> QsciDocument
+  [821/987] .?AV?$_Func_impl_no_alloc@P6A?AV?$vector@U?$pair@ULocatio... -> Luau::ULocation::U?$pair::P6A?AV?$vector::_Func_impl_no_a...
+  [822/987] .?AV?$_Func_base@V?$vector@U?$pair@ULocation@Luau@@V?$bas... -> Luau::ULocation::U?$pair::V?$vector::_Func_base
+  [823/987] .?AV?$_Ref_count_obj2@UBufferChunk@vulkan@nvrhi@@@std@@ -> nvrhi::vulkan::UBufferChunk::_Ref_count_obj2
+  [824/987] .?AV?$_Ref_count_obj2@VBufferChunk@d3d12@nvrhi@@@std@@ -> nvrhi::d3d12::VBufferChunk::_Ref_count_obj2
+  [825/987] .?AVQsciAccessibleScintillaBase@@ -> QsciAccessibleScintillaBase
+  [826/987] .?AVQAccessibleWidget@@ -> QAccessibleWidget
+  [827/987] .?AVQAccessibleObject@@ -> QAccessibleObject
+  [828/987] .?AVQAccessibleInterface@@ -> QAccessibleInterface
+  [829/987] .?AVQAccessibleActionInterface@@ -> QAccessibleActionInterface
+  [830/987] .?AVQAccessibleTextInterface@@ -> QAccessibleTextInterface
+  [831/987] .?AVQAccessibleEditableTextInterface@@ -> QAccessibleEditableTextInterface
+  [832/987] .?AVQAccessibleTextInsertEvent@@ -> QAccessibleTextInsertEvent
+  [833/987] .?AVQAccessibleTextCursorEvent@@ -> QAccessibleTextCursorEvent
+  [834/987] .?AVQAccessibleEvent@@ -> QAccessibleEvent
+  [835/987] .?AVQAccessibleTextRemoveEvent@@ -> QAccessibleTextRemoveEvent
+  [836/987] .?AVQsciScintillaQt@@ -> QsciScintillaQt
+  [837/987] .?AVScintillaBase@Scintilla@@ -> Scintilla::ScintillaBase
+  [838/987] .?AVEditor@Scintilla@@ -> Scintilla::Editor
+  [839/987] .?AVEditModel@Scintilla@@ -> Scintilla::EditModel
+  [840/987] .?AVDocWatcher@Scintilla@@ -> Scintilla::DocWatcher
+  [841/987] .?AVIListBoxDelegate@Scintilla@@ -> Scintilla::IListBoxDelegate
+  [842/987] .?AVWindow@Scintilla@@ -> Scintilla::Window
+  [843/987] .?AVCaseFolderASCII@@ -> CaseFolderASCII
+  [844/987] .?AVCaseFolderTable@Scintilla@@ -> Scintilla::CaseFolderTable
+  [845/987] .?AVCaseFolder@Scintilla@@ -> Scintilla::CaseFolder
+  [846/987] .?AVLexState@Scintilla@@ -> Scintilla::LexState
+  [847/987] .?AVLexInterface@Scintilla@@ -> Scintilla::LexInterface
+  [848/987] .?AV?$LineVector@_J@@ -> _J::LineVector
+  [849/987] .?AVILineVector@Scintilla@@ -> Scintilla::ILineVector
+  [850/987] .?AV?$LineStartIndex@_J@@ -> _J::LineStartIndex
+  [851/987] .?AV?$LineVector@H@@ -> H::LineVector
+  [852/987] .?AV?$LineStartIndex@H@@ -> H::LineStartIndex
+  [853/987] .?AVFont@Scintilla@@ -> Scintilla::Font
+  [854/987] .?AVSurfaceImpl@Scintilla@@ -> Scintilla::SurfaceImpl
+  [855/987] .?AVSurface@Scintilla@@ -> Scintilla::Surface
+  [856/987] .?AVDocumentIndexer@?A0x5C8164A2@@ -> ?A0x5C8164A2::DocumentIndexer
+  [857/987] .?AVDocument@Scintilla@@ -> Scintilla::Document
+  [858/987] .?AVPerLine@Scintilla@@ -> Scintilla::PerLine
+  [859/987] .?AVIDocumentWithLineEnd@Scintilla@@ -> Scintilla::IDocumentWithLineEnd
+  [860/987] .?AVIDocument@Scintilla@@ -> Scintilla::IDocument
+  [861/987] .?AVILoader@@ -> ILoader
+  [862/987] .?AVLineMarkers@Scintilla@@ -> Scintilla::LineMarkers
+  [863/987] .?AVLineLevels@Scintilla@@ -> Scintilla::LineLevels
+  [864/987] .?AVLineState@Scintilla@@ -> Scintilla::LineState
+  [865/987] .?AVLineAnnotation@Scintilla@@ -> Scintilla::LineAnnotation
+  [866/987] .?AVregex_error@std@@ -> std::regex_error
+  [867/987] .?AV?$collate@_W@std@@ -> std::_W::collate
+  [868/987] .?AV?$_Node_class@_WV?$regex_traits@_W@std@@@std@@ -> std::_W::_WV?$regex_traits::_Node_class
+  [869/987] .?AV?$_Node_str@_W@std@@ -> std::_W::_Node_str
+  [870/987] .?AVCharacterIndexer@Scintilla@@ -> Scintilla::CharacterIndexer
+  [871/987] .?AVBuiltinRegex@@ -> BuiltinRegex
+  [872/987] .?AVRegexSearchBase@Scintilla@@ -> Scintilla::RegexSearchBase
+  [873/987] .?AVQsciSciCallTip@@ -> QsciSciCallTip
+  [874/987] .?AVQsciSciPopup@@ -> QsciSciPopup
+  [875/987] .?AVQsciSciListBox@@ -> QsciSciListBox
+  [876/987] .?AVQListWidget@@ -> QListWidget
+  [877/987] .?AVQListView@@ -> QListView
+  [878/987] .?AVQsciLexerAVS@@ -> QsciLexerAVS
+  [879/987] .?AVQsciLexerBash@@ -> QsciLexerBash
+  [880/987] .?AVQsciLexerBatch@@ -> QsciLexerBatch
+  [881/987] .?AVQsciLexerCMake@@ -> QsciLexerCMake
+  [882/987] .?AVQsciLexerCoffeeScript@@ -> QsciLexerCoffeeScript
+  [883/987] .?AVQsciLexerCPP@@ -> QsciLexerCPP
+  [884/987] .?AVQsciLexerCSharp@@ -> QsciLexerCSharp
+  [885/987] .?AVQsciLexerCSS@@ -> QsciLexerCSS
+  [886/987] .?AVQsciLexerD@@ -> QsciLexerD
+  [887/987] .?AVQsciLexerDiff@@ -> QsciLexerDiff
+  [888/987] .?AVQsciLexerEDIFACT@@ -> QsciLexerEDIFACT
+  [889/987] .?AVQsciLexerFortran@@ -> QsciLexerFortran
+  [890/987] .?AVQsciLexerFortran77@@ -> QsciLexerFortran77
+  [891/987] .?AVQsciLexerHTML@@ -> QsciLexerHTML
+  [892/987] .?AVQsciLexerIDL@@ -> QsciLexerIDL
+  [893/987] .?AVQsciLexerIntelHex@@ -> QsciLexerIntelHex
+  [894/987] .?AVQsciLexerHex@@ -> QsciLexerHex
+  [895/987] .?AVQsciLexerJava@@ -> QsciLexerJava
+  [896/987] .?AVQsciLexerJavaScript@@ -> QsciLexerJavaScript
+  [897/987] .?AVQsciLexerJSON@@ -> QsciLexerJSON
+  [898/987] .?AVQsciLexerMakefile@@ -> QsciLexerMakefile
+  [899/987] .?AVQsciLexerMarkdown@@ -> QsciLexerMarkdown
+  [900/987] .?AVQsciLexerMASM@@ -> QsciLexerMASM
+  [901/987] .?AVQsciLexerAsm@@ -> QsciLexerAsm
+  [902/987] .?AVQsciLexerMatlab@@ -> QsciLexerMatlab
+  [903/987] .?AVQsciLexerNASM@@ -> QsciLexerNASM
+  [904/987] .?AVQsciLexerOctave@@ -> QsciLexerOctave
+  [905/987] .?AVQsciLexerPascal@@ -> QsciLexerPascal
+  [906/987] .?AVQsciLexerPerl@@ -> QsciLexerPerl
+  [907/987] .?AVQsciLexerPO@@ -> QsciLexerPO
+  [908/987] .?AVQsciLexerPostScript@@ -> QsciLexerPostScript
+  [909/987] .?AVQsciLexerPOV@@ -> QsciLexerPOV
+  [910/987] .?AVQsciLexerProperties@@ -> QsciLexerProperties
+  [911/987] .?AVQsciLexerPython@@ -> QsciLexerPython
+  [912/987] .?AVQsciLexerRuby@@ -> QsciLexerRuby
+  [913/987] .?AVQsciLexerSpice@@ -> QsciLexerSpice
+  [914/987] .?AVQsciLexerSQL@@ -> QsciLexerSQL
+  [915/987] .?AVQsciLexerSRec@@ -> QsciLexerSRec
+  [916/987] .?AVQsciLexerTCL@@ -> QsciLexerTCL
+  [917/987] .?AVQsciLexerTekHex@@ -> QsciLexerTekHex
+  [918/987] .?AVQsciLexerTeX@@ -> QsciLexerTeX
+  [919/987] .?AVQsciLexerVerilog@@ -> QsciLexerVerilog
+  [920/987] .?AVQsciLexerVHDL@@ -> QsciLexerVHDL
+  [921/987] .?AVQsciLexerXML@@ -> QsciLexerXML
+  [922/987] .?AVQsciLexerYAML@@ -> QsciLexerYAML
+  [923/987] .?AVLexerModule@Scintilla@@ -> Scintilla::LexerModule
+  [924/987] .?AVLexerAsm@@ -> LexerAsm
+  [925/987] .?AVDefaultLexer@Scintilla@@ -> Scintilla::DefaultLexer
+  [926/987] .?AVILexerWithMetaData@Scintilla@@ -> Scintilla::ILexerWithMetaData
+  [927/987] .?AVILexerWithSubStyles@Scintilla@@ -> Scintilla::ILexerWithSubStyles
+  [928/987] .?AVILexer@Scintilla@@ -> Scintilla::ILexer
+  [929/987] .?AV?$OptionSet@UOptionsAsm@@@Scintilla@@ -> UOptionsAsm::OptionSet
+  [930/987] .?AV?$OptionSet@UOptionsBaan@?A0x465335B@@@Scintilla@@ -> ?A0x465335B::UOptionsBaan::OptionSet
+  [931/987] .?AVLexerBaan@@ -> LexerBaan
+  [932/987] .?AVLexerBasic@@ -> LexerBasic
+  [933/987] .?AV?$OptionSet@UOptionsBasic@@@Scintilla@@ -> UOptionsBasic::OptionSet
+  [934/987] .?AV?$OptionSet@UOptionsCPP@?A0xB7B1C2DC@@@Scintilla@@ -> ?A0xB7B1C2DC::UOptionsCPP::OptionSet
+  [935/987] .?AVLexerCPP@@ -> LexerCPP
+  [936/987] .?AVLexerD@@ -> LexerD
+  [937/987] .?AV?$OptionSet@UOptionsD@@@Scintilla@@ -> UOptionsD::OptionSet
+  [938/987] .?AVLexerDMIS@@ -> LexerDMIS
+  [939/987] .?AVLexerEDIFACT@@ -> LexerEDIFACT
+  [940/987] .?AVLexerHaskell@@ -> LexerHaskell
+  [941/987] .?AV?$OptionSet@UOptionsHaskell@@@Scintilla@@ -> UOptionsHaskell::OptionSet
+  [942/987] .?AV?$OptionSet@UOptionsHTML@?A0xDA91B2E@@@Scintilla@@ -> ?A0xDA91B2E::UOptionsHTML::OptionSet
+  [943/987] .?AVLexerHTML@@ -> LexerHTML
+  [944/987] .?AVLexerJSON@@ -> LexerJSON
+  [945/987] .?AV?$OptionSet@UOptionsJSON@@@Scintilla@@ -> UOptionsJSON::OptionSet
+  [946/987] .?AVLexerLaTeX@@ -> LexerLaTeX
+  [947/987] .?AVLexerBase@Scintilla@@ -> Scintilla::LexerBase
+  [948/987] .?AVLexerPerl@@ -> LexerPerl
+  [949/987] .?AV?$OptionSet@UOptionsPerl@@@Scintilla@@ -> UOptionsPerl::OptionSet
+  [950/987] .?AV?$OptionSet@UOptionsABL@?A0x264A1A18@@@Scintilla@@ -> ?A0x264A1A18::UOptionsABL::OptionSet
+  [951/987] .?AVLexerABL@@ -> LexerABL
+  [952/987] .?AV?$OptionSet@UOptionsPython@?A0x30A31417@@@Scintilla@@ -> ?A0x30A31417::UOptionsPython::OptionSet
+  [953/987] .?AVLexerPython@@ -> LexerPython
+  [954/987] .?AVLexerRegistry@@ -> LexerRegistry
+  [955/987] .?AV?$OptionSet@UOptionsRegistry@@@Scintilla@@ -> UOptionsRegistry::OptionSet
+  [956/987] .?AVLexerRust@@ -> LexerRust
+  [957/987] .?AV?$OptionSet@UOptionsRust@@@Scintilla@@ -> UOptionsRust::OptionSet
+  [958/987] .?AVLexerSQL@@ -> LexerSQL
+  [959/987] .?AV?$OptionSet@UOptionsSQL@@@Scintilla@@ -> UOptionsSQL::OptionSet
+  [960/987] .?AV?$OptionSet@UOptionsVerilog@?A0x61FF082A@@@Scintilla@@ -> ?A0x61FF082A::UOptionsVerilog::OptionSet
+  [961/987] .?AVLexerVerilog@@ -> LexerVerilog
+  [962/987] .?AVLexerVisualProlog@@ -> LexerVisualProlog
+  [963/987] .?AV?$OptionSet@UOptionsVisualProlog@@@Scintilla@@ -> UOptionsVisualProlog::OptionSet
+  [964/987] .?AVFontRealised@Scintilla@@ -> Scintilla::FontRealised
+  [965/987] .?AVEditView@Scintilla@@ -> Scintilla::EditView
+  [966/987] .?AVLineTabstops@Scintilla@@ -> Scintilla::LineTabstops
+  [967/987] .?AVLineLayout@Scintilla@@ -> Scintilla::LineLayout
+  [968/987] .?AVLineLayoutCache@Scintilla@@ -> Scintilla::LineLayoutCache
+  [969/987] .?AV?$ContractionState@_J@?A0x1ED90F6B@@ -> ?A0x1ED90F6B::_J::ContractionState
+  [970/987] .?AV?$ContractionState@H@?A0x1ED90F6B@@ -> ?A0x1ED90F6B::H::ContractionState
+  [971/987] .?AVIContractionState@Scintilla@@ -> Scintilla::IContractionState
+  [972/987] .?AVLineMarker@Scintilla@@ -> Scintilla::LineMarker
+  [973/987] .?AVPropSetSimple@Scintilla@@ -> Scintilla::PropSetSimple
+  [974/987] .?AV?$Decoration@_J@?A0xC953E3F2@@ -> ?A0xC953E3F2::_J::Decoration
+  [975/987] .?AV?$Decoration@H@?A0xC953E3F2@@ -> ?A0xC953E3F2::H::Decoration
+  [976/987] .?AV?$DecorationList@_J@?A0xC953E3F2@@ -> ?A0xC953E3F2::_J::DecorationList
+  [977/987] .?AV?$DecorationList@H@?A0xC953E3F2@@ -> ?A0xC953E3F2::H::DecorationList
+  [978/987] .?AVIDecoration@Scintilla@@ -> Scintilla::IDecoration
+  [979/987] .?AVIDecorationList@Scintilla@@ -> Scintilla::IDecorationList
+  [980/987] .?AVQsciListBoxQt@@ -> QsciListBoxQt
+  [981/987] .?AVListBox@Scintilla@@ -> Scintilla::ListBox
+  [982/987] .?AVLexerSimple@Scintilla@@ -> Scintilla::LexerSimple
+  [983/987] .?AVFontAlias@Scintilla@@ -> Scintilla::FontAlias
+  [984/987] .?AVCaseConverter@?A0x53D8C97@@ -> ?A0x53D8C97::CaseConverter
+  [985/987] .?AVICaseConverter@Scintilla@@ -> Scintilla::ICaseConverter
+  [986/987] .?AVRGBAImage@Scintilla@@ -> Scintilla::RGBAImage
+  [987/987] .?AVtype_info@@ -> type_info
+
+  XRef-based vtable traces: 0
+  Pointer-index vtable traces: 0
+
+--- PHASE 3: Searching for standalone mangled function names ---
+
+  Function-level mangled names found: 0
+
+--- PHASE 4: Applying demangled names ---
+
+
+==============================================
+SUMMARY
+==============================================
+RTTI class strings found: 987
+Successfully demangled:   987
+Failed to demangle:       0
+Vtable chains traced:     0
+Functions renamed:        0
+Functions commented:      987
+==============================================

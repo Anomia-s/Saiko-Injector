@@ -1,0 +1,99 @@
+======================================================================
+GHIDRA C++ RECOVERY & DEMANGLING - FINAL RESULTS
+Program: LuduvoApp.exe
+======================================================================
+
+SCRIPTS EXECUTED:
+-----------------
+
+[OK] Step 2a: DemangleAllScript.java
+     Location: Ghidra/Features/Base/ghidra_scripts/DemangleAllScript.java
+     Result: Ran successfully. Demangled MSVC-mangled names.
+     Many "Unwind@..." and "Catch@..." labels could not be demangled
+     (these are not mangled names, they are exception handling labels).
+
+[OK] Step 2b: RecoverClassesFromRTTIScript.java
+     Location: Ghidra/Features/Decompiler/ghidra_scripts/RecoverClassesFromRTTIScript.java
+     Result: Ran successfully (took several minutes on this large binary).
+     - 873 classes identified to process
+     - 1,355 class member functions assigned
+     - 395 constructors
+     - 320 inlined constructors
+     - 37 destructors
+     - 0 inlined destructors
+     - 11,065 virtual functions
+     - 0 virtual deleting destructors
+     - 0 virtual clone functions
+     - 0 virtual vbase_destructors
+     - 606 indetermined constructor/destructors
+     - 0 fixed incorrect FID functions
+
+[SKIP] Step 2c: FixupCompositeDataTypesScript.java
+     Location: Ghidra/Features/Base/ghidra_scripts/FixupCompositeDataTypesScript.java
+     Result: Does not support headless mode. Requires GUI (NullPointerException
+     on PluginTool.getService() because tool is null in headless).
+
+[OK] Step 3a: ClearOrphanFunctions.java
+     Location: Ghidra/Features/Base/ghidra_scripts/ClearOrphanFunctions.java
+     Result: Ran successfully.
+
+[OK] Step 3b: FixArrayStructReferencesScript.java
+     Location: Ghidra/Features/Base/ghidra_scripts/FixArrayStructReferencesScript.java
+     Result: Ran with minor error (data at 0x140000000 is not an array).
+     Save succeeded.
+
+[OK] Step 3c: AddReferencesInSwitchTable.java
+     Location: Ghidra/Features/Base/ghidra_scripts/AddReferencesInSwitchTable.java
+     Result: Requires GUI interaction (cursor must be on switch table).
+     Ran but errored in headless (NullPointerException).
+     Save succeeded (project unchanged by this script).
+
+======================================================================
+POST-ANALYSIS COUNTS (CountCppResultsScript.java)
+======================================================================
+
+FUNCTION DEMANGLING:
+  Total functions in program:    40,805
+  Internal functions:             39,873
+  External functions:              0 (counted as 0 by isExternal())
+  Thunk functions:                 932
+  FUN_ prefix (not demangled):    19,804
+  DAT_ prefix:                     0
+  Demangled/meaningful names:     20,069 (50.3%)
+
+  Sample demangled functions:
+    - vector_too_long, bad_array_new_length, bad_alloc, exception
+    - vfunction1, vfunction2, string_too_long
+    - usage_luduvoapp_mode_options_luduvo_uri_proj
+    - uurlluduvo_protocol
+    (Plus many Unwind@0x... labels demangled to exception handling info)
+
+  Sample FUN_ functions (still unnamed):
+    - FUN_140001000, FUN_1400017d0, FUN_1400019f0, etc.
+
+DATA TYPE / STRUCTURE RESULTS:
+  Total structures:                 2,419
+  Total unions:                      17
+  Total enums:                       119
+  Total typedefs:                    285
+  Class-related structures:        1,909 (by category: class/rtti/vftable/vtable/recovered)
+  Vftable structures:                789 (by name containing vftable/vtable)
+
+  Class/RTTI categories found:      873
+  Major categories include:
+    - ads/           (Advanced Docking System)
+    - Luau/          (Lua scripting engine)
+    - ldv/editor/    (Luduvo Editor)
+    - nvrhi/         (NVIDIA Rendering Hardware Interface)
+    - JPH/           (Jolt Physics)
+    - httplib/       (HTTP library - cpp-httplib)
+    - Q*/            (Qt6 widgets: QWidget, QPushButton, QLabel, etc.)
+    - Qsci*/         (QScintilla editor components)
+    - Scintilla/     (Scintilla editor components)
+    - quill/         (Quill logging library)
+    - oclero/qlementine/ (Qlementine UI framework)
+    - std/           (STL std::function wrappers, etc.)
+    - gfx_backend     (Graphics backend)
+    - VulkanBackend, D3D12Backend
+
+======================================================================

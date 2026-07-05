@@ -1,0 +1,10 @@
+  Progress: 1000 OK=1000 FAIL=0 WARN=0
+  Progress: 2000 OK=2000 FAIL=0 WARN=0
+FAIL 14006e6c0 FUN_14006e6c0: Exception while decompiling 14006e6c0: process: timeout
+
+  Progress: 3000 OK=2999 FAIL=1 WARN=0
+
+=== 3000 FUNCTION SAMPLE ===
+Checked: 3000  OK: 2999 (100.0%)
+WARN: 0  FAIL: 1
+Projected for 39,873 functions: 0 successful

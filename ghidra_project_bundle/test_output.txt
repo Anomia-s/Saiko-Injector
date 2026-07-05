@@ -1,0 +1,3 @@
+Hello from TestScript
+Program: LuduvoApp.exe
+Total functions: 40805

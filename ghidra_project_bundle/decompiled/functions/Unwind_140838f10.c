@@ -1,0 +1,15 @@
+/**
+ * Function: Unwind@140838f10
+ * Address:  140838f10
+ * Signature: undefined Unwind@140838f10(void)
+ * Body size: 55 bytes
+ */
+
+
+void Unwind_140838f10(undefined8 param_1,longlong param_2)
+
+{
+  QString::~QString((QString *)(param_2 + 0x1d0));
+  return;
+}
+

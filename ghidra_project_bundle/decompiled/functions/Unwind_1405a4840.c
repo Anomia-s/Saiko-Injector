@@ -1,0 +1,15 @@
+/**
+ * Function: Unwind@1405a4840
+ * Address:  1405a4840
+ * Signature: undefined Unwind@1405a4840(void)
+ * Body size: 20 bytes
+ */
+
+
+void Unwind_1405a4840(void)
+
+{
+                    /* WARNING: Subroutine does not return */
+  __std_terminate();
+}
+

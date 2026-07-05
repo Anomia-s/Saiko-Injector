@@ -1,0 +1,48 @@
+/**
+ * Function: ~_Node_class<char,std::regex_traits<char>_>
+ * Address:  1401d4420
+ * Signature: void __thiscall ~_Node_class<char,std::regex_traits<char>_>(_Node_class<char,std::regex_traits<char>_> * this)
+ * Body size: 233 bytes
+ */
+
+
+void __thiscall
+std::_Node_class<char,std::regex_traits<char>_>::~_Node_class<char,std::regex_traits<char>_>
+          (_Node_class<char,std::regex_traits<char>_> *this)
+
+{
+  longlong lVar1;
+  longlong lVar2;
+  
+  this->vftablePtr = &vftable;
+  lVar2 = (this->_Node_class<char,std::regex_traits<char>_>_data).offset_0x18;
+  while (lVar2 != 0) {
+    lVar1 = *(longlong *)(lVar2 + 0x18);
+    free(*(void **)(lVar2 + 0x10));
+    thunk_FUN_140b68ba8(lVar2,0x20);
+    lVar2 = lVar1;
+  }
+  lVar2 = (this->_Node_class<char,std::regex_traits<char>_>_data).offset_0x20;
+  if (lVar2 != 0) {
+    thunk_FUN_140b68ba8(lVar2,0x20);
+  }
+  lVar2 = (this->_Node_class<char,std::regex_traits<char>_>_data).offset_0x28;
+  if (lVar2 != 0) {
+    free(*(void **)(lVar2 + 8));
+    thunk_FUN_140b68ba8(lVar2,0x10);
+  }
+  lVar2 = (this->_Node_class<char,std::regex_traits<char>_>_data).offset_0x30;
+  if (lVar2 != 0) {
+    free(*(void **)(lVar2 + 8));
+    thunk_FUN_140b68ba8(lVar2,0x10);
+  }
+  lVar2 = (this->_Node_class<char,std::regex_traits<char>_>_data).offset_0x40;
+  while (lVar2 != 0) {
+    lVar1 = *(longlong *)(lVar2 + 0x18);
+    free(*(void **)(lVar2 + 0x10));
+    thunk_FUN_140b68ba8(lVar2,0x20);
+    lVar2 = lVar1;
+  }
+  return;
+}
+

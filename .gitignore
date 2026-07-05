@@ -1,0 +1,25 @@
+# Build directories
+build/
+out/
+_build/
+bin/
+
+# IDE
+.vs/
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.suo
+*.user
+*.opendb
+*.db
+
+# Build artifacts
+*.exe
+*.dll
+*.lib
+*.exp
+*.pdb
+*.ilk
+*.obj

@@ -1,0 +1,16 @@
+/**
+ * Function: Unwind@1405b2d60
+ * Address:  1405b2d60
+ * Signature: undefined Unwind@1405b2d60(void)
+ * Body size: 73 bytes
+ */
+
+
+void Unwind_1405b2d60(undefined8 param_1,longlong param_2)
+
+{
+  FUN_140004b30(param_2 + 0xd8);
+  FUN_1401c51e0(param_2 + 0x88);
+  return;
+}
+

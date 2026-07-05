@@ -1,0 +1,26 @@
+/**
+ * Function: Unwind@14000f5d0
+ * Address:  14000f5d0
+ * Signature: undefined Unwind@14000f5d0(void)
+ * Body size: 79 bytes
+ */
+
+
+void Unwind_14000f5d0(undefined8 param_1,longlong param_2)
+
+{
+  longlong *plVar1;
+  undefined8 *puVar2;
+  
+  FUN_140003680(*(undefined8 *)(param_2 + 0x28));
+  FUN_140004b30(*(undefined8 *)(param_2 + 0x20));
+  plVar1 = *(longlong **)(*(longlong *)(param_2 + 0x38) + 0x18);
+  if (plVar1 != (longlong *)0x0) {
+    puVar2 = (undefined8 *)(**(code **)(*plVar1 + 0x10))();
+    if (puVar2 != (undefined8 *)0x0) {
+      (**(code **)*puVar2)(puVar2,1);
+    }
+  }
+  return;
+}
+

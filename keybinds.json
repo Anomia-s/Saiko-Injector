@@ -1,0 +1,15 @@
+[
+    {"action": "Play/Stop", "shortcut": "F5"},
+    {"action": "Pause/Resume", "shortcut": "F6"},
+    {"action": "Select Tool", "shortcut": "1"},
+    {"action": "Move Tool", "shortcut": "2"},
+    {"action": "Scale Tool", "shortcut": "3"},
+    {"action": "Rotate Tool", "shortcut": "4"},
+    {"action": "Focus", "shortcut": "F"},
+    {"action": "Local/Global", "shortcut": "L"},
+    {"action": "Save", "shortcut": "Ctrl+S"},
+    {"action": "Duplicate", "shortcut": "Ctrl+D"},
+    {"action": "Delete", "shortcut": "Del"},
+    {"action": "Undo", "shortcut": "Ctrl+Z"},
+    {"action": "Redo", "shortcut": "Ctrl+Y"}
+]

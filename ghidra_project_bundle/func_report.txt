@@ -1,0 +1,12 @@
+=== FUNCTION BODY ANALYSIS ===
+Total: 40805
+  External: 0
+  Thunks: 932
+  User functions: 39873
+
+User functions with:
+  1+ code units: 39873 (100.0%)
+  1+ instructions: 39873 (100.0%)
+  10+ code units: 33732 (84.6%)
+  50+ code units: 13074 (32.8%)
+  100+ code units: 7300 (18.3%)
